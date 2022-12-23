@@ -1,0 +1,45 @@
+---
+title: "How to keep the ball rolling"
+subtitle: ""
+author: "Don Boyd"
+institute: New York State Assembly Intern Program
+date: today
+date-format: long
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+execute:
+  echo: true    
+---
+
+## Issue
+
+-	Other people often won't do what you want, when you want. (Whuy should they?)
+
+-	Sometimes we allow this to slow us down:
+
+	-	We wait for someone to get back to us before we take the next step
+
+	-	We ask two people the same question, and they both assume the other will answer
+
+	-	We don't have a plan for what to do if critical information does not come our way
+
+-	There are techniques we can use to minimize dead-in-the-water time
+
+## Avoid the problem in the first place
+
+-	Never, *ever*, ask two people the same question without making clear who you want to answer it, and when
+
+-	Never leave unclear when you need to know, or what will happen if they don't respond by then.
+
+	BAD: "Hey guys, I'd love your feedback on the attached bill memo for Assemblyperson X, whaddayathink?"
+
+	BETTER: "Hi Emily, I'm going to send a bill memo to Assemblyperson X on Thursday right after noon. I've attached d really love to take into account any comments you have. get your comments would like your opinion on this. (I'm copying Steve so he's in the loop. Steve I welcome any thoughts you have on this.)
+
+-	You'll be surprised at how assertive you can be about these things without ruffling feathers. (Sometimes you will.)
+
+## Make clear what you'll do next
+

@@ -1,0 +1,81 @@
+---
+title: "How to get Assembly District profile data"
+subtitle: ""
+author: "Don Boyd"
+institute: New York State Assembly Intern Program
+date: today
+date-format: long
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    css: styles.css
+    # footer: <https://quarto.org>
+# resources:
+  # - demo.pdf
+---
+
+## Situation
+
+```{=html}
+<style>
+.nobullet li {
+  list-style-type: none;
+}
+</style>
+
+<style>
+ul.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+</style>
+```
+-   You need to create a profile of your Assembly District
+
+-   Demographics - age, sex, race & ethnicity
+
+-   Economy - industries, occupations, incomes, travel to work
+
+-   Perhaps other information - geographic characteristics
+
+-   Compare to other disticts, and to itself over time
+
+## Data you need to know even if you're not a nerd
+
+-   [American Community Survey](https://www.census.gov/programs-surveys/acs/) - U.S. Census Bureau, 1% and 5% samples of the population (e.g., 330 million people x \~5% \~ 16 million people asked detailed questions!)
+
+    -   
+
+-   Be precise. Reduce uncertainty.
+
+-   People appreciate this:
+
+    -   It can be flattering to be asked for advice
+
+    -   It can be enjoyable to be asked an interesting question
+
+    -   It's no fun to be asked vague questions
+
+    -   It's no fun to be stuck on a phone call with no end in sight
+
+##  {.r-fit-text}
+
+## Get a pre-made profile
+
+-   [LATFOR old 2012 (2008-2012 5-year ACS)](https://latfor.state.ny.us/profiles/?sec=2012a)
+
+-   Demographics: population, households, families; race/ethnicity/ancestry; language at home; sex, age, citizenship
+
+-   Economy: Housing, income, education, poverty, employment, occupation, industry, travel to work
+
+## Get a map
+
+-   So you can see overlapping cities, towns, villages, school districts
+
+-   [LATFOR](https://latfor.state.ny.us/maps/?sec=2022_assembly)
+
+-   [NY ITS GIS Server](https://www.arcgis.com/apps/mapviewer/index.html?url=https://gisservices.its.ny.gov/arcgis/rest/services/NYS_Assembly_Districts/FeatureServer)

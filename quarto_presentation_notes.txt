@@ -1,0 +1,58 @@
+---
+title: "How to get advice from an expert"
+subtitle: "Methods Review"
+author: "Don Boyd"
+date: today
+date-format: long
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    # logo: images/quarto.png
+    css: styles.css
+    # footer: <https://quarto.org>
+# resources:
+  # - demo.pdf
+---
+
+
+```{=html}
+
+<!-- 
+::: r-fit-text
+::: 
+-->
+```
+```{=html}
+<!-- 
+https://quarto.org/docs/authoring/markdown-basics.html
+https://quarto.org/docs/presentations/revealjs/advanced.html
+
+Pandoc markdown 
+  https://pandoc.org/MANUAL.html
+  https://pandoc.org/MANUAL.html#pandocs-markdown
+  https://pandoc.org/MANUAL.html#ordered-lists
+
+quarto render index.qmd
+quarto publish netlify
+quarto publish netlify --no-render
+
+::: incremental
+{.r-fit-text}
+
+<!-- ::: aside -->
+
+<!-- *See appendix for written agreement.* -->
+
+<!-- ::: -->
+
+::: r-fit-text
+:::
+
+-->
+```
+
+
+

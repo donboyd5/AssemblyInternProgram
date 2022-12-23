@@ -1,0 +1,35 @@
+# Miscellaneous notes
+
+## Party control over time
+
+[Ballotpedia](https://ballotpedia.org/New_York_State_Assembly_elections,_2020#New_York_political_history)
+
+![](images/image-1425980883.png)
+
+[Senate](https://ballotpedia.org/New_York_state_legislative_districts#Senate)
+
+![](images/image-1664935467.png)
+
+![](images/image-622029034.png)
+
+[Assembly](https://ballotpedia.org/New_York_State_Assembly)
+
+![](images/image-76427551.png)
+
+![](images/image-1349241059.png)
+
+## Legislative districts and associated data
+
+## Composition of the State Legislature
+
+[Rutgers](https://cypp.rutgers.edu/new-york/)
+
+![](images/image-1479862742.png)
+
+![](images/image-145299303.png)
+
+## Partisanship by generation
+
+Rutgers
+
+![](images/image-1366269175.png)

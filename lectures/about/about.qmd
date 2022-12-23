@@ -1,0 +1,41 @@
+---
+title: "Politics (and policy) in New York"
+subtitle: ""
+author: "Don Boyd"
+institute: New York State Assembly Intern Program
+date: today
+date-format: long
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+execute:
+  echo: true    
+---
+
+## Goal: Practical Knowledge for Operating in the NY Environment
+
+-   My background
+    -   6 years Assembly Ways & Means (taxes/fiscal)
+    -   8 years NY DOB (economy/fiscal/taxes)
+    -   24 years Rockefeller Institute - govt finances in U.S.
+    -   fiscal consulting; research on teachers & schools
+-   Your background, interests, goals?
+
+## About the Course
+
+-   3 lectures:
+
+    -   Policymaking in the NY context
+    -   Federalism - who does what and why?
+    -   Who makes policy?
+
+-   10-minute skills (1 per lecture)
+
+-   Grading
+
+    -   2 quizzes - in 2nd lecture and in 3rd
+
+    -   I'll be grading your papers

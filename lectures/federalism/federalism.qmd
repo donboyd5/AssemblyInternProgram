@@ -1,0 +1,76 @@
+---
+title: "Federalism - who does what and why"
+subtitle: ""
+author: "Don Boyd"
+institute: New York State Assembly Intern Program
+date: today
+date-format: long
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+execute:
+  echo: true    
+---
+
+## Federalism - main points
+
+-   Federalism:
+
+-   States sit between federal and local
+
+-   Who should do things:
+
+    -   Economists -
+
+    -   
+
+-   
+
+    ## Who does what?
+
+------------------------------------------------------------------------
+
+![](images/image-1518810265.png)
+
+------------------------------------------------------------------------
+
+![](images/image-485641280.png)
+
+------------------------------------------------------------------------
+
+![](images/image-1841803347.png)
+
+## What is a government?
+
+## Who are statewide elected officials?
+
+## Checks and balances?
+
+## Good questions for a quiz (1)
+
+-   What is federalism?
+
+-   Layer cake or marble cake? (RPN)
+
+-   What are some *principles* for which level of government should do what?
+
+-   How do federal, state, and local governments in the U.S. tend to divide up responsibilities? How do they divide revenue-raising responsibilities?
+
+-   Give a rationale for why local governments (e.g., school districts) should pay for K-12 education. Give a rationale for why the state government should pay for it.
+
+-   Paul Krugman (among others) has called the U.S. government an insurance company with an army. What did he mean?
+
+## Good questions for a quiz (2)
+
+-   Give an example of a federal court case that changed what New York State can do
+
+-   What's a problem that makes sense for the federal government to address, and explain why? Or state. Or local.
+
+-   What does "spillover" mean (in the context of federalism)? What's its importance?
+
+-   Give a rationale for why states should, or should not, pay for local roads
+
+<!-- {.smaller} -->

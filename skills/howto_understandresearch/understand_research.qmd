@@ -1,0 +1,37 @@
+---
+title: "How to understand research"
+subtitle: ""
+author: "Don Boyd"
+institute: New York State Assembly Intern Program
+date: today
+date-format: long
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+execute:
+  echo: true    
+---
+
+## Issue
+
+-   "Science" is not a set of facts or conclusions, it's a process
+
+-   As researchers learn, they change their conclusions
+
+-   Researchers are people, too, with biases, flaws, egos
+
+-   There is a reproducibility crisis in much of academia
+
+-   Research users often are not skilled in describing the state of research, and have their own biases
+
+-   How can you write a memo saying what "the science" is, or whether research supports a particular policy?
+
+
+## Questions you should ask academics
+
+
+## Selected research tools
+
