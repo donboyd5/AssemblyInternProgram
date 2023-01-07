@@ -17,19 +17,77 @@ execute:
 
 ## Goals
 
--   Get advice or information from a busy expert who:
-    -   ordinarily might not respond to you
-    -   might even be wary - legislative staff can be scary
--   Get them to respond, and be helpful
--   FYI - [Census Reporter](https://censusreporter.org/) [district profiles](https://censusreporter.org/profiles/62000US36001-assembly-district-1-ny/)
+-   Who controls state government?
+-   Who runs the state government?
+-   Who makes policy?
 
-CAUTION: This is hard work
+# Statewide Elected Officials
+
+# Governor
+
+## What makes a governor powerful? How powerful is New York's governor?
+
+-   Article IV of the [New York State Constitution](https://dos.ny.gov/system/files/documents/2022/01/Constitution-January-1-2022.pdf):
+
+## Departments and Agencies
+
+## Public Authorities
+
+# Legislature
+
+# The Comptroller
+
+# The Attorney General
+
+# The Courts
+
+The [court system in New York State](https://www.nycourts.gov/) is divided into four levels: the Court of Appeals, the Appellate Division, the Supreme Court, and the local courts.
+
+The Court of Appeals is the highest court in the state and is located in Albany. It is composed of a Chief Judge and six Associate Judges, and it has the authority to review decisions made by the lower courts.
+
+The Appellate Division is the intermediate appellate court and is located in each of the four judicial departments of the state: the First Department (covering Manhattan and the Bronx), the Second Department (covering Brooklyn, Queens, Staten Island, and Long Island), the Third Department (covering the remainder of the Hudson Valley and Catskills regions), and the Fourth Department (covering the remainder of the state). It has the authority to review decisions made by the Supreme Court and local courts.
+
+The Supreme Court is the trial court of general jurisdiction in the state and is located in each county. It has the authority to hear cases involving criminal offenses, civil disputes, and a variety of other matters.
+
+Local courts include the District Court, the City Court, the Town and Village Court, and the Traffic Violations Bureau. These courts have limited jurisdiction and handle cases such as minor criminal offenses, traffic violations, and small claims disputes.
+
+[Court structure](https://ww2.nycourts.gov/sites/default/files/document/files/2019-06/NYCourts-IntroGuide.pdf)
+
+# The Legislature
+
+3-way control -- pretty rare ([NCSL](https://www.ncsl.org/about-state-legislatures/state-partisan-composition#undefined))
+
+![](images/image-582894560.png)
+
+![](images/image-1778390979.png)
+
+## Congress
+
+Ravitch
+
+# What about the people?
+
+Initiative and referenda
+
+# What about other states?
+
+Why you should care about what other states do
+
+-   Lessons learned
+
+-   Policy diffusion
+
+-   Fear of leaving the herd
+
+# Influencers
+
+## Later
+
+We'll talk separately about issues such as
 
 ## Good questions for a quiz
 
--   Keep email visually short and nonthreatening
-
-    -   
+-   Q1
 
 <!-- {.smaller} -->
 
@@ -42,43 +100,3 @@ CAUTION: This is hard work
 ![](images/image-2078920438.png)
 
 ![](images/image-534555783.png)
-
-## Census Reporter district profiles
-
--   [Census presentation](https://www2.census.gov/about/training-workshops/2022/2022-07-20-districts-presentation.pdf)
-
--   [Census AD 1](https://data.census.gov/table?g=620XX00US36001)
-
--   Composition (change 1990, 2000, 2010, ...)
-
-    -   population: stable, growing, or declining?
-
-    -   race, age, education - over time
-
-    -   urban, suburban, small town, rural or some combination; changing?
-
-    -   [2000](https://latfor.state.ny.us/data/2000files/2000asm-prof.pdf); 2010;
-
-    -   profiles [1992 (1990)](https://latfor.state.ny.us/profiles/?sec=1992a); [2002 (2000)](https://latfor.state.ny.us/profiles/?sec=2002a); [2012 (ACS 2008-2012)](https://latfor.state.ny.us/profiles/?sec=2012a); [datahub](https://redistrictingdatahub.org/state/new-york/); also [Dave's](https://davesredistricting.org/maps#state::NY); [nyirc](https://nyirc.gov/home); some [2022](https://latfor.state.ny.us/maps/?sec=2022_assembly) info
-
--   Economic and Employment Demographics (change 1990, 2000, 2010, ...)
-
-    -   Top industries (4-8)
-
-    -   Unemployment
-
-    -   Household income
-
-    -   Means of transportation
-
-    -   Travel time to work
-
-    -   Is there a lot of employment in the district, or do people commute out?
-
--   Political demographics
-
-    -   Current party enrollments
-
-    -   How district voted in latest Assembly, presidential, and governors' elections (parties & candidates)
-
-    -   Is State Senator of same party as Assemblymember?
