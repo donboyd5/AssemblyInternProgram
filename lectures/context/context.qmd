@@ -85,9 +85,19 @@ Goals:
 
     -   *City of New York v. State of New York* (NYCA 2003) threw out the tax on out-of-state commuters on Commerce Clause and [Privileges or Immunities](https://www.law.cornell.edu/constitution-conan/amendment-14/section-1/current-doctrine) grounds.
 
-    -   The Legislature suspected this would happen: the bill (Chapter 5, laws of 1999) was written so that entire commuter tax would self-destruct if invalidated. \[severability\]
+    -   Legislature anticipated this: [Ch. 5, Laws 1999](http://public.leginfo.state.ny.us/navigate.cgi) written so that entire commuter tax would self-destruct if in-state commuter exemption was invalidated. \[severability\]
 
     -   Thus, NYC lost revenue from out-of-state commuters as intended, and from in-state commuters as well.
+
+## Due Process example {.smaller}
+
+-   NY Legislature passed the Secure Ammunition and Firearms Enforcement (SAFE) Act in 2013 in response to the Sandy Hook Elementary School mass shooting. Among other things, it expanded the assault weapons ban to include certain semi-automatic firearms with detachable magazines, limited magazine size, and regulated certain pistols that are "semiautomatic version\[s\] of an automatic rifle, shotgun or firearm".
+
+-   Many provisions were challenged in state and federal court on Second Amendment, Due Process, and other grounds. Most were upheld.
+
+-   However, in [New York State Rifle & Pistol Association, Inc. v. Cuomo](https://s3.documentcloud.org/documents/1001140/ruling-from-the-united-states-district-court-for.pdf) (US District Court WDNY 2013), three provisions were found unconstitutional under the "void-for-vagueness" doctrine, which stems from the [Due Process clause](https://constitution.congress.gov/browse/essay/amdt14-S1-3/ALDE_00013743).
+
+-   The provision regulating pistols that are semiautomatic versions of automatic weapons was invalidated as 'excessively vague, as an ordinary person cannot know whether any single semiautomatic pistol is a "version" of an automatic one'.
 
 ## New York State Constitution
 
@@ -99,15 +109,29 @@ Goals:
 
 # What is a Government? What is New York State?
 
-## What is a government?
+## What is a government? {.smaller}
 
--   Legal (Cornell LII): "the ... entity, invested with the power to manage a political unit, organization or more often, a State"
+-   [Legal (Cornell LII)](https://www.law.cornell.edu/wex/government) - an entity "invested with the **power to manage a political unit**, organization or more often, a State"
 
--   Accounting (GASB):
+-   [Accounting (Governmental Accounting Standards Board -- GASB)](https://gasb.org/page/PageContent?pageId=/standards-guidance/pronouncements/summary--statement-no-14.html): includes "legally separate organizations if \[state\] officials appoint a voting majority of an organization's governing body and either it is able to impose its will on that organization or..." potential for burden or benefits to the state
 
--   Statistical (Census):
+-   [Statistical (Census)](https://www.census.gov/programs-surveys/gus/technical-documentation/methodology/population-of-interest1.html) - ... organized entity with corporate powers (e.g, ability to make contracts), governmental character (e.g., officers are popularly elected or appointed by public officials, or can levy taxes, issue tax-exempt debt, or make laws), with substantial autonomy (e.g., budget not subject to review by other governments). Grey areas: special districts, certain municipal utilities, and public-private partnerships.
 
-## What is New York State?
+Most school districts in New York are separate governments with publicly elected school boards and the ability to tax, but **some are not** - for example, the NYC, Buffalo, Rochester, Syracuse, and Yonkers school districts are part of their city governments.
+
+## What is New York State? {.smaller}
+
+-   New York State is a vast, sprawling set of entities.
+
+-   The budget includes just a portion of the state - the portion for which the legislature appropriates spending. (About \$209 billion in 2022.)
+
+-   For example, [NY's financial statements](https://www.osc.state.ny.us/files/reports/finance/pdf/annual-comprehensive-financial-report-2022.pdf) (pp.165+) list 43 public authorities that are part of the state, but generally are NOT appropriated by the legislature, including: the Dormitory Authority, the Long Island Power Authority, the MTA, NYSERDA, SUNY Foundations. They had \$43 billion of expenses in 2022 (MTA was largest).
+
+-   Many of these entities are considered part of the state because "the Governor, with the approval of the State Senate, appoints the voting majority of the boards of directors of these Corporations, and the State is able to impose its will on the Corporations".
+
+-   Census Bureau also has a [list of entities they consider part of the state](https://www.census.gov/content/dam/Census/library/publications/2017/econ/2017isd.pdf) (pp.208+).
+
+-   The Legislature's oversight and legal responsibilities in the state reach far beyond the budget.
 
 # The State Constitution
 
@@ -185,10 +209,6 @@ Why you should care about what other states do
 
 # Influencers
 
-## Later
-
-We'll talk separately about issues such as
-
 ## Good questions for a quiz
 
 -   Q1
@@ -200,7 +220,5 @@ We'll talk separately about issues such as
 ![](images/image-180655092.png)
 
 ------------------------------------------------------------------------
-
-![](images/image-2078920438.png)
 
 ![](images/image-534555783.png)
