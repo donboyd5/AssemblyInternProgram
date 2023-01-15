@@ -15,13 +15,9 @@ execute:
   echo: true    
 ---
 
-## Goals
+## Context affects policymaking {.smaller}
 
--   Who controls state government?
--   Who runs the state government?
--   Who makes policy?
-
-## Context affects policymaking process
+State policymaking is influenced by many contextual factors, such as:
 
 -   Constitutions and laws
 
@@ -31,6 +27,12 @@ execute:
 
 -   Interest groups
 
+Goals:
+
+-   Understand major ways in which context can affect NY policymaking
+
+-   Learn of resources that can help you teach yourself more
+
 # Constitutions
 
 ## Basics
@@ -39,41 +41,73 @@ execute:
 
 -   Hard to change
 
--   State constitutions far more detailed than U.S. Constitution
+-   State constitutions far more detailed than U.S. Constitution (e.g., NY Constitution is \> 6x as long as U.S.)
 
-## U.S. Constitution
+## U.S. Constitution - Selected Elements {.smaller}
 
--   Requires states to have "republican form of government" but otherwise gives freedom on structure (e.g., Nebraska has unicameral legislature)
+-   [Supremacy Clause (Article VI, Clause 2)](https://constitution.congress.gov/browse/article-6/clause-2/) - federal laws are supreme, state laws lesser
 
--   Supremacy Clause
+-   [Reserved Powers (10th Amendment)](https://constitution.congress.gov/browse/essay/amdt10-3-2/ALDE_00013622/) - powers not delegated to U.S. are reserved to states; "police power" of the state (health, safety, morals, general welfare)
 
--   Reserved Powers
+-   [Commerce Clause (Article I, Section 8, Clause 3)](https://constitution.congress.gov/browse/essay/artI-S8-C3-7-5/ALDE_00013311) - Congress has power to regulate interstate commerce; limits states' abilities to "burden" interstate commerce
 
--   Provisions that are commonly constraining: equal protection, due process, Commerce Clause
+-   [Due Process and Equal Protection Clauses (14th Amendment)](https://www.law.cornell.edu/constitution-conan/amendment-14) - clauses protect citizens' rights to due process and equal protection under the law
 
-## U.S. Constitution - Selected Constraints on States
+-   [Contract Clause (Article I, Section 10, Clause 1)](https://constitution.congress.gov/browse/essay/artI-S10-C1-6-1/ALDE_00013037) - states cannot impair contracts; among other things can limit state ability to apply laws retroactively,
 
--   Supremacy Clause (Article VI, Clause 2) - federal laws and treaties are the supreme law of the land and must be followed by state governments
+## Commerce Clause examples (1) {.smaller}
 
--   Commerce Clause (Article I, Section 8, Clause 3) - gives Congress power to regulate commerce among the states, limits ability of states to regulate economic activity within their borders
+-   **Internet and sales taxes**
 
--   Full Faith and Credit Clause (Article IV, Section 1) - requires states to recognize the legal proceedings and public acts of other states
+    -   *Quill v. North Dakota* (USSC 1992): states can't require sellers without a physical presence in a state (e.g., Quill, L.L. Bean, etc.) to collect sales tax because it would create "undue burden" on interstate commerce.
 
--   Privileges and Immunities Clause (Article IV, Section 2) - This clause protects the rights of citizens of one state when they are in another state.
+    -   *South Dakota v. Wayfair, Inc.* (USSC 2018) overturned this, said technology changes had reduced the burden, it's ok to require collection without physical presence if enough economic presence in the state.
 
--   Due Process and Equal Protection Clauses (14th Amendment) - clauses protect citizens' rights to due process and equal protection under the law, and require state governments to provide these protections to all citizens.
+    -   *Wayfair* opened door for NY and other states to broadly require collection of sales tax on internet transactions -- e.g., Amazon marketplace sellers -- \$ millions of new tax revenue from taxes already owed but previously uncollectible.
 
--   Contract Clause (Article I, Section 10, Clause 1) of the U.S. Constitution imposes a constraint on state governments by prohibiting them from passing laws that impair the obligation of contracts. This means that state governments are not allowed to pass laws that retroactively change the terms of existing contracts or make it more difficult for individuals and businesses to enforce their contracts. This clause is intended to protect the rights of parties who have entered into binding agreements, and to promote economic stability by providing a degree of predictability in contractual relationships.
+## Commerce Clause examples (2) {.smaller}
 
--   Bill of Rights(1st-10th Amendment) - These amendments limit the power of state governments to restrict certain individual rights and liberties, such as freedom of speech, religion, press, assembly and the right to bear arms.
+-   **Can't force waste haulers to truck solid waste to local facilities**
 
-## Example of constraint later relaxed: Internet and state sales taxes (Commerce Clause) {.smaller}
+    -   *C&A Carbone, Inc. v. Town of Clarkstown* (USSC 1994). Town ordinance required that local waste be processed at town transfer station.
 
--   **1992**: *Quill Corp. v. North Dakota* - Could a state require an out-of-state company with no physical presence in the state (Quill, or perhaps L.L.Bean, or later Amazon) collect sales tax on the goods sold to in-state consumers? *Quill* said no - it's an undue burden on interstate commerce. (Commerce Clause). Also, lesser due process issues.
+    -   Out-of-state hauler challenged on grounds that it interfered with interstate commerce.
 
--   **2018**: *South Dakota v. Wayfair, Inc.* - U.S. Sup.Ct. overturned *Quill*, said changes in economy meant sellers without physical presence in state could be required to collect sales tax, would not impose undue burden. Opened door for NY & other states to require collection of tax - millions of dollars of new tax revenue annually, without a tax increase.
+    -   USSC overturned ordinance, said undue burden on interstate commerce.
+
+    -   As a result, among other things, counties can't require waste haulers to bring waste to a county incineration plant. (Significant issue in Washington County.
+
+## Commerce Clause examples (3) {.smaller}
+
+-   **Can't impose NYC commuter tax on NJ/CT commuters to NYC, while not imposing commuter tax on Westchester/Nassau commuters to NYC**
+
+    -   In 1999, [purportedly to influence suburban NY state Senate elections](https://www.nytimes.com/1999/05/18/nyregion/legislature-acts-quickly-to-repeal-commuter-tax.html), NYS Legislature repealed the NYC commuter tax on in-state commuters but left it in place for out-of-state commuters.
+
+    -   *City of New York v. State of New York* (NYCA 2003) threw out the tax on out-of-state commuters on Commerce Clause and [Privileges or Immunities](https://www.law.cornell.edu/constitution-conan/amendment-14/section-1/current-doctrine) grounds.
+
+    -   The Legislature suspected this would happen: the bill (Chapter 5, laws of 1999) was written so that entire commuter tax would self-destruct if invalidated. \[severability\]
+
+    -   Thus, NYC lost revenue from out-of-state commuters as intended, and from in-state commuters as well.
+
+## New York State Constitution
+
+-   Far more detailed and prescriptive than U.S. Const. \~6x as long
+
+## NYS Constitution - examples
+
+## Amending the New York State Constitution
 
 # What is a Government? What is New York State?
+
+## What is a government?
+
+-   Legal (Cornell LII): "the ... entity, invested with the power to manage a political unit, organization or more often, a State"
+
+-   Accounting (GASB):
+
+-   Statistical (Census):
+
+## What is New York State?
 
 # The State Constitution
 
