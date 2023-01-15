@@ -1,7 +1,7 @@
 ---
-title: "Politics (and policy) in New York"
-subtitle: ""
-author: "Don Boyd"
+title: "New York State Politics and Government Structure"
+subtitle: "Spring 2023"
+author: "Don Boyd, Professor-in-Residence"
 institute: New York State Assembly Intern Program
 date: today
 date-format: long
@@ -15,27 +15,67 @@ execute:
   echo: true    
 ---
 
-## Goal: Practical Knowledge for Operating in the NY Environment
+## Goal: Practical Knowledge for Operating in the NY Environment {.smaller}
 
 -   My background
     -   6 years Assembly Ways & Means (taxes/fiscal)
     -   8 years NY DOB (economy/fiscal/taxes)
-    -   24 years Rockefeller Institute - govt finances in U.S.
-    -   fiscal consulting; research on teachers & schools
+    -   24 years Rockefeller Institute - gov't finances in U.S.
+    -   State Budget Crisis Task Force (ED)
+    -   \~5-year interlude: research on teacher characteristics, teacher labor markets, & student academic performance
+    -   fiscal & economic consulting - federal, state, & local govt's; think tanks; trade associations; unions
 -   Your background, interests, goals?
 
-## About the Course
+## About the Course {.smaller}
 
 -   3 lectures:
 
-    -   Policymaking in the NY context
-    -   Federalism - who does what and why?
+    -   The NY Context for Policymaking
+    -   Federalism - who does what and why? how do governments interact?
     -   Who makes policy?
 
--   10-minute skills (1 per lecture)
+-   Class participation - 1-minute presentation, 1-minute impromptu comments
 
--   Grading
+-   10-minute skills (1 per lecture) - examples:
 
-    -   2 quizzes - in 2nd lecture and in 3rd
+    -   How to get advice from an expert
 
-    -   I'll be grading your papers
+    -   How to give advice to a non-expert
+
+    -   How to ask questions of an academic
+
+    -   How to make a mistake
+
+    -   How to keep the ball rolling
+
+    -   How to be more powerful than you are
+
+## Grading
+
+-   Attendance and participation
+
+-   I'll be grading your papers. I'll be especially interested in:
+
+    -   Up-front summary
+
+    -   Don't just describe and analyze the *issue* - describe and analyze the *proposal*.
+
+    -   Be concise and clear: writing is rewriting.
+
+    -   Careful use of original sources
+
+## Optional
+
+-   Your interests - please write 1 short paragraph that mentions a policy issue or two that you're interested in, or what you want to get out of the course or program.
+
+-   Feedback - I would like anonymous feedback from students willing to offer it
+
+    -   Would appreciate it if, after each lecture, one student can gather comments and copy into [Google doc](https://docs.google.com/document/d/1ymJzG2t4sdk8OEuFKtG7LoNw2M9ntNwTbSB9YDwH7WI/edit?usp=sharing)
+
+    -   Ideally commenters will address tersely up to 3 questions about the lecture:
+
+        1.  What was good?
+
+        2.  What was bad?
+
+        3.  What is 1 change that would improve it?

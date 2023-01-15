@@ -1,7 +1,7 @@
 ---
 title: "Context for Policymaking in New York"
 subtitle: ""
-author: "Don Boyd"
+author: "Don Boyd, Professor-in-Residence"
 institute: New York State Assembly Intern Program
 date: today
 date-format: long
@@ -21,6 +21,62 @@ execute:
 -   Who runs the state government?
 -   Who makes policy?
 
+## Context affects policymaking process
+
+-   Constitutions and laws
+
+-   Powers of the branches of government
+
+-   Institutional structure of government
+
+-   Interest groups
+
+# Constitutions
+
+## Basics
+
+-   Fundamental law of an organization. Sets boundaries for what a government may and may not do
+
+-   Hard to change
+
+-   State constitutions far more detailed than U.S. Constitution
+
+## U.S. Constitution
+
+-   Requires states to have "republican form of government" but otherwise gives freedom on structure (e.g., Nebraska has unicameral legislature)
+
+-   Supremacy Clause
+
+-   Reserved Powers
+
+-   Provisions that are commonly constraining: equal protection, due process, Commerce Clause
+
+## U.S. Constitution - Selected Constraints on States
+
+-   Supremacy Clause (Article VI, Clause 2) - federal laws and treaties are the supreme law of the land and must be followed by state governments
+
+-   Commerce Clause (Article I, Section 8, Clause 3) - gives Congress power to regulate commerce among the states, limits ability of states to regulate economic activity within their borders
+
+-   Full Faith and Credit Clause (Article IV, Section 1) - requires states to recognize the legal proceedings and public acts of other states
+
+-   Privileges and Immunities Clause (Article IV, Section 2) - This clause protects the rights of citizens of one state when they are in another state.
+
+-   Due Process and Equal Protection Clauses (14th Amendment) - clauses protect citizens' rights to due process and equal protection under the law, and require state governments to provide these protections to all citizens.
+
+-   Contract Clause (Article I, Section 10, Clause 1) of the U.S. Constitution imposes a constraint on state governments by prohibiting them from passing laws that impair the obligation of contracts. This means that state governments are not allowed to pass laws that retroactively change the terms of existing contracts or make it more difficult for individuals and businesses to enforce their contracts. This clause is intended to protect the rights of parties who have entered into binding agreements, and to promote economic stability by providing a degree of predictability in contractual relationships.
+
+-   Bill of Rights(1st-10th Amendment) - These amendments limit the power of state governments to restrict certain individual rights and liberties, such as freedom of speech, religion, press, assembly and the right to bear arms.
+
+## Example of constraint later relaxed: Internet and state sales taxes (Commerce Clause) {.smaller}
+
+-   **1992**: *Quill Corp. v. North Dakota* - Could a state require an out-of-state company with no physical presence in the state (Quill, or perhaps L.L.Bean, or later Amazon) collect sales tax on the goods sold to in-state consumers? *Quill* said no - it's an undue burden on interstate commerce. (Commerce Clause). Also, lesser due process issues.
+
+-   **2018**: *South Dakota v. Wayfair, Inc.* - U.S. Sup.Ct. overturned *Quill*, said changes in economy meant sellers without physical presence in state could be required to collect sales tax, would not impose undue burden. Opened door for NY & other states to require collection of tax - millions of dollars of new tax revenue annually, without a tax increase.
+
+# What is a Government? What is New York State?
+
+# The State Constitution
+
 # Statewide Elected Officials
 
 # Governor
@@ -30,6 +86,8 @@ execute:
 -   Article IV of the [New York State Constitution](https://dos.ny.gov/system/files/documents/2022/01/Constitution-January-1-2022.pdf):
 
 ## Departments and Agencies
+
+![](images/image-676178259.png)
 
 ## Public Authorities
 
@@ -61,9 +119,19 @@ Local courts include the District Court, the City Court, the Town and Village Co
 
 ![](images/image-1778390979.png)
 
-## Congress
+# Congress
 
 Ravitch
+
+The Constitution
+
+-   US constitution has \~[7,591 words](https://www.constitutionfacts.com/us-constitution-amendments/fascinating-facts/) including the 27 amendments
+
+-   NY constitution has 49,360 words - Alabama has 402,852! ([BOS 2021](https://www.nga.org/wp-content/uploads/2022/10/CSG-book-of-the-states-2021.pdf))
+
+-   Constitutional convention
+
+-   Initiative, referendum
 
 # What about the people?
 
@@ -78,6 +146,8 @@ Why you should care about what other states do
 -   Policy diffusion
 
 -   Fear of leaving the herd
+
+[*Book of the States*](https://issuu.com/csg.publications/stacks/46495f12f95847e6935d331969ed650a)
 
 # Influencers
 
