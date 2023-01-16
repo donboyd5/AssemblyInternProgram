@@ -11,6 +11,7 @@ format:
     chalkboard: 
       buttons: false
     preview-links: auto
+    theme: white
 execute:
   echo: true    
 ---
@@ -35,13 +36,17 @@ Goals:
 
 # Constitutions
 
-## Basics
+## Basics {.smaller}
 
--   Fundamental law of an organization. Sets boundaries for what a government may and may not do
+-   Fundamental law of an organization. Sets boundaries for what a government may and may not do.
 
 -   Hard to change
 
--   State constitutions far more detailed than U.S. Constitution (e.g., NY Constitution is \> 6x as long as U.S.)
+-   State constitutions are far more detailed than U.S. Constitution (e.g., NY Constitution is \> 6x as long as U.S.).
+
+-   Sometimes constitutional provisions don't mean what you think they mean until they've been fully litigated.
+
+-   You don't need to be constitutional scholars, but it's important to have a general understanding of constitutional principles and the roles constitutions play, as that will help you know when you need to consult with experts.
 
 ## U.S. Constitution - Selected Elements {.smaller}
 
@@ -53,45 +58,65 @@ Goals:
 
 -   [Due Process and Equal Protection Clauses (14th Amendment)](https://www.law.cornell.edu/constitution-conan/amendment-14) - clauses protect citizens' rights to due process and equal protection under the law
 
--   [Contract Clause (Article I, Section 10, Clause 1)](https://constitution.congress.gov/browse/essay/artI-S10-C1-6-1/ALDE_00013037) - states cannot impair contracts; among other things can limit state ability to apply laws retroactively,
+-   [Contract Clause (Article I, Section 10, Clause 1)](https://constitution.congress.gov/browse/essay/artI-S10-C1-6-1/ALDE_00013037) - states cannot impair contracts; among other things this clause can limit state ability to apply laws retroactively,
 
-## Commerce Clause examples (1) {.smaller}
+## Commerce Clause {.bigger}
 
--   **Internet and sales taxes**
+<p><br /></p>
 
-    -   *Quill v. North Dakota* (USSC 1992): states can't require sellers without a physical presence in a state (e.g., Quill, L.L. Bean, etc.) to collect sales tax because it would create "undue burden" on interstate commerce.
+Article I, Section 8, Clause 3:
 
-    -   *South Dakota v. Wayfair, Inc.* (USSC 2018) overturned this, said technology changes had reduced the burden, it's ok to require collection without physical presence if enough economic presence in the state.
+> *\[The Congress shall have Power . . . \] To regulate Commerce with foreign Nations, and among the several States, and with the Indian Tribes; . . .*
 
-    -   *Wayfair* opened door for NY and other states to broadly require collection of sales tax on internet transactions -- e.g., Amazon marketplace sellers -- \$ millions of new tax revenue from taxes already owed but previously uncollectible.
+::: notes
+[Dormant](https://constitution.congress.gov/browse/essay/artI-S8-C3-7-1/ALDE_00013307/) Commerce Clause - the clause can prohibit state laws that unduly restrict interstate commerce even in the absence of congressional legislation---i.e., where Congress is dormant.
+:::
 
-## Commerce Clause examples (2) {.smaller}
+## Commerce Clause - Internet sales tax example {.smaller}
 
--   **Can't force waste haulers to truck solid waste to local facilities**
+-   *Quill v. North Dakota* (USSC 1992): states can't require sellers without a physical presence in a state (e.g., Quill, L.L. Bean, etc.) to collect sales tax because it would create "undue burden" on interstate commerce.
 
-    -   *C&A Carbone, Inc. v. Town of Clarkstown* (USSC 1994). Town ordinance required that local waste be processed at town transfer station.
+-   *South Dakota v. Wayfair, Inc.* (USSC 2018) overturned this, said technology changes had reduced the burden, it's ok to require collection without physical presence if enough economic presence in the state.
 
-    -   Out-of-state hauler challenged on grounds that it interfered with interstate commerce.
+-   *Wayfair* opened door for NY and other states to broadly require collection of sales tax on internet transactions -- e.g., Amazon marketplace sellers -- hundreds of \$ millions of new tax revenue from taxes already owed but previously uncollectible.
 
-    -   USSC overturned ordinance, said undue burden on interstate commerce.
+## Commerce Clause - Waste-hauling example {.smaller}
 
-    -   As a result, among other things, counties can't require waste haulers to bring waste to a county incineration plant. (Significant issue in Washington County.
+-   *C&A Carbone, Inc. v. Town of Clarkstown* (USSC 1994). Town ordinance required that local waste be processed at town transfer station.
 
-## Commerce Clause examples (3) {.smaller}
+-   Out-of-state hauler challenged on grounds that ordinance interfered with interstate commerce.
+
+-   USSC overturned ordinance, said undue burden on interstate commerce.
+
+-   As a result, among other things, counties can't require waste haulers to bring waste to a county incineration plant. (Significant issue in Washington County.
+
+## Commerce Clause - NYC Commuter tax example {.smaller}
 
 -   **Can't impose NYC commuter tax on NJ/CT commuters to NYC, while not imposing commuter tax on Westchester/Nassau commuters to NYC**
 
-    -   In 1999, [purportedly to influence suburban NY state Senate elections](https://www.nytimes.com/1999/05/18/nyregion/legislature-acts-quickly-to-repeal-commuter-tax.html), NYS Legislature repealed the NYC commuter tax on in-state commuters but left it in place for out-of-state commuters.
+-   In 1999, [purportedly to influence suburban NY state Senate elections](https://www.nytimes.com/1999/05/18/nyregion/legislature-acts-quickly-to-repeal-commuter-tax.html), NYS Legislature repealed the NYC commuter tax on in-state commuters but left it in place for out-of-state commuters.
 
-    -   *City of New York v. State of New York* (NYCA 2003) threw out the tax on out-of-state commuters on Commerce Clause and [Privileges or Immunities](https://www.law.cornell.edu/constitution-conan/amendment-14/section-1/current-doctrine) grounds.
+-   *City of New York v. State of New York* (NYCA 2003) threw out the tax on out-of-state commuters on Commerce Clause and [Privileges or Immunities](https://www.law.cornell.edu/constitution-conan/amendment-14/section-1/current-doctrine) grounds.
 
-    -   Legislature anticipated this: [Ch. 5, Laws 1999](http://public.leginfo.state.ny.us/navigate.cgi) written so that entire commuter tax would self-destruct if in-state commuter exemption was invalidated. \[severability\]
+-   Legislature anticipated this: [Ch. 5, Laws 1999](http://public.leginfo.state.ny.us/navigate.cgi) written so that entire commuter tax would self-destruct if in-state commuter exemption was invalidated. \[severability\]
 
-    -   Thus, NYC lost revenue from out-of-state commuters as intended, and from in-state commuters as well.
+-   Thus, NYC lost revenue from out-of-state commuters as intended, and from in-state commuters as well.
+
+## Due Process and Equal Protection
+
+<p><br /></p>
+
+Excerpt from 14th Amendment:
+
+> *No State shall make or enforce any law which shall abridge the privileges or immunities of citizens of the United States; nor shall any State deprive any person of life, liberty, or property, without due process of law; nor deny to any person within its jurisdiction the equal protection of the laws.*
+
+::: notes
+What's the difference between a person and an individual?
+:::
 
 ## Due Process example {.smaller}
 
--   NY Legislature passed the Secure Ammunition and Firearms Enforcement (SAFE) Act in 2013 in response to the Sandy Hook Elementary School mass shooting. Among other things, it expanded the assault weapons ban to include certain semi-automatic firearms with detachable magazines, limited magazine size, and regulated certain pistols that are "semiautomatic version\[s\] of an automatic rifle, shotgun or firearm".
+-   NY Legislature passed the Secure Ammunition and Firearms Enforcement (SAFE) Act in 2013 in response to the Sandy Hook Elementary School mass shooting. Among other things, it expanded the assault weapons ban to include certain semi-automatic firearms with detachable magazines, limited magazine size, and regulated certain pistols that are **"semiautomatic version\[s\] of an automatic rifle, shotgun or firearm"**.
 
 -   Many provisions were challenged in state and federal court on Second Amendment, Due Process, and other grounds. Most were upheld.
 
@@ -99,13 +124,84 @@ Goals:
 
 -   The provision regulating pistols that are semiautomatic versions of automatic weapons was invalidated as 'excessively vague, as an ordinary person cannot know whether any single semiautomatic pistol is a "version" of an automatic one'.
 
-## New York State Constitution
+## New York State Constitution {.smaller}
 
--   Far more detailed and prescriptive than U.S. Const. \~6x as long
+-   Many provisions mirror counterparts in the U.S. Constitution - e.g., Bill of Rights
 
-## NYS Constitution - examples
+-   In addition, the NY constitution:
 
-## Amending the New York State Constitution
+    -   Lays out the structure of government including the executive, legislature, and judiciary
+
+    -   Establishes requirements and procedures for state and local finances, taxation, and limits on debt.
+
+    -   Explicitly addresses many policy issues, including education, social welfare, housing, and conservation.
+
+-   Many of these provisions have important consequences for procedure and for policy.
+
+## NYS Constitution example: Sound Basic Education (1) {.smaller}
+
+-   School funding is extraordinarily unequal across local school districts in New York and in most other states in large part because education funding relies heavily on local property taxes, which can be more readily levied in richer and wealthier school districts. Redistributional school aid from the state only partially compensates for this. As a result, educational opportunities are highly unequal.
+
+-   Over many decades, many groups have challenged state school funding, initially on U.S. Constitutional equal protection grounds. These claims were unsuccessful - *San Antonio Independent School District v. Rodriguez (USSC 1973)* ruled that education is not a fundamental right protected by the U.S. Constitution.
+
+-   Groups then began to challenge education funding under state constitutions, where rulings were highly dependent on specific phrases in each constitution. Often the challenges sought "adequate" educational funding, rather than "equal" funding.
+
+## NYS Constitution example: Sound Basic Education (2) {.smaller}
+
+-   The NY Constitution says, "The legislature shall provide for the maintenance and support of a system of free common schools, wherein all the children of this state may be educated." (Article XI, Section 1)
+
+-   In *Campaign for Fiscal Equity, Inc. v. State of New York* (NYSC-1995, NYAD-2002, NYCA-2006), CFE argued that there was **insufficient** funding for public schools in the city, particularly schools in low-income areas. (Note that this is an adequacy argument, not an equal-funding argument.)
+
+-   The state Supreme Court (the "court of original jurisdiction", or first to hear a case) held that the constitutional duty to provide a "system of free common schools" required provision of a "sound basic education" to all students in the state. (This term is not in the state constitution.)
+
+::: notes
+Mention Hamp's work.
+:::
+
+## NYS Constitution example: Sound Basic Education (3) {.smaller}
+
+-   The state Supreme Court ruled that a sound basic education includes the basic skills necessary for students to function in society and to be prepared for further education.
+
+-   The Court of Appeals elaborated, saying a sound basic education also the skills necessary to function in a democratic society, such as critical thinking, problem solving, and the ability to communicate effectively.
+
+-   It upheld the lower court's decision and ordered the state to increase funding to schools in New York City by \$5.6 billion. (In the wake of CFE the state did increase funding for schools, although there is ongoing controversy over the extent to which it met the court's requirement.)
+
+## Amending the New York State Constitution {.smaller}
+
+-   Legislative approach - neither easy nor quick. It requires:
+
+    -   Introduce amendment in each house, THEN
+    -   Must be approved by majority in each house of 2 separately elected legislatures (once before & once after a November election)
+        -   2022 and 2023 would count
+
+        -   2023 and 2024 would not count - we'd need either 2023 or 2024 legislature, plus the 2025 legislature (i.e., one before and one after the November 2024 election)
+    -   THEN, subsequent approval by voters
+
+-   Constitutional conventions
+
+    -   Every twenty years a proposition to hold a constitutional convention must be put before the voters in a general election. At the same election, voters vote on 3 delegates to the convention from each Senate and Assembly district.
+    -   If a majority of voters approve the convention, the elected delegates propose amendments to the Constitution.
+    -   The proposed amendments are placed on the ballot during the next general election.
+    -   If a majority of voters approve of the proposed amendments, they become part of the state Constitution.
+    -   The process can take years. Voters did NOT approve a constitutional convention at the last two opportunities (2017 and 1997 elections). The next vote will be in 2037.
+
+-   The NY Constitution does not allow for amendment by initiative or referendum
+
+## NYS Constitution - resources
+
+-   [pdf -- Department of State](https://dos.ny.gov/system/files/documents/2022/01/Constitution-January-1-2022.pdf)
+
+-   [Useful links](https://guides.ll.georgetown.edu/c.php?g=277242&p=7663146)
+
+-   History: [NYS Archives](http://www.archives.nysed.gov/research/constitutions-and-constitional-conventions), [NY Courts Historical Society](https://history.nycourts.gov/about_period/nys-constitution/)
+
+-   Rockefeller Institute of Government [Citizens' Guide to the Constitutional Convention](https://rockinst.org/wp-content/uploads/2018/02/Citizens_Guide1.pdf)
+
+<!-- ------------------------------------------------------------------------ -->
+
+# First set of 2-minute presentations (timed)
+
+<!-- ------------------------------------------------------------------------ -->
 
 # What is a Government? What is New York State?
 
@@ -116,8 +212,6 @@ Goals:
 -   [Accounting (Governmental Accounting Standards Board -- GASB)](https://gasb.org/page/PageContent?pageId=/standards-guidance/pronouncements/summary--statement-no-14.html): includes "legally separate organizations if \[state\] officials appoint a voting majority of an organization's governing body and either it is able to impose its will on that organization or..." potential for burden or benefits to the state
 
 -   [Statistical (Census)](https://www.census.gov/programs-surveys/gus/technical-documentation/methodology/population-of-interest1.html) - ... organized entity with corporate powers (e.g, ability to make contracts), governmental character (e.g., officers are popularly elected or appointed by public officials, or can levy taxes, issue tax-exempt debt, or make laws), with substantial autonomy (e.g., budget not subject to review by other governments). Grey areas: special districts, certain municipal utilities, and public-private partnerships.
-
-Most school districts in New York are separate governments with publicly elected school boards and the ability to tax, but **some are not** - for example, the NYC, Buffalo, Rochester, Syracuse, and Yonkers school districts are part of their city governments.
 
 ## What is New York State? {.smaller}
 
@@ -133,15 +227,47 @@ Most school districts in New York are separate governments with publicly elected
 
 -   The Legislature's oversight and legal responsibilities in the state reach far beyond the budget.
 
-# The State Constitution
-
 # Statewide Elected Officials
 
-# Governor
+## Governor {.smaller}
+
+-   Executive power: The governor is the chief executive of the state, responsible for enforcing the laws and overseeing the administration of state government.
+
+-   Budget: The governor is responsible for preparing and submitting the state's annual budget to the legislature, and for ensuring that state finances are managed responsibly.
+
+-   Legislative leadership: The governor is responsible for working with the legislature to pass laws and set the state's policy agenda.
+
+-   Appointments: The governor is responsible for appointing judges, members of state boards and commissions, and other officials.
+
+-   Veto power: The governor has the power to veto or approve bills passed by the legislature.
+
+-   Emergency management: The governor is responsible for ensuring that the state is prepared to respond to emergencies and disasters, and for coordinating the state's response to emergencies.
+
+-   Pardons and commutations: The governor has the power to grant pardons and commutations to individuals convicted of crimes.
+
+-   Representing the state: The governor is the face of the state to the nation and the world, representing the state in different events and acting as an advocate for the state's interest.
+
+-   Economic Development: the governor is responsible for creating a favorable environment for business and job creation and promoting the state as a destination for investment, tourism and innovation.
 
 ## What makes a governor powerful? How powerful is New York's governor?
 
 -   Article IV of the [New York State Constitution](https://dos.ny.gov/system/files/documents/2022/01/Constitution-January-1-2022.pdf):
+
+## The State Comptroller {.smaller}
+
+-   Fiscal oversight: The comptroller is responsible for auditing and reviewing the financial transactions of the state and its municipalities, and for ensuring that the state's financial resources are used effectively, efficiently, and legally.
+
+-   Budget and financial management: The comptroller is responsible for analyzing the state's budget and financial management practices, and for making recommendations to the governor, the legislature, and other state agencies on budgeting, financial management, and other fiscal matters.
+
+-   Pay and benefits: The comptroller is responsible for managing the state's payroll and employee benefits system, including the state's pension system, and for ensuring that state employees receive the pay and benefits they are entitled to.
+
+-   Debt management: The comptroller is responsible for issuing and managing the state's debt, including the sale of bonds, and for ensuring that the state's debt is used responsibly and in the best interests of the state's taxpayers.
+
+-   Auditing: The comptroller is responsible for conducting audits of state agencies and programs, and for issuing audit reports to the governor and the legislature.
+
+-   Unclaimed funds: The comptroller is responsible for holding and returning unclaimed funds, such as lost bank accounts, stocks, and other assets to their rightful owners.
+
+-   Transparency: The comptroller is responsible for providing information and data to the public to promote transparency and accountability in the state's financial management and operations.
 
 ## Departments and Agencies
 
@@ -149,11 +275,23 @@ Most school districts in New York are separate governments with publicly elected
 
 ## Public Authorities
 
-# Legislature
+## The Attorney General
 
-# The Comptroller
+-   Legal representation: The attorney general is the chief legal officer of the state, responsible for representing the state in legal matters and providing legal advice to the governor, the legislature, and other state officials.
 
-# The Attorney General
+-   Law enforcement: The attorney general is responsible for enforcing state laws and regulations, and for investigating and prosecuting violations of state laws.
+
+-   Consumer protection: The attorney general is responsible for protecting the rights and interests of consumers, and for enforcing state laws that protect consumers from fraud, deception, and other unfair business practices.
+
+-   Environmental protection: The attorney general is responsible for enforcing state laws that protect the environment, and for representing the state in legal matters related to the environment.
+
+-   Civil rights: The attorney general is responsible for enforcing state laws that protect the civil rights of all New Yorkers, and for investigating and prosecuting discrimination and other civil rights violations.
+
+-   Charities: The attorney general is responsible for regulating and monitoring charities, foundations, and other non-profit organizations, and for ensuring that they use their resources in accordance with the law and the purposes for which they were formed.
+
+-   Cybercrime: The attorney general is responsible for the investigation and prosecution of cybercrime and internet fraud, including identity theft, hacking and online scams.
+
+-   Public corruption: The attorney general is responsible for investigating and prosecuting public corruption, including cases involving bribery, embezzlement, and other forms of misconduct by public officials.
 
 # The Courts
 
@@ -169,33 +307,21 @@ Local courts include the District Court, the City Court, the Town and Village Co
 
 [Court structure](https://ww2.nycourts.gov/sites/default/files/document/files/2019-06/NYCourts-IntroGuide.pdf)
 
-# The Legislature
+# Influencers and interest groups
 
-3-way control -- pretty rare ([NCSL](https://www.ncsl.org/about-state-legislatures/state-partisan-composition#undefined))
+## Lobbyists and advocates
 
-![](images/image-582894560.png)
+-   Significant part of the system in New York
 
-![](images/image-1778390979.png)
+-   Reading assignments provided information on prominent lobbyists and advocates
 
-# Congress
+-   Commission on Ethics and Lobbying to replace Joint Commission on Public Ethics (JCOPE) ([article](https://www.news10.com/news/ny-ethics-commission-replacing-jcope-makes-progress/))
 
-Ravitch
+## Stylized view of influencers in the budget context
 
-The Constitution
+![](images/image-180655092.png)
 
--   US constitution has \~[7,591 words](https://www.constitutionfacts.com/us-constitution-amendments/fascinating-facts/) including the 27 amendments
-
--   NY constitution has 49,360 words - Alabama has 402,852! ([BOS 2021](https://www.nga.org/wp-content/uploads/2022/10/CSG-book-of-the-states-2021.pdf))
-
--   Constitutional convention
-
--   Initiative, referendum
-
-# What about the people?
-
-Initiative and referenda
-
-# What about other states?
+## What about other states?
 
 Why you should care about what other states do
 
@@ -207,18 +333,12 @@ Why you should care about what other states do
 
 [*Book of the States*](https://issuu.com/csg.publications/stacks/46495f12f95847e6935d331969ed650a)
 
-# Influencers
-
-## Good questions for a quiz
-
--   Q1
-
-<!-- {.smaller} -->
-
-## Budget context (stylized)
-
-![](images/image-180655092.png)
-
-------------------------------------------------------------------------
+## New York and other states
 
 ![](images/image-534555783.png)
+
+<!-- ------------------------------------------------------------------------ -->
+
+# Second set of 2-minute presentations (timed)
+
+<!-- ------------------------------------------------------------------------ -->

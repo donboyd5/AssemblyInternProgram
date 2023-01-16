@@ -19,22 +19,32 @@ execute:
 
 -   My background
     -   6 years Assembly Ways & Means (taxes/fiscal)
-    -   8 years NY DOB (economy/fiscal/taxes)
+    -   8 years NY Budget Division (economy/fiscal/taxes)
     -   24 years Rockefeller Institute - gov't finances in U.S.
     -   State Budget Crisis Task Force (ED)
-    -   \~5-year interlude: research on teacher characteristics, teacher labor markets, & student academic performance
-    -   fiscal & economic consulting - federal, state, & local govt's; think tanks; trade associations; unions
+    -   \~5-year interlude: academic research on teacher characteristics, teacher labor markets, & student academic performance
+    -   fiscal & economic consulting - federal, state, & local govt's; think tanks; industry groups, trade associations, and advocacy organizations; unions
 -   Your background, interests, goals?
 
-## About the Course {.smaller}
+## About the Course (1) {.smaller}
 
 -   3 lectures:
 
-    -   The NY Context for Policymaking
-    -   Federalism - who does what and why? how do governments interact?
-    -   Who makes policy?
+    -   The Context for Policymaking in New York
 
--   Class participation - 1-minute presentation, 1-minute impromptu comments
+    -   Federalism - who does what and why? how do governments interact?
+
+    -   Who makes law and policy?
+
+-   2-minute presentations:
+
+    -   Describe and analyze a proposal or issue
+
+    -   A crucial skill
+
+    -   Every presentation is a job interview
+
+## About the Course (2) {.smaller}
 
 -   10-minute skills (1 per lecture) - examples:
 
@@ -48,23 +58,43 @@ execute:
 
     -   How to keep the ball rolling
 
-    -   How to be more powerful than you are
+## About the Course (3) {.smaller}
+
+-   We cannot possibly cover important elements of the 3 lectures, in depth, in an 85 minute class.
+
+-   I will try, in the slides, to give depth and real-world illustrations. You do not need to memorize these.
+
+-   I will try to give links that allow you to explore the issues and illustrations more deeply. You will be your own best teacher.
 
 ## Grading
 
--   Attendance and participation
+-   No quizzes
 
--   I'll be grading your papers. I'll be especially interested in:
+-   Attendance; I expect participation
 
-    -   Up-front summary
+-   I'll be grading your papers
 
-    -   Don't just describe and analyze the *issue* - describe and analyze the *proposal*.
+## The Paper {.smaller}
 
-    -   Be concise and clear: writing is rewriting.
+Whenever you write anything, ask (1) Who's the audience?, (2) What's the purpose? Here, they are two-fold:
 
-    -   Careful use of original sources
+-   An Assemblymember who wants a full 360 degrees view of a proposal
 
-## Optional
+-   A public policy-interested audience with time to dig in, wants details & sources
+
+I am looking for:
+
+-   1-page up-front summary (Assemblymembers are busy, must split their attention)
+
+-   Describe and analyze the *proposal* (esp. bill language), not just the *issue*. Heard often:
+
+> *Vote on the bill, not the memo.*
+
+-   Be rigorous: Document your analysis, draw on original sources & cite them.
+
+-   Be concise and clear: **writing is rewriting**. (Strunk & White is on Moodle, FYI.)
+
+## Optional {.smaller}
 
 -   Your interests - please write 1 short paragraph that mentions a policy issue or two that you're interested in, or what you want to get out of the course or program.
 
