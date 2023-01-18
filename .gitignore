@@ -3,17 +3,18 @@
 .RData
 .Ruserdata
 
-*_files
-old*
-skills/RLadiesParis
-skills/test
-web/_book
+*_files/
+*images/
+skills/RLadiesParis/
+skills/test/
+web/_book/
 
 *.css
 *.doc*
 *.html
 *.js
 *.json
+*OLD
 *.pdf
 *.png
 *.xl*
