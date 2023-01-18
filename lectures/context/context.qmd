@@ -1,6 +1,6 @@
 ---
 title: "Context for Policymaking in New York"
-subtitle: ""
+subtitle: "-- Selected elements --"
 author: "Don Boyd, Professor-in-Residence"
 institute: New York State Assembly Intern Program
 date: today
@@ -11,7 +11,8 @@ format:
     chalkboard:
       buttons: false
     preview-links: auto
-    theme: white # [custom3.scss] # white
+    theme: [white, djb.scss] # use white, with modifications
+    # theme: white # [custom3.scss] # white default; these are the 2 ok built-ins
   # pdf:
   #   toc: false    
 execute:
@@ -33,17 +34,19 @@ State policymaking is influenced by many contextual factors, such as:
 
 Goals:
 
--   Understand major ways in which context can affect NY policymaking
+-   Understand several major ways in which context can affect NY policymaking
 
 -   Learn of resources that can help you teach yourself more
+
+Web version [here](https://boyd-context.netlify.app).
 
 ```{=html}
 <!--
 Publishing to the web
 
 quarto publish netlify context.qmd
-# quarto publish netlify --no-render --no-browser --no-prompt
-# quarto publish netlify --no-browser --no-prompt
+# quarto publish netlify context.qmd --no-render --no-browser --no-prompt
+# quarto publish netlify context.qmd --no-browser --no-prompt
 
 https://boyd-context.netlify.app
 
@@ -119,17 +122,17 @@ Article I, Section 8, Clause 3:
 
 -   USSC overturned ordinance, said undue burden on interstate commerce.
 
--   As a result, among other things, counties can't require waste haulers to bring waste to a county incineration plant. (Significant issue in Washington County.
+-   As a result, among other things, counties can't require waste haulers to bring waste to a county incineration plant. (Significant issue in Washington County.)
 
 ## Commerce Clause - NYC Commuter tax example {.smaller}
 
--   **Can't impose NYC commuter tax on NJ/CT commuters to NYC, while not imposing commuter tax on Westchester/Nassau commuters to NYC**
+**U.S. Supereme Court ruled legislature cannot impose tax on NJ/CT commuters to NYC, while not imposing tax on Westchester/Nassau commuters to NYC**
 
--   In 1999, [purportedly to influence suburban NY state Senate elections](https://www.nytimes.com/1999/05/18/nyregion/legislature-acts-quickly-to-repeal-commuter-tax.html), NYS Legislature repealed the NYC commuter tax on in-state commuters but left it in place for out-of-state commuters.
+-   In 1999, [purportedly to influence suburban NY state Senate elections](https://www.nytimes.com/1999/05/18/nyregion/legislature-acts-quickly-to-repeal-commuter-tax.html), NYS legislature repealed the NYC commuter tax on in-state commuters but left it in place for out-of-state commuters.
 
 -   *City of New York v. State of New York* (NYCA 2003) threw out the tax on out-of-state commuters on Commerce Clause and [Privileges or Immunities](https://www.law.cornell.edu/constitution-conan/amendment-14/section-1/current-doctrine) grounds.
 
--   Legislature anticipated this: [Ch. 5, Laws 1999](http://public.leginfo.state.ny.us/navigate.cgi) written so that entire commuter tax would self-destruct if in-state commuter exemption was invalidated. \[severability\]
+-   Legislature anticipated this: [Ch. 5, Laws 1999](http://public.leginfo.state.ny.us/navigate.cgi) was written so that entire commuter tax would self-destruct if in-state commuter exemption was invalidated. \[severability\]
 
 -   Thus, NYC lost revenue from out-of-state commuters as intended, and from in-state commuters as well.
 
@@ -147,7 +150,7 @@ What's the difference between a person and an individual?
 
 ## Due Process example {.smaller}
 
--   NY Legislature passed the Secure Ammunition and Firearms Enforcement (SAFE) Act in 2013 in response to the Sandy Hook Elementary School mass shooting. Among other things, it expanded the assault weapons ban to include certain semi-automatic firearms with detachable magazines, limited magazine size, and regulated certain pistols that are **"semiautomatic version\[s\] of an automatic rifle, shotgun or firearm"**.
+-   NY legislature passed the Secure Ammunition and Firearms Enforcement (SAFE) Act in 2013 in response to the Sandy Hook Elementary School mass shooting. Among other things, it expanded the assault weapons ban to include certain semi-automatic firearms with detachable magazines, limited magazine size, and regulated certain pistols that are **"semiautomatic version\[s\] of an automatic rifle, shotgun or firearm"**.
 
 -   Many provisions were challenged in state and federal court on Second Amendment, Due Process, and other grounds. Most were upheld.
 
@@ -157,11 +160,19 @@ What's the difference between a person and an individual?
 
 ## New York State Constitution {.smaller}
 
+-   See Benjamin (required reading)
+
 -   Many provisions mirror counterparts in the U.S. Constitution - e.g., Bill of Rights
 
 -   In addition, the NY constitution:
 
-    -   Lays out the structure of government including the executive, legislature, and judiciary
+    -   Lays out the structure of government including the executive, legislature, and judiciary. For judiciary, we're concerned here with:
+
+        -   *Court of Appeals* (highest court, counterpart to U.S. Supreme Court)
+
+            -   *Appellate Division* - hears appeals from lower courts, and certain other cases
+
+                -   *Supreme Court* (trial court, or court of original jurisdiction)
 
     -   Establishes requirements and procedures for state and local finances, taxation, and limits on debt.
 
@@ -173,7 +184,7 @@ What's the difference between a person and an individual?
 
 -   School funding is extraordinarily unequal across local school districts in New York and in most other states in large part because education funding relies heavily on local property taxes, which can be more readily levied in richer and wealthier school districts. Redistributional school aid from the state only partially compensates for this. As a result, educational opportunities are highly unequal.
 
--   Over many decades, many groups have challenged state school funding, initially on U.S. Constitutional equal protection grounds. These claims were unsuccessful - *San Antonio Independent School District v. Rodriguez (USSC 1973)* ruled that education is not a fundamental right protected by the U.S. Constitution.
+-   For decades, many groups around the country challenged state school funding, initially on U.S. Constitutional equal protection grounds. These claims were unsuccessful - *San Antonio Independent School District v. Rodriguez (USSC 1973)* ruled that education is not a fundamental right protected by the U.S. Constitution.
 
 -   Groups then began to challenge education funding under state constitutions, where rulings were highly dependent on specific phrases in each constitution. Often the challenges sought "adequate" educational funding, rather than "equal" funding.
 
@@ -193,32 +204,24 @@ Mention Hamp's work.
 
 -   The state Supreme Court ruled that a sound basic education includes the basic skills necessary for students to function in society and to be prepared for further education.
 
--   The Court of Appeals elaborated, saying a sound basic education also the skills necessary to function in a democratic society, such as critical thinking, problem solving, and the ability to communicate effectively.
+-   The Court of Appeals elaborated, saying a sound basic education also encompasses the skills necessary to function in a democratic society, such as critical thinking, problem solving, and the ability to communicate effectively.
 
 -   It upheld the lower court's decision and ordered the state to increase funding to schools in New York City by \$5.6 billion. (In the wake of CFE the state did increase funding for schools, although there is ongoing controversy over the extent to which it met the court's requirement.)
 
-## Amending the NY Constitution (1) {.smaller}
+## Two ways to amend NY Constitution {.smaller}
 
--   Legislative approach - neither easy nor quick. It requires:
+-   Legislative approach:
 
-    -   Introduce amendment in each house, THEN
-    -   Must be approved by majority in each house of 2 separately elected legislatures (once before & once after a November election)
-        -   2022 and 2023 would count
+    -   Introduce amendment in each house, THEN must be approved by majority in each house of 2 separately elected legislatures (once before & once after a November election) THEN, subsequent approval by voters.
+    -   Can take years
 
-        -   2023 and 2024 would not count - we'd need either 2023 or 2024 legislature, plus the 2025 legislature (i.e., one before and one after the November 2024 election)
-    -   THEN, subsequent approval by voters
+-   Constitutional convention approach:
 
-## Amending the NY Constitution (2) {.smaller}
+    -   Every 20 years a proposition to hold a constitutional convention is put before voters in a general election.
+    -   If a majority approve, elected delegates in Senate and Assembly districts propose constitutional amendments. Proposed amendments placed on the ballot of next general election.
+    -   Can take years. Voters did NOT approve a constitutional convention at the last two opportunities (2017 and 1997 elections). The next vote will be in 2037.
 
--   Constitutional conventions
-
-    -   Every twenty years a proposition to hold a constitutional convention must be put before the voters in a general election. At the same election, voters vote on 3 delegates to the convention from each Senate and Assembly district.
-    -   If a majority of voters approve the convention, the elected delegates propose amendments to the Constitution.
-    -   The proposed amendments are placed on the ballot during the next general election.
-    -   If a majority of voters approve of the proposed amendments, they become part of the state Constitution.
-    -   The process can take years. Voters did NOT approve a constitutional convention at the last two opportunities (2017 and 1997 elections). The next vote will be in 2037.
-
--   The NY Constitution does not allow for amendment by initiative or referendum
+-   NY Constitution does not allow amendment by initiative or referendum
 
 ## NYS Constitution - resources
 
@@ -236,7 +239,7 @@ Mention Hamp's work.
 
 <!-- ------------------------------------------------------------------------ -->
 
-# What is a Government? What is New York State?
+# What is a Government?
 
 ## What is a government? {.smaller}
 
@@ -258,27 +261,27 @@ Mention Hamp's work.
 
 -   Census Bureau also has a [list of entities they consider part of the state](https://www.census.gov/content/dam/Census/library/publications/2017/econ/2017isd.pdf) (pp.208+).
 
--   \--\> Legislature's oversight and legal responsibilities reach far beyond the budget.
+-   \--\> Legislature's oversight and legal responsibilities extend far beyond the budget.
 
-# Selected other officials: the Governor and the Comptroller
+# The Governor
 
 ## The Governor - many responsibilities and powers {.smaller}
 
 -   **Executive power**: chief executive, enforce laws, oversee administration
 
--   **Budget**: prepare and submit annual budget to Legislature, manage state finances
+-   **Budget**: prepare and submit annual budget to legislature, manage state finances
 
--   **Legislative leadership**: work with the Legislature to pass laws & set policy
+-   **Legislative leadership**: work with the legislature to pass laws & set policy
 
 -   **Appointments**: appoint judges, department heads, commission heads, other officials.
 
--   **Veto power**: veto or approve bills passed by the Legislature
+-   **Veto power**: veto or approve bills passed by the legislature
 
 -   **Emergency management**: preparation, response, coordination; emergency powers
 
 -   **Pardons and commutations**: power wrt individuals convicted of crimes
 
-## What makes a governor powerful?
+## What makes a governor powerful? {.smaller}
 
 Ferguson 2013 (optional reading): Governors have different powers in different venues (executive, legislative, national). Important elements of power:
 
@@ -288,7 +291,7 @@ Ferguson 2013 (optional reading): Governors have different powers in different v
 
 Political scientists try to quantify these factors, but it is not easy. Ferguson's Table 8-4 suggests that in \~2015 the New York governor had slightly above-average institutional power, held back by weak budget power (!) and weak party control.
 
-## Power of the New York governor (1)
+## Power of the New York governor (1) {.smaller}
 
 -   Many seasoned observers conclude NY governor has remarkably **STRONG** budget powers, established/affirmed over decades via judicial constitutional interpretations:
 
@@ -296,16 +299,16 @@ Political scientists try to quantify these factors, but it is not easy. Ferguson
 
     -   Benjamin & Benjamin (required reading), argue that NY governor's *institutional* powers are among strongest in the nation (citing older research)
 
-    -   Edward McKinley (required reading - *TU*) - argued (hyperbolically?) that Andrew Cuomo might have been the most-powerful governor in the nation due to *personal* power -- his "iron-fisted personality and institutional knowledge of government operations". Personal power can be lost more easily than institutional power.
+    -   Edward McKinley (required reading - *TU*) - argued (hyperbolically?) that Andrew Cuomo might have been the most-powerful governor in the nation, due to *personal* power -- his "iron-fisted personality and institutional knowledge of government operations". Personal power can be lost more easily than institutional power.
 
-## Power of the New York governor (2)
+## Power of the New York governor (2) {.smaller}
 
 -   E.J. McMahon ([optional reading](https://www.empirecenter.org/wp-content/uploads/2020/01/IB-Unbalanced.Update.pdf) - sleeper) was nuanced about budget power:
     -   NY governor is powerful in budget process, but by constitutional design rather than judicial activism
 
     -   Legislature has power within the system - can override line-item vetos (and has done so); ability to strike out or reduce appropriations is considerable power
 
-    -   Argues Legislature has some institutional options that don't require amending constitution: change fiscal year to July 1 to allow more time to review budget, and establish a Legislative Budget Office
+    -   Argues legislature has some institutional options that don't require amending constitution: change fiscal year to July 1 to allow more time to review budget, and establish a legislative budget office
 
 ## The Governor's emergency powers
 
@@ -313,28 +316,36 @@ Political scientists try to quantify these factors, but it is not easy. Ferguson
 
 ## A few lessons re: gubernatorial power
 
--   NY governor is powerful, but Legislature has power also
+-   NY governor is powerful, but legislature has power also
 -   Personal power can be extraordinarily important, but potentially fleeting
 -   Common measures of power miss important nuances
 -   Caveat emptor to users of research
 
-## The State Comptroller (1) {.smaller}
+# The Comptroller
 
--   Fiscal oversight: The comptroller is responsible for auditing and reviewing the financial transactions of the state and its municipalities, and for ensuring that the state's financial resources are used effectively, efficiently, and legally.
+## The State Comptroller {.smaller}
 
--   Budget and financial management: The comptroller is responsible for analyzing the state's budget and financial management practices, and for making recommendations to the governor, the legislature, and other state agencies on budgeting, financial management, and other fiscal matters.
+-   **Fiscal oversight**: Audit and review financial transactions and management practices of state and municipalities. Some excellent analytic reports about state programs and local governments. Fiscal stress monitoring.
 
--   Pay and benefits: The comptroller is responsible for managing the state's payroll and employee benefits system, including the state's pension system, and for ensuring that state employees receive the pay and benefits they are entitled to.
+-   **Budget and financial management**: Analyze state budget and financial management practices; make recommendations to governor, legislature, agencies. Small formal role in budget.
 
--   Debt management: The comptroller is responsible for issuing and managing the state's debt, including the sale of bonds, and for ensuring that the state's debt is used responsibly and in the best interests of the state's taxpayers.
+-   **Pay and benefits**: Manage state payroll and employee benefits system, including state pension system - sole trustee NYSLRS
 
-## The State Comptroller (2) {.smaller}
+-   **Debt management**: Issue and managing the state's debt
 
--   Auditing: The comptroller is responsible for conducting audits of state agencies and programs, and for issuing audit reports to the governor and the legislature.
+<!-- -->
 
--   Unclaimed funds: The comptroller is responsible for holding and returning unclaimed funds, such as lost bank accounts, stocks, and other assets to their rightful owners.
+-   **Transparency**: Public information and data regarding state finances
 
--   Transparency: The comptroller is responsible for providing information and data to the public to promote transparency and accountability in the state's financial management and operations.
+## The Comptroller's analyses and audits {.smaller}
+
+-   [Public authorities are huge operations](https://www.osc.state.ny.us/files/reports/special-topics/pdf/public-authorities-2022.pdf): more than 1,000 state and local entities spend more than \$78 billion per year and have more than \$329 billion in debt outstanding
+
+-   [Almost 2.7 million New Yorkers lived in poverty](https://www.osc.state.ny.us/reports/new-yorkers-need-look-poverty-trends-new-york-state-last-decade) in 2021 -- 13.9% vs. 12.8% U.S.
+
+-   [New York opioid-related deaths grew 68%](https://www.osc.state.ny.us/reports/continuing-crisis-drug-overdose-deaths-new-york) between 2019 and 2021, driven by illicit fentanyl and similar synthetic opioids
+
+-   [\$ billions of erroneous unemployment insurance payments](https://www.osc.state.ny.us/state-agencies/audits/2022/11/15/controls-and-management-unemployment-insurance-system) resulted from management and oversight failures in the state Department of Labor; the estimated fraud rate rose to 17.6% in 2022 from 4.5% in 2020.
 
 # Influencers and interest groups
 
@@ -350,23 +361,39 @@ Political scientists try to quantify these factors, but it is not easy. Ferguson
 
 ![](images/image-180655092.png)
 
-## What about other states?
+# Other states
 
-Why you should care about what other states do
+## Why you should care about what other states do {.smaller}
 
--   Lessons learned
+-   Lessons learned - what worked for them, what didn't
 
--   Policy diffusion
+-   States are copycats (policy diffusion) - if other states are doing it, may increase the odds of support in New York, Fear of leaving the herd if they're not doing it.
 
--   Fear of leaving the herd
+Good resource on state institutions and practices: [*Book of the States*](https://issuu.com/csg.publications/stacks/46495f12f95847e6935d331969ed650a)
 
-[*Book of the States*](https://issuu.com/csg.publications/stacks/46495f12f95847e6935d331969ed650a)
+Big differences in demographics, economies, politics, and attitudes across states, so lessons elsewhere not necessarily applicable. Still, it's good to know what they're doing.
 
 ## New York and other states
 
-![](images/image-534555783.png)
+![](images/image-534555783.png){width="739"}
 
 <!-- ------------------------------------------------------------------------ -->
+
+# Much not discussed
+
+-   Attorney general
+
+-   Courts except as they relate to the constitution
+
+-   The Legislature (you'll have great mentors)
+
+-   Federal-state-local relationships (a separate lecture)
+
+-   Agency operations
+
+-   Budget activities
+
+Some great books and papers in the resources folder.
 
 # Second set of 2-minute presentations (timed)
 
