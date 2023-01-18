@@ -11,10 +11,9 @@ format:
     chalkboard:
       buttons: false
     preview-links: auto
-    theme: [white, djb.scss] # use white, with modifications
-    # theme: white # [custom3.scss] # white default; these are the 2 ok built-ins
-  # pdf:
-  #   toc: false    
+    theme: [white, djb.scss] # use white, with modifications; default also ok
+  pdf:
+    toc: false
 execute:
   echo: true  
   freeze: auto
@@ -55,19 +54,15 @@ https://boyd-context.netlify.app
 
 -->
 ```
+
+
 ```{=html}
 <!-- Save as pdf
 https://revealjs.com/pdf-export/
 file:///E:/R_projects/AssemblyInternProgram/lectures/context/context.html?print-pdf
-
-Open your presentation with print-pdf included in the query string, for example: http://localhost:8000/?print-pdf. You can test this at revealjs.com/demo?print-pdf. 
- Open the in-browser print dialog (CTRL/CMD+P). 
- Change the Destination setting to Save as PDF. 
- Change the Layout to Landscape.
- Change the Margins to None.
- Enable the Background graphics option.
- Click Save 🎉 -->
+-->
 ```
+
 # Constitutions
 
 ## What is a constitution? {.smaller}
@@ -106,6 +101,7 @@ Article I, Section 8, Clause 3:
 [Dormant](https://constitution.congress.gov/browse/essay/artI-S8-C3-7-1/ALDE_00013307/) Commerce Clause - the clause can prohibit state laws that unduly restrict interstate commerce even in the absence of congressional legislation---i.e., where Congress is dormant.
 :::
 
+
 ## Commerce Clause - Internet sales tax example {.smaller}
 
 -   *Quill v. North Dakota* (USSC 1992): states can't require sellers without a physical presence in a state (e.g., Quill, L.L. Bean, etc.) to collect sales tax because it would create "undue burden" on interstate commerce.
@@ -126,7 +122,7 @@ Article I, Section 8, Clause 3:
 
 ## Commerce Clause - NYC Commuter tax example {.smaller}
 
-**U.S. Supereme Court ruled legislature cannot impose tax on NJ/CT commuters to NYC, while not imposing tax on Westchester/Nassau commuters to NYC**
+**U.S. Supreme Court ruled legislature cannot impose tax on NJ/CT commuters to NYC, while not imposing tax on Westchester/Nassau commuters to NYC**
 
 -   In 1999, [purportedly to influence suburban NY state Senate elections](https://www.nytimes.com/1999/05/18/nyregion/legislature-acts-quickly-to-repeal-commuter-tax.html), NYS legislature repealed the NYC commuter tax on in-state commuters but left it in place for out-of-state commuters.
 
@@ -158,6 +154,7 @@ What's the difference between a person and an individual?
 
 -   The provision regulating pistols that are semiautomatic versions of automatic weapons was invalidated as 'excessively vague, as an ordinary person cannot know whether any single semiautomatic pistol is a "version" of an automatic one'.
 
+
 ## New York State Constitution {.smaller}
 
 -   See Benjamin (required reading)
@@ -170,15 +167,16 @@ What's the difference between a person and an individual?
 
         -   *Court of Appeals* (highest court, counterpart to U.S. Supreme Court)
 
-            -   *Appellate Division* - hears appeals from lower courts, and certain other cases
+        -   *Appellate Division* - hears appeals from lower courts, and certain other cases
 
-                -   *Supreme Court* (trial court, or court of original jurisdiction)
+        -   *Supreme Court* (trial court, or court of original jurisdiction)
 
     -   Establishes requirements and procedures for state and local finances, taxation, and limits on debt.
 
     -   Explicitly addresses many policy issues, including education, social welfare, housing, and conservation.
 
 -   These provisions have important consequences for procedure and for policy.
+
 
 ## NYS Constitution example: Sound Basic Education (1) {.smaller}
 
@@ -310,9 +308,15 @@ Political scientists try to quantify these factors, but it is not easy. Ferguson
 
     -   Argues legislature has some institutional options that don't require amending constitution: change fiscal year to July 1 to allow more time to review budget, and establish a legislative budget office
 
-## The Governor's emergency powers
+## The Governor's emergency powers {.smaller}
 
-## Public Authorities
+-   According to John Dinan of Wake Forest University, "[governors are in most states authorized by state statutes to act unilaterally and in sweeping fashion in responding to emergencies](https://www.federalismindex.org/post/the-emergency-powers-of-state-governments-and-governors-in-the-u-s-federal-system)". Reflects state "police power"; COVID-19 widespread use.
+
+-   NY: "...governor may by executive order **temporarily suspend specific provisions of any statute, local law**, ordinance, or orders, rules or regulations, or parts thereof, of any agency during a state disaster emergency, if compliance with such provisions would prevent, hinder, or delay action necessary..." (Exec. Law sec. 29-a)
+
+-   EO limited to 30 days (with 30-day renewals); suspensions must safeguard health and welfare, be reasonably necessary to disaster effort, have minimum deviation from statute. Legislature may terminate EO by concurrent resolution.
+
+-   Emergency powers raise questions about legislative oversight. We'll revisit in the "Who makes law and policy?" class; Dr. Penksa has prepared excellent materials.
 
 ## A few lessons re: gubernatorial power
 
@@ -333,8 +337,6 @@ Political scientists try to quantify these factors, but it is not easy. Ferguson
 
 -   **Debt management**: Issue and managing the state's debt
 
-<!-- -->
-
 -   **Transparency**: Public information and data regarding state finances
 
 ## The Comptroller's analyses and audits {.smaller}
@@ -347,15 +349,25 @@ Political scientists try to quantify these factors, but it is not easy. Ferguson
 
 -   [\$ billions of erroneous unemployment insurance payments](https://www.osc.state.ny.us/state-agencies/audits/2022/11/15/controls-and-management-unemployment-insurance-system) resulted from management and oversight failures in the state Department of Labor; the estimated fraud rate rose to 17.6% in 2022 from 4.5% in 2020.
 
-# Influencers and interest groups
+# Influencers, advocates, interest groups
 
-## Lobbyists and advocates
+## Lobbyists and advocates {.smaller}
 
--   Significant part of the system in New York
+-   A significant part of the New York system. Even local governments have NYS lobbyists.
 
--   City & State articles (required reading) provided information on prominent lobbyists and advocates
+-   Quotes/paraphrases from Kersh (optional reading folder):
 
--   Commission on Ethics and Lobbying to replace Joint Commission on Public Ethics (JCOPE) ([article](https://www.news10.com/news/ny-ethics-commission-replacing-jcope-makes-progress/))
+    -   "What do lobbyists---and the clients they represent---receive... no one really knows". My light update suggests this is still true.
+
+    -   NY lobbyists not as dominating as in FL, NV; complementary.
+
+    -   NY lobbyists work closely with decisionmakers but face institutional and competitive constraints
+
+-   Three categories: (1) single-group lobbyists (e.g., for a company or organization), (2) single-topic lobbyists (e.g., trade association or policy topic), (3) contract lobbyists.
+
+-   What do lobbyists do? Monitoring, provide information, analysis, draft legislation, advocacy, arm twisting. May play significant roles in complex issues that require industry/group expertise.
+
+-   *City & State* articles (required reading) mention prominent lobbyists and clients. *NYT* article (Goodman, optional folder) is interesting. Commission on Ethics and Lobbying to replace Joint Commission on Public Ethics (JCOPE) ([article](https://www.news10.com/news/ny-ethics-commission-replacing-jcope-makes-progress/))
 
 ## Stylized view of influencers, especially re: the budget
 
@@ -379,7 +391,7 @@ Big differences in demographics, economies, politics, and attitudes across state
 
 <!-- ------------------------------------------------------------------------ -->
 
-# Much not discussed
+# Not discussed, or only barely {.smaller}
 
 -   Attorney general
 
@@ -389,12 +401,33 @@ Big differences in demographics, economies, politics, and attitudes across state
 
 -   Federal-state-local relationships (a separate lecture)
 
--   Agency operations
+-   The budget (you had separate session)
 
--   Budget activities
+-   State agencies and public authorities (only barely)
 
-Some great books and papers in the resources folder.
+-   The media
+
+There are some great books and papers in the resources folder.
 
 # Second set of 2-minute presentations (timed)
 
 <!-- ------------------------------------------------------------------------ -->
+
+## Possible final discussion items {.smaller}
+
+-   Cycle 4 (3 lectures/classes, student choice) -- I'm thinking maybe
+
+    -   K12 education and education finance in NY as topic
+
+        -   1 or 2 classes would bring in people who have played a prominent role in NY, inside or outside of govt, (if I can get them) for remarks then discussion with students
+
+        -   the other 1-2 classes would be lecture
+
+    -   or instead, 3 classes, each of which has 1-2 people who have played prominent roles in New York policy, different issues (again, if I can get them)
+
+    -   feedback welcome - ok to put in the [Google doc](https://docs.google.com/document/d/1ymJzG2t4sdk8OEuFKtG7LoNw2M9ntNwTbSB9YDwH7WI/edit?usp=sharing)
+
+-   Research paper - do we need to discuss any questions about how to approach it?
+
+-   Other?
+
