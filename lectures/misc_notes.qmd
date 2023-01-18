@@ -82,3 +82,22 @@ CAUTION: This is hard work
     -   How district voted in latest Assembly, presidential, and governors' elections (parties & candidates)
 
     -   Is State Senator of same party as Assemblymember?
+
+
+
+
+```{=html}
+<style>
+.nobullet li {
+  list-style-type: none;
+}
+</style>
+
+<style>
+ul.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+</style>
+```

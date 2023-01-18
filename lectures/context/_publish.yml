@@ -1,0 +1,4 @@
+- source: context.qmd
+  netlify:
+    - id: 6dcba938-a0ff-4f14-acf1-0799da056d26
+      url: 'https://boyd-context.netlify.app'

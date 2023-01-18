@@ -11,12 +11,10 @@ format:
     chalkboard:
       buttons: false
     preview-links: auto
-    theme: white # [custom3.scss] # white
-  # pdf:
-  #   toc: false    
+    theme: white
+  # beamer
 execute:
-  echo: true  
-  freeze: auto
+  echo: true    
 ---
 
 ## Context affects policymaking {.smaller}
@@ -37,22 +35,7 @@ Goals:
 
 -   Learn of resources that can help you teach yourself more
 
-```{=html}
-<!--
-Publishing to the web
 
-quarto publish netlify context.qmd
-# quarto publish netlify --no-render --no-browser --no-prompt
-# quarto publish netlify --no-browser --no-prompt
-
-https://boyd-context.netlify.app
-
-# quarto render context.qmd --to html
-# quarto render context.qmd --to pdf
-
--->
-```
-```{=html}
 <!-- Save as pdf
 https://revealjs.com/pdf-export/
 file:///E:/R_projects/AssemblyInternProgram/lectures/context/context.html?print-pdf
@@ -64,10 +47,10 @@ Open your presentation with print-pdf included in the query string, for example:
  Change the Margins to None.
  Enable the Background graphics option.
  Click Save 🎉 -->
-```
+
 # Constitutions
 
-## What is a constitution? {.smaller}
+## Basics {.smaller}
 
 -   Fundamental law of an organization. Sets boundaries for what a government may and may not do.
 
@@ -167,7 +150,7 @@ What's the difference between a person and an individual?
 
     -   Explicitly addresses many policy issues, including education, social welfare, housing, and conservation.
 
--   These provisions have important consequences for procedure and for policy.
+-   Many of these provisions have important consequences for procedure and for policy.
 
 ## NYS Constitution example: Sound Basic Education (1) {.smaller}
 
@@ -254,69 +237,39 @@ Mention Hamp's work.
 
 -   For example, [NY's financial statements](https://www.osc.state.ny.us/files/reports/finance/pdf/annual-comprehensive-financial-report-2022.pdf) (pp.165+) list 43 public authorities that are part of the state, but generally are NOT appropriated by the legislature, including: the Dormitory Authority, the Long Island Power Authority, the MTA, NYSERDA, SUNY Foundations. They had \$43 billion of expenses in 2022 (MTA was largest).
 
--   Many of these entities are considered part of the state because "the Governor, with the approval of the State Senate, appoints the voting majority of the boards of directors of these Corporations, and the State is able to impose its will on the Corporations" (per the financial statements).
+-   Many of these entities are considered part of the state because "the Governor, with the approval of the State Senate, appoints the voting majority of the boards of directors of these Corporations, and the State is able to impose its will on the Corporations".
 
 -   Census Bureau also has a [list of entities they consider part of the state](https://www.census.gov/content/dam/Census/library/publications/2017/econ/2017isd.pdf) (pp.208+).
 
--   \--\> Legislature's oversight and legal responsibilities reach far beyond the budget.
+-   The Legislature's oversight and legal responsibilities in the state reach far beyond the budget.
 
-# Selected other officials: the Governor and the Comptroller
+# Statewide Elected Officials
 
-## The Governor - many responsibilities and powers {.smaller}
+## Governor (1) {.smaller}
 
--   **Executive power**: chief executive, enforce laws, oversee administration
+-   Executive power: The governor is the chief executive of the state, responsible for enforcing the laws and overseeing the administration of state government.
 
--   **Budget**: prepare and submit annual budget to Legislature, manage state finances
+-   Budget: The governor is responsible for preparing and submitting the state's annual budget to the legislature, and for ensuring that state finances are managed responsibly.
 
--   **Legislative leadership**: work with the Legislature to pass laws & set policy
+-   Legislative leadership: The governor is responsible for working with the legislature to pass laws and set the state's policy agenda.
 
--   **Appointments**: appoint judges, department heads, commission heads, other officials.
+-   Appointments: The governor is responsible for appointing judges, members of state boards and commissions, and other officials.
 
--   **Veto power**: veto or approve bills passed by the Legislature
+-   Veto power: The governor has the power to veto or approve bills passed by the legislature.
 
--   **Emergency management**: preparation, response, coordination; emergency powers
+## Governor (2) {.smaller}
 
--   **Pardons and commutations**: power wrt individuals convicted of crimes
+-   Emergency management: The governor is responsible for ensuring that the state is prepared to respond to emergencies and disasters, and for coordinating the state's response to emergencies.
 
-## What makes a governor powerful?
+-   Pardons and commutations: The governor has the power to grant pardons and commutations to individuals convicted of crimes.
 
-Ferguson 2013 (optional reading): Governors have different powers in different venues (executive, legislative, national). Important elements of power:
+-   Representing the state: The governor is the face of the state to the nation and the world, representing the state in different events and acting as an advocate for the state's interest.
 
--   **Personal power (specific to the person)** - from factors such as electoral mandate, support network as they progressed through political system, future prospects (e.g., lame duck may have low power), perceived performance (polls, ratings), force of personality.
+-   Economic Development: the governor is responsible for creating a favorable environment for business and job creation and promoting the state as a destination for investment, tourism and innovation.
 
--   **Institutional power (specific to the office and political environment)** - constitutions & statutes determine, *among other things*, (1) sharing of executive power with other statewide officials, (2) potential tenure time in office, (3) appointment powers (management and horse-trading), (4) budget power, and (5) veto power; political context may provide (6) party control or other political power.
+## What makes a governor powerful? How powerful is New York's governor?
 
-Political scientists try to quantify these factors, but it is not easy. Ferguson's Table 8-4 suggests that in \~2015 the New York governor had slightly above-average institutional power, held back by weak budget power (!) and weak party control.
-
-## Power of the New York governor (1)
-
--   Many seasoned observers conclude NY governor has remarkably **STRONG** budget powers, established/affirmed over decades via judicial constitutional interpretations:
-
-    -   Dr. Penksa discussed this in the budget session. *Silver v. Pataki* and *Bankers' Association* were key decisions.
-
-    -   Benjamin & Benjamin (required reading), argue that NY governor's *institutional* powers are among strongest in the nation (citing older research)
-
-    -   Edward McKinley (required reading - *TU*) - argued (hyperbolically?) that Andrew Cuomo might have been the most-powerful governor in the nation due to *personal* power -- his "iron-fisted personality and institutional knowledge of government operations". Personal power can be lost more easily than institutional power.
-
-## Power of the New York governor (2)
-
--   E.J. McMahon ([optional reading](https://www.empirecenter.org/wp-content/uploads/2020/01/IB-Unbalanced.Update.pdf) - sleeper) was nuanced about budget power:
-    -   NY governor is powerful in budget process, but by constitutional design rather than judicial activism
-
-    -   Legislature has power within the system - can override line-item vetos (and has done so); ability to strike out or reduce appropriations is considerable power
-
-    -   Argues Legislature has some institutional options that don't require amending constitution: change fiscal year to July 1 to allow more time to review budget, and establish a Legislative Budget Office
-
-## The Governor's emergency powers
-
-## Public Authorities
-
-## A few lessons re: gubernatorial power
-
--   NY governor is powerful, but Legislature has power also
--   Personal power can be extraordinarily important, but potentially fleeting
--   Common measures of power miss important nuances
--   Caveat emptor to users of research
+-   Article IV of the [New York State Constitution](https://dos.ny.gov/system/files/documents/2022/01/Constitution-January-1-2022.pdf):
 
 ## The State Comptroller (1) {.smaller}
 
@@ -336,17 +289,59 @@ Political scientists try to quantify these factors, but it is not easy. Ferguson
 
 -   Transparency: The comptroller is responsible for providing information and data to the public to promote transparency and accountability in the state's financial management and operations.
 
+## Departments and Agencies
+
+![](images/image-676178259.png)
+
+## Public Authorities
+
+## The Attorney General (1) {.smaller}
+
+-   Legal representation: The attorney general is the chief legal officer of the state, responsible for representing the state in legal matters and providing legal advice to the governor, the legislature, and other state officials.
+
+-   Law enforcement: The attorney general is responsible for enforcing state laws and regulations, and for investigating and prosecuting violations of state laws.
+
+-   Consumer protection: The attorney general is responsible for protecting the rights and interests of consumers, and for enforcing state laws that protect consumers from fraud, deception, and other unfair business practices.
+
+-   Environmental protection: The attorney general is responsible for enforcing state laws that protect the environment, and for representing the state in legal matters related to the environment.
+
+## The Attorney General (2) {.smaller}
+
+-   Civil rights: The attorney general is responsible for enforcing state laws that protect the civil rights of all New Yorkers, and for investigating and prosecuting discrimination and other civil rights violations.
+
+-   Charities: The attorney general is responsible for regulating and monitoring charities, foundations, and other non-profit organizations, and for ensuring that they use their resources in accordance with the law and the purposes for which they were formed.
+
+-   Cybercrime: The attorney general is responsible for the investigation and prosecution of cybercrime and internet fraud, including identity theft, hacking and online scams.
+
+-   Public corruption: The attorney general is responsible for investigating and prosecuting public corruption, including cases involving bribery, embezzlement, and other forms of misconduct by public officials.
+
+## The Courts (1) {.smaller}
+
+The [court system in New York State](https://www.nycourts.gov/) is divided into four levels: the Court of Appeals, the Appellate Division, the Supreme Court, and the local courts.
+
+The Court of Appeals is the highest court in the state and is located in Albany. It is composed of a Chief Judge and six Associate Judges, and it has the authority to review decisions made by the lower courts.
+
+## The Courts (2) {.smaller}
+
+The Appellate Division is the intermediate appellate court and is located in each of the four judicial departments of the state: the First Department (covering Manhattan and the Bronx), the Second Department (covering Brooklyn, Queens, Staten Island, and Long Island), the Third Department (covering the remainder of the Hudson Valley and Catskills regions), and the Fourth Department (covering the remainder of the state). It has the authority to review decisions made by the Supreme Court and local courts.
+
+The Supreme Court is the trial court of general jurisdiction in the state and is located in each county. It has the authority to hear cases involving criminal offenses, civil disputes, and a variety of other matters.
+
+Local courts include the District Court, the City Court, the Town and Village Court, and the Traffic Violations Bureau. These courts have limited jurisdiction and handle cases such as minor criminal offenses, traffic violations, and small claims disputes.
+
+[Court structure](https://ww2.nycourts.gov/sites/default/files/document/files/2019-06/NYCourts-IntroGuide.pdf)
+
 # Influencers and interest groups
 
 ## Lobbyists and advocates
 
 -   Significant part of the system in New York
 
--   City & State articles (required reading) provided information on prominent lobbyists and advocates
+-   Reading assignments provided information on prominent lobbyists and advocates
 
 -   Commission on Ethics and Lobbying to replace Joint Commission on Public Ethics (JCOPE) ([article](https://www.news10.com/news/ny-ethics-commission-replacing-jcope-makes-progress/))
 
-## Stylized view of influencers, especially re: the budget
+## Stylized view of influencers in the budget context
 
 ![](images/image-180655092.png)
 

@@ -11,6 +11,8 @@ format:
     chalkboard: 
       buttons: false
     preview-links: auto
+  pdf:
+    toc: false
 execute:
   echo: true    
 ---
@@ -20,11 +22,33 @@ execute:
 -   My background
     -   6 years Assembly Ways & Means (taxes/fiscal)
     -   8 years NY Budget Division (economy/fiscal/taxes)
-    -   24 years Rockefeller Institute - gov't finances in U.S.
+    -   22 years Rockefeller Institute - gov't finances in U.S.
     -   State Budget Crisis Task Force (ED)
     -   \~5-year interlude: academic research on teacher characteristics, teacher labor markets, & student academic performance
     -   fiscal & economic consulting - federal, state, & local govt's; think tanks; industry groups, trade associations, and advocacy organizations; unions
 -   Your background, interests, goals?
+
+<!--
+Publishing to the web
+
+quarto publish netlify context.qmd
+# quarto publish netlify --no-render --no-browser --no-prompt
+# quarto publish netlify --no-browser --no-prompt
+
+https://boyd-context.netlify.app
+
+# quarto render context.qmd --to html
+# quarto render context.qmd --to pdf
+
+
+  pdf:
+    toc: true
+    toc-depth: 2
+    documentclass: report # scrreprt scrartcl report
+
+-->
+
+
 
 ## About the Course (1) {.smaller}
 
@@ -72,7 +96,7 @@ execute:
 
 -   Attendance; I expect participation
 
--   I'll be grading your papers
+-   I'll be grading papers of students who have me in Cycle 1 -- groups C and F
 
 ## The Paper {.smaller}
 
@@ -96,7 +120,7 @@ I am looking for:
 
 ## Optional {.smaller}
 
--   Your interests - please write 1 short paragraph that mentions a policy issue or two that you're interested in, or what you want to get out of the course or program.
+-   Your interests - If you would like, please write 1 short paragraph that mentions a policy issue or two that you're interested in, or what you want to get out of the course or program. This will help me think about illustrations and resources for future lectures.
 
 -   Feedback - I would like anonymous feedback from students willing to offer it
 
@@ -109,3 +133,15 @@ I am looking for:
         2.  What was bad?
 
         3.  What is 1 change that would improve it?
+
+## Slide logistics {.smaller}
+
+-   My slides are in reveal.js format. It doesn't convert easily or well to Powerpoint or landscape pdfs.
+
+-   Slides will have links and information that I hope will be useful to you. I will do two things to try to make them accessible:
+
+    -   Create a pdf of the slides in portrait mode and put them on Moodle. So far, these conversions are working pretty well - this document is done that way - but no guarantees for the future.
+    
+    -   Put the substantive slides (not this doc) on the web as html so you can access them that way. That will work well, but you probably won't be able to save them to pdf in a usable form from the web.
+    
+

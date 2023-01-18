@@ -1,7 +1,7 @@
 ---
 title: "How to get advice from an expert"
 subtitle: ""
-author: "Don Boyd"
+author: "Don Boyd, Professor-in-Residence"
 institute: New York State Assembly Intern Program
 date: today
 date-format: long
@@ -12,42 +12,36 @@ format:
       buttons: false
     preview-links: auto
     css: styles.css
+  pdf:
+    toc: false    
     # footer: <https://quarto.org>
 # resources:
   # - demo.pdf
 ---
 
-## Goals
+## The Situation
 
-```{=html}
-<style>
-.nobullet li {
-  list-style-type: none;
-}
-</style>
+-   You need to get advice from an expert on an issue - by phone call or email
 
-<style>
-ul.no-bullets {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-</style>
-```
--   Get advice or information from a busy expert who:
-    -   ordinarily might not respond to you
-    -   might even be wary - legislative staff can be scary
--   Get them to respond, and be helpful
+-   The expert doesn't know you
 
-CAUTION: This is hard work
+-   You have low status (lower than the expert)
 
-## Principles
+
+<!-- -   Get advice or information from a busy expert who: -->
+<!--     -   ordinarily might not respond to you -->
+<!--     -   might even be wary - legislative staff can be scary -->
+<!-- -   Get them to respond, and be helpful -->
+
+<!-- CAUTION: This is hard work -->
+
+## Principles{.smaller}
 
 -   Respect them and their expertise
 
 -   Respect their time
 
--   Be precise. Reduce uncertainty.
+-   Be precise. Reduce uncertainty. They may be concerned.
 
 -   People appreciate this:
 
@@ -55,13 +49,16 @@ CAUTION: This is hard work
 
     -   It can be enjoyable to be asked an interesting question
     
-    -   It's no fun to be asked vague questions
+-   People don't like:    
     
-    -   It's no fun to be stuck on a phone call with no end in sight
+    -   Being asked vague or ill-informed questions
+    
+    -   Being stuck on a phone call with no end in sight
 
-## Don't{.r-fit-text}
 
--   ...ask a question so broad that answers fill libraries
+## Classic mistakes. Don't: {.smaller}
+
+-   ...ask a question so broad that the answer could go on forever
 
 <DL>
 <DD>
@@ -71,11 +68,12 @@ um...have you heard of Google?
 </DL>
 
 -   ...ask a question you didn't try to answer on your own
+
 <DL>
 <DD>
-***hey, why does New York have such high homelessness, yet very low rates of unsheltered homelessness?***
+***hey, why does New York have high homelessness yet low rates of unsheltered homelessness?***
 <DD>
-um...did you even look at my web page?
+um...did you even look at my web page? I wrote a paper on this...
 </DL>
 
 -   ...ignore what made them an expert in the first place
@@ -88,11 +86,24 @@ um...I'm Dr. Robinson; I've been researching education for 15 years. Did you hav
 </DL>
 
 
-## Do's
+## Do's {.smaller}
 
-Show you've done your homework
+Before you reach out:
 
-## How to write an email
+-   Do your homework
+
+
+When you reach out:
+
+-   Show that you've done your homework
+
+-   Ask precise questions
+
+## Techniques
+
+-   Beef up your status: "Assemblymember X asked me to reach out to you"
+
+## How to write an email {.smaller}
 
 -   Think carefully about every major element:
 
@@ -105,7 +116,7 @@ Show you've done your homework
     -   Your signature block
     -   Any post-signoff information
 
-# General email tips
+## General email tips {.smaller}
 
 -   Keep email visually short and nonthreatening
 
@@ -125,11 +136,11 @@ Show you've done your homework
 
 -   Post sign-off: important substantive details too long for middle
 
-## Subject lines
+## Subject lines{.smaller}
 
 -   Horrible subject lines
 
-    -   
+    -   [no subject line]
 
     -   hi
 
