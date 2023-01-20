@@ -6,14 +6,17 @@ institute: New York State Assembly Intern Program
 date: today
 date-format: long
 format:
-  revealjs: 
+  revealjs:
     slide-number: true
-    chalkboard: 
+    chalkboard:
       buttons: false
     preview-links: auto
-    css: styles.css
+    theme: [white, ../skills.scss] # use white, with modifications; default also ok
   pdf:
-    toc: false    
+    toc: false
+execute:
+  echo: true  
+  freeze: auto      
     # footer: <https://quarto.org>
 # resources:
   # - demo.pdf
@@ -21,21 +24,37 @@ format:
 
 ## The Situation
 
--   You need to get advice from an expert on an issue - by phone call or email
+-   You need to get advice from an expert, by phone or email
 
 -   The expert doesn't know you
 
--   You have low status (lower than the expert)
+-   You have low status in their world (they don't have to respond)
+
+::: footer
+[Slides on the web](https://boyd-getadvice.netlify.app)
+:::
+
+```{=html}
+<!--
+
+Rendering:
+
+# quarto render advice..qmd --to html
+# quarto render advice..qmd --to pdf
 
 
-<!-- -   Get advice or information from a busy expert who: -->
-<!--     -   ordinarily might not respond to you -->
-<!--     -   might even be wary - legislative staff can be scary -->
-<!-- -   Get them to respond, and be helpful -->
+Publishing to the web:
 
-<!-- CAUTION: This is hard work -->
+quarto publish netlify advice.qmd
+quarto publish netlify advice.qmd --no-render --no-browser --no-prompt
+quarto publish netlify advice.qmd --no-browser --no-prompt
 
-## Principles{.smaller}
+https://boyd-getadvice.netlify.app
+
+
+-->
+```
+## Principles and concerns {.smaller}
 
 -   Respect them and their expertise
 
@@ -43,55 +62,71 @@ format:
 
 -   Be precise. Reduce uncertainty. They may be concerned.
 
--   People appreciate this:
+-   It can be flattering to be asked for advice or asked an interesting question
 
-    -   It can be flattering to be asked for advice
-
-    -   It can be enjoyable to be asked an interesting question
-    
--   People don't like:    
-    
-    -   Being asked vague or ill-informed questions
-    
-    -   Being stuck on a phone call with no end in sight
-
+-   It's not enjoyable to be asked vague questions or be stuck on a neverending phone call
 
 ## Classic mistakes. Don't: {.smaller}
 
--   ...ask a question so broad that the answer could go on forever
+-   ...ask a question that demonstrates you didn't do any preliminary investigation
 
 <DL>
+
 <DD>
-***hey, is there any research on homelessness?*** <!-- <br/><br/> -->
+
+**hey, is there any research on homelessness?** <!-- <br/><br/> -->
+
 <DD>
-um...have you heard of Google?
+
+<p style="color:blue;">
+
+*um...have you heard of Google?*
+
+</p>
+
 </DL>
 
--   ...ask a question you didn't try to answer on your own
+-   ...ask a question that demonstrates you didn't investigate their expertise
 
 <DL>
+
 <DD>
-***hey, why does New York have high homelessness yet low rates of unsheltered homelessness?***
+
+**hey, why does New York have high homelessness yet low rates of unsheltered homelessness?**
+
 <DD>
-um...did you even look at my web page? I wrote a paper on this...
+
+<p style="color:blue;">
+
+*um...did you look at my web page? I wrote a paper on this...*
+
+</p>
+
 </DL>
 
 -   ...ignore what made them an expert in the first place
 
 <DL>
-<DD>
-***hey Sally, I heard you know about education; can we talk?***
-<DD>
-um...I'm Dr. Robinson; I've been researching education for 15 years. Did you have a question?
-</DL>
 
+<DD>
+
+**hey Sally, I heard you know about education; can we talk?**
+
+<DD>
+
+<p style="color:blue;">
+
+*um...I'm Dr. Robinson; I've been researching education for 15 years. Did you have a question?*
+
+</p>
+
+</DL>
 
 ## Do's {.smaller}
 
 Before you reach out:
 
--   Do your homework
-
+-   Do your homework where practical. Where not, explain.
 
 When you reach out:
 
@@ -99,9 +134,15 @@ When you reach out:
 
 -   Ask precise questions
 
-## Techniques
+CAUTION: This is hard work.
 
--   Beef up your status: "Assemblymember X asked me to reach out to you"
+## Techniques {.smaller}
+
+-   Raise your status: "Assemblymember X asked me to reach out to you", or get someone they know to connect you.
+-   Make your request easy to understand: Short, direct email with a clear request.
+-   Make response easy: Send precise on-point questions in advance. That allows a partial response by email.
+-   Allay concerns. They may have a busy schedule: Offer to set a time limit and stick to it. They may be afraid of the legislature (name in the press, etc.).
+-   Don't accept failure: Always follow up, even to nonresponse. Ask for other people to talk to if they're too busy
 
 ## How to write an email {.smaller}
 
@@ -118,9 +159,11 @@ When you reach out:
 
 ## General email tips {.smaller}
 
--   Keep email visually short and nonthreatening
+-   Draft the email in a separate doc, copy into email when it says what you want.
 
--   Be polite and correct. Write like a grownup
+-   Keep email visually short and nonintimidating.
+
+-   Be polite and correct. Use proper sentences.
 
 -   Subject: say what you want, drop names where appropriate
 
@@ -130,17 +173,17 @@ When you reach out:
 
 -   Middle: show you did homework but don't be verbose; push details to post-signoff
 
--   Signoff: anything appropriate
+-   Signoff: establish clear next steps about what you want to happen
 
 -   Signature block: name, title, office, contact info
 
--   Post sign-off: important substantive details too long for middle
+-   Post sign-off: important substantive details too long for middle. Make them non-intimidating.
 
-## Subject lines{.smaller}
+## Subject lines {.smaller}
 
 -   Horrible subject lines
 
-    -   [no subject line]
+    -   
 
     -   hi
 
@@ -154,9 +197,40 @@ When you reach out:
 
     -   Assemblymember Johnson seeks your advice on education
 
+## Salutation and opening {.smaller}
 
-## Miscellaneous helpers
+-   Salutation: If they have a title, use it (e.g., Honorable, Mayor, Dr.); if not, consider "Mr.", "Ms." etc. rather than first names. Not "Hey", or "Julie" or other abrupt starts. Styles do change with time and age, of course. Still, I recommend erring on the side of formality.
 
--   So-and-so suggested I contact you
+-   Opening. Short and sweet, often a freestanding paragraph is good. Who are you and what do you want? For example:
 
--   Get someone else to make initial contact
+> Dear Dr. Johnson,
+>
+> I am a research assistant to Assemblymember X. She is deeply interested in introducing legislation to address issue A. I understand from preliminary investigation that you have done research on how policies to address this have worked in other states. I was hoping I could have a brief phone call with you this week or next to get some advice.
+
+## Middle {.smaller}
+
+-   Show you've done your homework. Make the area of inquiry clear. Be brief. Push details to post-signoff. For example:
+
+> We're particularly interested in how to structure the policy in New York, given that our population is older than the typical state \[pop age is just an example\]. I read your paper \[title\] and while I understood how most of it would be relevant to New York, it would be valuable to me to talk about it. In addition, I have a few specific questions, which you'll find after my signoff.
+
+## Signoff {.smaller}
+
+-   Be clear about what you want to happen next. Minimize need for back and forth communication to set a date/time by offering specific times.
+
+> Would you have time for a call on Friday of this week, or possibly Monday or Tuesday of next? I will move things as needed to do any time that works for you, other than 9:30-10 am on Monday and 1-2 pm on Tuesday. I know you're busy and I will keep the call as short as you want - even a 10-minute call would be valuable. If you have a specific time limit, if you let me know I will honor it.
+
+## Signature block post-signoff information {.smaller}
+
+-   Be sure signature block lists your office, title, and contact information.
+
+> Alex Smith, Intern\
+> Assemblymember Johnson, ...\
+> email\
+> phone
+
+-   Put any detailed questions you have, or other information you think the person should have, after your signature block. Use headers and spacing to make it easy to read.
+
+## Follow up
+
+-   People will feel guilty about not responding, but not necessarily so guilty that they'll respond.
+-   Follow up mercilessly, getting up to but not over the line between persistent and pest. If you haven't heard back after the right amount of time (2 days?) send a follow-up email; don't wait for the trail to get cold.

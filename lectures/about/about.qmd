@@ -31,9 +31,9 @@ execute:
 <!--
 Publishing to the web
 
-quarto publish netlify context.qmd
-# quarto publish netlify --no-render --no-browser --no-prompt
-# quarto publish netlify --no-browser --no-prompt
+quarto publish netlify about.qmd
+# quarto publish netlify about.qmd --no-render --no-browser --no-prompt
+# quarto publish netlify about.qmd --no-browser --no-prompt
 
 https://boyd-context.netlify.app
 

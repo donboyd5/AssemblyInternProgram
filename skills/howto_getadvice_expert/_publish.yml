@@ -1,0 +1,4 @@
+- source: advice.qmd
+  netlify:
+    - id: 121c1023-b820-435c-94c9-a08c0f64db91
+      url: 'https://boyd-getadvice.netlify.app'
