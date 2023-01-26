@@ -18,7 +18,9 @@ web/_book/
 *OLD
 *.pdf
 *.png
+*.rar
 *.xl*
+*.zip
 
 
 skills/howto_understandresearch/RLadiesParis.qmd
