@@ -1,0 +1,4 @@
+- source: fslr.qmd
+  netlify:
+    - id: 06a01b18-615c-48d6-becf-43d312d8c071
+      url: 'https://boyd-fslr.netlify.app'

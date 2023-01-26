@@ -1,0 +1,130 @@
+---
+title: 'How to find out what "The Science" says'
+subtitle: ""
+author: "Don Boyd, Professor-in-Residence"
+institute: New York State Assembly Intern Program
+date: today
+date-format: long
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    theme: [white, ../skills.scss] # use white, with modifications; default also ok
+  pdf:
+    toc: false    
+execute:
+  echo: true    
+---
+
+## Situation
+
+-   You need to learn what "The Science" says about an issue
+
+    -   *Does the minimum wage lead to higher unemployment?*
+
+    -   *Do smaller class sizes lead to better student outcomes?*
+
+-   You are not an expert in the area
+
+## Often hard to determine when policies are successful
+
+-   Does "policy A cause outcome B"? *Correlation is not causation*
+
+    -   Do smaller class sizes lead to better student learning?
+
+    -   Or do deeply involved parents
+
+        -   provide extra education at home, *AND ALSO*
+
+        -   push for their children to be in smaller classes?
+
+-   Challenging to do randomized studies of public policies
+
+## Conclusions can differ across studies
+
+-   Data and methods improve. Different data/methods may yield different conclusions.
+
+-   *Causal* methods require specialized training to understand.
+
+-   [Arnold Ventures: replication research](https://www.arnoldventures.org/stories/important-lessons-about-reproducibility-in-science) \< 1/2 of 100 psychology studies were replicated. Similar problems other fields.
+
+-   Researchers, like other people, have biases, flaws.
+
+-   Generally best not to rely on a single study.
+
+```{=html}
+<!--
+
+Rendering:
+
+# quarto render science.qmd --to html
+# quarto render science.qmd --to pdf
+
+
+Publishing to the web:
+
+quarto publish netlify science.qmd
+quarto publish netlify science.qmd --no-render --no-browser --no-prompt
+quarto publish netlify science.qmd --no-browser --no-prompt
+
+https://boyd-science.netlify.app
+
+The <dd> tag is used to describe a term/name in a description list.
+
+The <dd> tag is used in conjunction with <dl> (defines a description list) and <dt> (defines terms/names).
+
+Inside a <dd> tag you can put paragraphs, line breaks, images, links, lists, etc.
+
+Document font size - see process for live review
+https://www.youtube.com/watch?v=yAlhq8yhLsw
+
+
+-->
+```
+## What can you do?
+
+-   Find top-notch literature review. (A paper, or section of a paper, that reviews what researchers have concluded about a topic.) They vary in quality.
+
+-   Find think tanks & research orgs with reviews in everyday language
+
+-   Find an expert who knows the field and ask them good questions
+
+-   Probably not a good use of time to do your own lit review
+
+## Finding a literature review
+
+-   Search topic databases or [Google Scholar](https://scholar.google.com/): e.g., "impact of minimum wage on employment AND literature review" or "...AND meta-analysis". EBSCO and ProQuest allow you to limit search to review articles only.
+
+-   Search a journal that specializes in literature reviews in the field of interest (e.g., *Journal of Economic Literature*)
+
+-   Examine prominent recent papers for literature review - typically an early section
+
+-   Smart, careful, ethical use of AI technology - e.g., , [chatGPT](https://chat.openai.com/), [elicit](https://elicit.org/), maybe [Semantic Scholar](https://www.semanticscholar.org/); rapidly changing field
+
+## Think tanks and policy analysis research groups
+
+-   Some think tanks do excellent literature reviews. Many have strong policy leanings, so be careful.
+
+-   There are well-known groups associated with most important public policy issues.
+
+-   [Harvard has a good search engine](https://guides.library.harvard.edu/hks/think_tank_search). Searching "minimum wage AND literature review" will pull up several literature reviews.
+
+## Finding experts and asking questions
+
+-   How do you summarize the research on this topic?
+
+-   How much controversy or disagreement would you say there is among prominent researchers? Why?
+
+-   How do you assess the research, and why?
+
+-   Who would be a good person to give me the other side?
+
+-   Who funds your research?
+
+## Remember, with research and advocacy...
+
+<br> <br> <br>
+
+**...caveat emptor!**

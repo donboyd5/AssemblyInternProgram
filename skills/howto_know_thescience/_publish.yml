@@ -1,0 +1,4 @@
+- source: science.qmd
+  netlify:
+    - id: 5aa92f20-2779-4903-aa52-1481c2316ef9
+      url: 'https://boyd-science.netlify.app'

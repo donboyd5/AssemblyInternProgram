@@ -1,0 +1,250 @@
+---
+title: "Federal-State-Local relationships in New York"
+subtitle: ""
+author: "Don Boyd"
+institute: New York State Assembly Intern Program
+date: today
+date-format: long
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    theme: [white, ../../mycss.scss] # use white, with modifications; default also ok
+  pdf:
+    toc: false
+execute:
+  echo: true    
+---
+
+## This week
+
+-   Preliminaries
+
+-   10-minute skill
+
+-   Presentations, part I
+
+-   Lecture: federal, state, local governments
+
+-   Presentations, part II
+
+-   Wrap-up
+
+::: {.content-visible when-format="html"}
+::: notes
+The eight 2-minute presenters worked really hard to prepare and made a lot of great points.
+
+Less lecturing by me (less presentation, push more to appendix)
+
+More opportunity for questions/discussion
+:::
+:::
+
+```{=html}
+<!--
+
+Rendering:
+
+# quarto render fslr.qmd --to html
+# quarto render fslr.qmd --to pdf
+
+
+Publishing to the web:
+
+quarto publish netlify fslr.qmd
+quarto publish netlify fslr.qmd --no-render --no-browser --no-prompt
+quarto publish netlify fslr.qmd --no-browser --no-prompt
+
+https://boyd-fslr.netlify.app
+
+The <dd> tag is used to describe a term/name in a description list.
+
+The <dd> tag is used in conjunction with <dl> (defines a description list) and <dt> (defines terms/names).
+
+Inside a <dd> tag you can put paragraphs, line breaks, images, links, lists, etc.
+
+Document font size - see process for live review
+https://www.youtube.com/watch?v=yAlhq8yhLsw
+
+ {.smaller}
+ 
+ Timing (85 allowed):
+ - 10 prelim
+ - 10 10-min skill
+ - 15 presentations (~ 4 x 4)
+ - 25 lecture 
+ - 15 presentations
+ -  5 closing
+ 
+ 80 mins
+ 
+
+-->
+```
+## Cycle 4 classes (students choose). Possibilities for mine. Comments?
+
+<!-- Students choose classes. My cycle TBD. What's valuable? -->
+
+1.  Deep dive in 3 lectures, one topic: e.g., Education policy/finance in NY, *OR*
+
+2.  Making policy in NY. For one topic:
+
+    -   3 experts (e.g., legislative, executive, advocacy or media), high-level experience in NY
+
+    -   Provide their perspective on making policy in NY
+
+    -   Q&A/discussion with class - substance & strategy, *OR*
+
+3.  A combination of #1 and #2
+
+## The budget - due by February 1 {.smaller}
+
+-   Will use all the oxygen through March or until budget is passed.
+
+    -   SOS proposals will be major issues, of course
+
+    -   Medicaid, always - nursing home reimbursement rates, SOS expansions, growth
+
+    -   K-12 Foundation Aid phase-in: SOS says +\$2.7 billion (13%) - how much will they do?
+
+    -   Issues not directly tied to budget (e.g., minimum wage) may become linked.
+
+-   Tax revenue ahead of plan but recession risk. Debates over amount, policy changes. Gov says no to tax increase on high earners. Some in favor (e.g., [FPI](https://fiscalpolicy.org/fiscal-policy-institute-on-state-of-the-state))
+
+-   Useful: Ways & Means; Senate Finance; [Office of State Comptroller](https://www.osc.state.ny.us/press), [Fiscal Policy Institute](https://fiscalpolicy.org/) (leans left), [Empire Center](https://www.empirecenter.org/) (leans right), [Citizens Budget Commission](https://cbcny.org/) (NYC emphasis). Seek out reactions/analyses from advocacy orgs on your issues.
+
+------------------------------------------------------------------------
+
+![](images/budget_actors.png)
+
+# [10-minute skill](https://boyd-science.netlify.app)
+
+# 2-minute presentations, first group
+
+-   You are briefing an Assemblyperson, not advocating for a policy
+
+-   What are the most important things you can say at this point?
+
+-   You don't have to know everything (it's early), but try to know what you don't know
+
+# Federal-state-local relationships in New York
+
+## Why even care?
+
+-   Some activities make more sense for one level of government than another
+
+-   Getting things done often requires working with local govts, fed govt (as well as privates and non-profits)
+
+-   Legal constraints and pre-emptions imposed by feds on states, by the state on locals
+
+-   Politics can be complex. Other governments can be both adversaries and cooperators
+
+-   Demographic, economic, and social differences across places affect politics
+
+## Who should do what? Who should pay for it? {.smaller}
+
+-   Who benefits from a policy?
+
+    -   Does the whole nation benefit from an educated populace, or do just the children who are educated benefit, or is it in between? Are there "spillovers"?
+    -   What about national defense? City garbage collection?
+
+-   Who can administer a policy effectively? Should the federal government do garbage collection? Should villages collaborate and run the military?
+
+-   Who can finance a policy?
+
+    -   Why do states rely heavily on income taxes but local governments rely heavily on property taxes?
+
+    -   What are some important differences between the two taxes?
+
+-   Which level of government is closest to the people?
+
+## Who does what?
+
+![](images/image-1518810265.png)
+
+## NY spends & taxes a lot more than other states (Medicaid & K-12)
+
+![](images/image-1841803347.png){width="687"}
+
+## Huge regional differences affect needs, wants, capacity, and politics
+
+![](images/image-1609023654.png)
+
+## NYC "gave" 45% of state taxes, "got" 40% of spending
+
+![](images/image-683557828.png)
+
+## 3,100+ local governments - crazy quilt
+
+-   Counties, cities, towns, villages, school districts, ...
+
+-   NYC: a city, county (5 of them), and school district all in one
+
+-   Counties and NYC "exhaust" NY geography, no overlap
+
+-   Towns and cities exhaust county geography, no overlap
+
+-   In the 5 largest cities, school districts are part of the city budget.
+
+-   Elsewhere they are freestanding. Politics of separate budget votes.
+
+## After that, it's the wild west
+
+-   Villages sit within/across towns\
+    3 layers (counties/towns/villages) (police in Nassau County)
+
+-   Villages cross town and even county borders - part here, part there
+
+-   School districts exhaust NY geography, but cross county, town and village boundaries
+
+-   ***Would not design a system like this from scratch. Hard to change once in place.***
+
+## Cities & villages urbanized, towns (generally) not
+
+![](images/image-1554337632.png)
+
+## Outside NYC, school districts & counties dominate
+
+![](images/image-1382564001.png)
+
+## State-local relationships {.smaller}
+
+-   Local governments are "creatures of the state" (Dillon's rule, Iowa SC, 1868)
+
+-   Home rule - state grants power to local govts to rule themselves
+
+-   NY ostensibly allows home rule, but extensive exceptions:
+
+    -   K12 teacher certifications, special education, capital projects
+
+    -   Medicaid financing and eligibility
+
+    -   Wicks law requiring separate bids on public construction rather than GC
+
+    -   Prevailing wage laws governing wages on public construction contracts
+
+    -   Triborough Amendment governing expiring union contracts
+
+    -   Property tax cap and taxation more generally
+
+# 2-minute presentations, second group
+
+-   You are briefing an Assemblyperson, not advocating for a policy
+
+-   What are the most important things you can say at this point?
+
+-   You don't have to know everything (it's early), but try to know what you don't know
+
+# Wrap-up
+
+## Next week
+
+-   Next week
+
+    -   Who makes law and policy?
+
+    -   Focus will be on response to litigation, emergency powers
+
+-   Questions/other?
