@@ -1,7 +1,7 @@
 ---
 title: "How to keep the ball rolling"
 subtitle: ""
-author: "Don Boyd"
+author: "Don Boyd, Professor-in-Residence"
 institute: New York State Assembly Intern Program
 date: today
 date-format: long
@@ -11,9 +11,54 @@ format:
     chalkboard: 
       buttons: false
     preview-links: auto
+    theme: [white, ../skills.scss] # use white, with modifications; default also ok
+  pdf:
+    toc: false    
 execute:
-  echo: true    
+  echo: true
 ---
+
+## Situation
+
+-   You need to learn what "The Science" says about an issue
+
+    -   *Does the minimum wage lead to higher unemployment?*
+
+    -   *Do smaller class sizes lead to better student outcomes?*
+
+-   You are not an expert in the area
+
+
+```{=html}
+<!--
+
+Rendering:
+
+# quarto render keepballrolling.qmd --to html
+# quarto render keepballrolling.qmd --to pdf
+
+
+Publishing to the web:
+
+quarto publish netlify keepballrolling.qmd
+quarto publish netlify keepballrolling.qmd --no-render --no-browser --no-prompt
+quarto publish netlify keepballrolling.qmd --no-browser --no-prompt
+
+https://boyd-keepballrolling.netlify.app
+
+The <dd> tag is used to describe a term/name in a description list.
+
+The <dd> tag is used in conjunction with <dl> (defines a description list) and <dt> (defines terms/names).
+
+Inside a <dd> tag you can put paragraphs, line breaks, images, links, lists, etc.
+
+Document font size - see process for live review
+https://www.youtube.com/watch?v=yAlhq8yhLsw
+
+
+-->
+```
+
 
 ## Issue
 

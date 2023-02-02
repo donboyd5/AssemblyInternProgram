@@ -1,0 +1,4 @@
+- source: who_makes_policy.qmd
+  netlify:
+    - id: 0b0257df-b4e7-4efa-8edd-dcb1f20fa0cf
+      url: 'https://boyd-whopolicy.netlify.app'

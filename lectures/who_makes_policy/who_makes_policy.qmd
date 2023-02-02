@@ -1,3 +1,285 @@
-## Executive orders
+---
+title: "Who makes law and policy"
+subtitle: "Executive powers and the legislative role"
+author: "Don Boyd, Professor-in-Residence"
+institute: New York State Assembly Intern Program
+date: today
+date-format: long
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    theme: [white, ../../mycss.scss] # use white, with modifications; default also ok
+    footnotes-hover: true
+    reference-location: document
+  # pdf:
+  #   toc: false
+execute:
+  echo: true    
+---
 
-![](images/image-1985516668.png)
+## This week
+
+-   Preliminaries -- research paper, budget
+
+-   10-minute skill
+
+-   2-minute presentations, part I (5 speakers)
+
+-   Lecture/discussion: Who makes law and policy? (focus on consent decrees and emergency powers)
+
+-   2-minute presentations, part II (4 speakers)
+
+-   Wrap-up
+
+::: {.content-visible when-format="html"}
+::: notes
+Targets: - 12:30-12:40 Preliminaries -- research paper (5 mins), budget (5 mins) - 12:40-12:50 10-minute skill - 12:50-1:05 2-minute presentations, part I (5 people) - 1:05-1:30 Lecture/discussion - 1:35-1:50 2-minute presentations, part II (4 people) - 1:50-1:55 Wrap-up
+
+Speakers part I: Hadley Thompson Mahad Arshad Lucas Dyer Carlo Cancellieri Aiseata Sanfo
+
+Speakers part II: Saade White Alina Fiodarava Zachariah Onkaya-Budak Daniel Sheehy
+:::
+:::
+
+```{=html}
+<!--
+
+Rendering:
+
+# quarto render who_makes_policy.qmd --to html
+# quarto render who_makes_policy.qmd --to pdf
+
+
+Publishing to the web:
+
+quarto publish netlify who_makes_policy.qmd
+quarto publish netlify who_makes_policy.qmd --no-render --no-browser --no-prompt
+quarto publish netlify who_makes_policy.qmd --no-browser --no-prompt
+
+https://boyd-whopolicy.netlify.app
+
+The <dd> tag is used to describe a term/name in a description list.
+
+The <dd> tag is used in conjunction with <dl> (defines a description list) and <dt> (defines terms/names).
+
+Inside a <dd> tag you can put paragraphs, line breaks, images, links, lists, etc.
+
+Document font size - see process for live review
+https://www.youtube.com/watch?v=yAlhq8yhLsw
+
+ {.smaller}
+ 
+ Timing (85 allowed):
+ - 10 prelim
+ - 10 10-min skill
+ - 15 presentations (~ 4 x 4)
+ - 25 lecture 
+ - 15 presentations
+ -  5 closing
+ 
+ 80 mins
+ 
+-->
+```
+# [10-minute skill](https://boyd-keepballrolling.netlify.app)
+
+# 2-minute presentations, first group
+
+-   Hadley Thompson
+-   Mahad Arshad
+-   Lucas Dyer
+-   Carlo Cancellieri
+-   Aiseata Sanfo
+
+# Executive powers and the legislative role
+
+## Why even care?
+
+-   Does the executive overstep its bounds into legislative prerogatives?
+
+-   If the executive is exercising appropriate power, *does or should the legislature have oversight responsibilities?*
+
+## Executive branch has important law- and policymaking powers {.smaller}
+
+-   Fleshing out the law: rules, opinions of counsel, technical memoranda, advisory opinions -- vagues statutes lead to administrative lawmaking
+
+-   Executive orders
+
+-   Emergency powers
+
+-   Consent decrees
+
+Good resource, esp. rulemaking: [Ward, "Appointed Officials, Administrative Law, and The Bureaucracy" (Chapter 8)]()
+
+## Emergency powers - the case of COVID-19 {.smaller}
+
+-   Almost all states give governors emergency powers. As of mid-2017 NY & 34 others gave gov. power to suspend *statutes* and regulations (NC gives gov. power to create new statutes; HI governor is "sole judge" of the threat); 7 states give power to amend regulations; 8 give no explicit power.[^1]
+
+-   Sunshine et al. argue these powers are important for implementing federal policy in public health crises.
+
+-   Emergency powers also raise questions about separation of powers, and legislative oversight. Most states impose limitations, such as time limits, must call legislative special session, detailed specification and reporting requirements, .[^2]
+
+-   Many govs had or were given extraordinary powers during COVID-19. Subsequently many states considered scaling back those powers.[^3]
+
+[^1]: Sunshine et al.; Pew.
+
+[^2]: National Conference of State Legislatures (NCSL), Legislative Oversight of Emergency Executive Powers, https://www.ncsl.org/about-state-legislatures/legislative-oversight-of-emergency-executive-powers.
+
+[^3]: Pew, More States Rein in Governors' Emergency Powers, https://pew.org/3wAmMT7.
+
+## Who Read...?
+
+-   Executive Law section 29-a?
+
+    -   What does it say?
+
+    -   Did anyone trace back to definitions it relies on, established in Exec Law sec. 20?
+
+    -   Did anyone trace its legislative history? Compare it to section 29-a before and after Laws of 2020, Chapter 23 (a reading assignment)?
+
+## The Situation
+
+-   March 2, 2020. Beginning stages of the COVID-19 pandemic.
+
+-   *NYT* reported 2nd COVID-19 death near Seattle. NY just reported its first death.
+
+-   At 7 pm, Gov. Cuomo requested the legislature act on a just-printed bill to enhance emergency powers (S.7919/A.9953), under a **message of necessity**.[^4]
+
+-   Legislators are seeing the bill for the first time.
+
+-   Senate just passed S.7919 (53-4).
+
+-   It's 10 pm. Assembly floor debate begins.
+
+[^4]: NYS Constitution, Article III, Section 14: "No bill shall be passed or become a law unless it shall have been printed and upon the desks of the members, in its final form, at least three calendar legislative days ... unless the governor...shall have certified, under his or her hand and the seal of the state, the facts which in his or her opinion necessitate an immediate vote thereon,"
+
+## Test your bill-reading skills. Key provision #1
+
+1.  Expand the definition of disaster, Exec. Law sec. 20 (sunsets in a year)
+
+![](images/image-1908020701.png)
+
+**What does this mean?**
+
+::: {.content-visible when-format="html"}
+::: notes
+1)  impending is not as soon as imminent
+
+2)  disease outbreak can be less significant than epidemic
+:::
+:::
+
+## Test your bill-reading skills. Key provision #2
+
+2.  Expand emergency powers (sunsets in a year)
+
+![](images/image-1228332030.png)
+
+**What does this mean?**
+
+::: {.content-visible when-format="html"}
+::: notes
+1)  Gov can suspend entire statutes, not just specific provisions
+
+2)  Gov can issue DIRECTIVES to any person!
+
+3)  Power expansions are not linked to COVID-19!
+:::
+:::
+
+## Test your bill-reading skills. Key provision #3
+
+3.  Appropriates \$40 million
+
+![](images/image-289089875.png)
+
+**What doesn't this say?**
+
+::: {.content-visible when-format="html"}
+::: notes
+Doesn't put limits or reporting requirements (other than plan by DOB).
+
+Gov can spend as desired, pursuant to a plan of DOB
+
+Note that funding is limited to Covid 19 but power expansions are not
+:::
+:::
+
+## R's offer amendment that is defeated
+
+Proposed amendment says:
+
+> Governor shall report to \[leaders, finance chairs, ranking members\] every 30 days for an accounting of all money distributed in relation to this appropriation
+
+Defeated on grounds that Senate has already passed the bill, would have to amend and send back, no time for that.
+
+## Much discussion of process {.smaller}
+
+-   Is message of necessity appropriate?
+
+    -   Haven't had time to read the bill, perhaps we should not give governor such powers without giving the public, outside experts a chance to review.
+
+    -   Others argue there were no objections when the message was presented to the houses so that ship has sailed.
+
+-   There might be powers and provisions that are not clear upon reading it - have only had it for a few hours.
+
+-   Some members suggest splitting out the appropriation, giving that now, taking more time for emergency powers.
+
+## Who do you think said.... (R? D? Other?)
+
+>I think it's taking -- it's taking, thank God, only one diagnosed case and it's turning it into a $40 million request being made at night and an expansion of the Governor's authority.
+
+::: {.content-visible when-format="html"}
+::: notes
+Assemblymember Mary Beth Walsh (R-Ballston Spa, AD 112)
+:::
+:::
+
+
+
+
+## Who do you think said.... (R? D? Other?)
+
+
+::: {.content-visible when-format="html"}
+::: notes
+Assemblymember 
+:::
+:::
+
+## Who do you think said.... (R? D? Other?)
+
+::: {.content-visible when-format="html"}
+::: notes
+Assemblymember 
+:::
+:::
+
+
+## Lessons
+
+-   Emergency powers raise important questions of the separation of powers and the legislature's role.
+
+-   R's and D's can have similar views on separation of powers.
+
+-   Interpreting legislation: Precise words matter
+
+-   Research paper:
+
+    -   Floor debates can be a rich source of information about pros and cons of legislation
+
+    -   NCSL can be a great source of other states' policies
+
+# 2-minute presentations, second group
+
+-   Saade White
+-   Alina Fiodarava
+-   Zachariah Onkaya-Budak
+-   Daniel Sheehy
+
+# Appendix
+
+## Footnotes
