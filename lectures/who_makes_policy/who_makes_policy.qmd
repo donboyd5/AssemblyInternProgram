@@ -14,8 +14,8 @@ format:
     theme: [white, ../../mycss.scss] # use white, with modifications; default also ok
     footnotes-hover: true
     reference-location: document
-  # pdf:
-  #   toc: false
+  pdf:
+    toc: false
 execute:
   echo: true    
 ---
@@ -28,7 +28,7 @@ execute:
 
 -   2-minute presentations, part I (5 speakers)
 
--   Lecture/discussion: Who makes law and policy? (focus on consent decrees and emergency powers)
+-   Lecture/discussion: Who makes law and policy? (emergency powers; consent decrees on your own)
 
 -   2-minute presentations, part II (4 speakers)
 
@@ -84,6 +84,68 @@ https://www.youtube.com/watch?v=yAlhq8yhLsw
  
 -->
 ```
+## The budget {.smaller}
+
+-   Hard to know from press reports and briefing docs what's *really* in it - \$ for new initiatives often muddled with baseline spending; W&M Yellow Book is important
+
+-   Appears (to me) to be something for everyone without much pain
+
+-   Fiscal projections: surplus year ending March 2023, balance in 2023-24, deficits next 3 years sum \$22 billion ([finplan doc](https://www.budget.ny.gov/pubs/archive/fy24/ex/fp/fy24fp-ex.pdf) p.92); recession 2023, possibly short and shallow
+
+-   In addition to the expected, some possibly surprising fiscal items:
+
+    -   \$455m bonds to finance renovation of Belmont racetrack! (NYRA "expected" to fund...)[^1] ; Aqueduct (prime real estate) to close & be repurposed (casino?)
+
+    -   raise film tax credit from \$420m annually to \$700m (no annual approps or legislative review of recipients - a tax expenditure)[^2]
+
+    -   increase MTA payroll mobility tax \$800m annually; make NYC contribute \$500m
+
+-   Any surprises in your offices?
+
+[^1]: p.120 of [Art. VIII revenue bill](https://www.budget.ny.gov/pubs/archive/fy24/ex/artvii/revenue-bill.pdf)
+
+    ![](images/image-1701596793.png)
+
+    [Gov's briefing book](https://www.budget.ny.gov/pubs/archive/fy24/ex/book/briefingbook.pdf):
+
+    ![](images/image-207370735.png)
+
+[^2]: [Art. VII Revenue bill](https://www.budget.ny.gov/pubs/archive/fy24/ex/artvii/revenue-bill.pdf) Part D section 7
+
+## Research paper (1) {.smaller}
+
+-   Per [syllabus](https://intern.nyassembly.gov/mod/resource/view.php?id=969) the [proposal](https://intern.nyassembly.gov/pluginfile.php/5320/mod_assign/introattachment/0/2023%20Research%20Proposal%20%20%20How%20to%20Choose%20a%20Bill.pdf?forcedownload=1) is due Feb 9 (11:59 pm); paper Apr 20 (5 pm)
+
+-   pp.34+ [plagiarism presentation](https://intern.nyassembly.gov/pluginfile.php/5434/mod_resource/content/1/Plagiarism%20Workshop%20and%20writng%20Workshop%202023.ppt) lot of good advice about the paper; [LRS handout](https://intern.nyassembly.gov/pluginfile.php/5320/mod_assign/introattachment/0/LRS%20-%20Handout.pdf?forcedownload=1) useful; proposal [landing page](https://intern.nyassembly.gov/mod/assign/view.php?id=1014)
+
+-   My framework for paper
+
+    -   Two audiences: (1) legislator who wants full view of a bill, (2) analyst who wants to understand and be convinced
+    -   Two purposes: (1) ***short clear 1-page summary*** of most-important points, (2) clear, documented analysis
+    -   Communication is key; I'm looking for correct, clear, concise, well-structured, well documented; make every word earn its keep - no unnecessary words.
+    -   It's not about you - don't get in between the analysis and the reader.
+    -   You are not an advocate (in this paper), you are an analyst
+    
+Note: Put summary after cover page and before introduction.    
+
+## Research paper (2) {.smaller}
+
+-   Anticipated point structure per Dr. N.
+
+    -   Introduction -- 3.5%
+    -   Policy Analysis -- 40%
+    -   Political Analysis -- 40%
+    -   Democratic Analysis -- 15%
+    -   Conclusion -- 1.5%
+
+-   It is the whole that counts - and the summary is important!
+
+-   Please be sure to have pdfs of ALL cited works. I ALMOST CERTAINLY will ask for them. I may create a Google drive folder for you to copy them into (*after* the paper due date).
+
+-   Consider using bibliographic software for document and citation management. I use [zotero](https://www.zotero.org/); you can get free account. Good for all sorts of things, not just papers. Other doc managers are good, too.
+
+-   I am happy to give you feedback on draft of a section or two that concerns you, if you get it to me in week before the paper
+
 # [10-minute skill](https://boyd-keepballrolling.netlify.app)
 
 # 2-minute presentations, first group
@@ -108,27 +170,27 @@ https://www.youtube.com/watch?v=yAlhq8yhLsw
 
 -   Executive orders
 
--   Emergency powers
+-   Emergency powers (the focus below)
 
--   Consent decrees
+-   Consent decrees (we won't have time for this, but they're important - please see readings)
 
 Good resource, esp. rulemaking: [Ward, "Appointed Officials, Administrative Law, and The Bureaucracy" (Chapter 8)]()
 
 ## Emergency powers - the case of COVID-19 {.smaller}
 
--   Almost all states give governors emergency powers. As of mid-2017 NY & 34 others gave gov. power to suspend *statutes* and regulations (NC gives gov. power to create new statutes; HI governor is "sole judge" of the threat); 7 states give power to amend regulations; 8 give no explicit power.[^1]
+-   Almost all states give governors emergency powers. As of mid-2017 NY & 34 others gave gov. power to suspend *statutes* and regulations (NC gives gov. power to create new statutes; HI governor is "sole judge" of the threat); 7 states give power to amend regulations; 8 give no explicit power.[^3]
 
 -   Sunshine et al. argue these powers are important for implementing federal policy in public health crises.
 
--   Emergency powers also raise questions about separation of powers, and legislative oversight. Most states impose limitations, such as time limits, must call legislative special session, detailed specification and reporting requirements, .[^2]
+-   Emergency powers also raise questions about separation of powers, and legislative oversight. Most states impose limitations, such as time limits, must call legislative special session, detailed specification and reporting requirements, .[^4]
 
--   Many govs had or were given extraordinary powers during COVID-19. Subsequently many states considered scaling back those powers.[^3]
+-   Many govs had or were given extraordinary powers during COVID-19. Subsequently many states considered scaling back those powers.[^5]
 
-[^1]: Sunshine et al.; Pew.
+[^3]: Sunshine et al.; Pew.
 
-[^2]: National Conference of State Legislatures (NCSL), Legislative Oversight of Emergency Executive Powers, https://www.ncsl.org/about-state-legislatures/legislative-oversight-of-emergency-executive-powers.
+[^4]: National Conference of State Legislatures (NCSL), Legislative Oversight of Emergency Executive Powers, https://www.ncsl.org/about-state-legislatures/legislative-oversight-of-emergency-executive-powers.
 
-[^3]: Pew, More States Rein in Governors' Emergency Powers, https://pew.org/3wAmMT7.
+[^5]: Pew, More States Rein in Governors' Emergency Powers, https://pew.org/3wAmMT7.
 
 ## Who Read...?
 
@@ -146,7 +208,7 @@ Good resource, esp. rulemaking: [Ward, "Appointed Officials, Administrative Law,
 
 -   *NYT* reported 2nd COVID-19 death near Seattle. NY just reported its first death.
 
--   At 7 pm, Gov. Cuomo requested the legislature act on a just-printed bill to enhance emergency powers (S.7919/A.9953), under a **message of necessity**.[^4]
+-   At 7 pm, Gov. Cuomo requested the legislature act on a just-printed bill to enhance emergency powers (S.7919/A.9953), under a **message of necessity**.[^6]
 
 -   Legislators are seeing the bill for the first time.
 
@@ -154,7 +216,7 @@ Good resource, esp. rulemaking: [Ward, "Appointed Officials, Administrative Law,
 
 -   It's 10 pm. Assembly floor debate begins.
 
-[^4]: NYS Constitution, Article III, Section 14: "No bill shall be passed or become a law unless it shall have been printed and upon the desks of the members, in its final form, at least three calendar legislative days ... unless the governor...shall have certified, under his or her hand and the seal of the state, the facts which in his or her opinion necessitate an immediate vote thereon,"
+[^6]: NYS Constitution, Article III, Section 14: "No bill shall be passed or become a law unless it shall have been printed and upon the desks of the members, in its final form, at least three calendar legislative days ... unless the governor...shall have certified, under his or her hand and the seal of the state, the facts which in his or her opinion necessitate an immediate vote thereon,"
 
 ## Test your bill-reading skills. Key provision #1
 
@@ -228,36 +290,77 @@ Defeated on grounds that Senate has already passed the bill, would have to amend
 
 -   Some members suggest splitting out the appropriation, giving that now, taking more time for emergency powers.
 
-## Who do you think said.... (R? D? Other?)
+-   Asked whether the governor could declare a disaster now, or whether instead there would need to be a sudden increase in cases before a disaster declaration, the sponsor said that is correct - the governor could not declare disaster now.
 
->I think it's taking -- it's taking, thank God, only one diagnosed case and it's turning it into a $40 million request being made at night and an expansion of the Governor's authority.
+## Who do you think said.... (R? D?)
 
-::: {.content-visible when-format="html"}
-::: notes
-Assemblymember Mary Beth Walsh (R-Ballston Spa, AD 112)
-:::
-:::
-
-
-
-
-## Who do you think said.... (R? D? Other?)
-
+> are you concerned that he \[Governor Cuomo\] can abuse it \[additional power\]?... If the President of the United States \[President Trump at the time\] went to the Congress and said, tie funding to fight the coronavirus to an increase in my Executive powers, would you support that?
 
 ::: {.content-visible when-format="html"}
 ::: notes
-Assemblymember 
+Assemblymember Kieran Lalor (R-East Fishkill, AD 105)
 :::
 :::
 
-## Who do you think said.... (R? D? Other?)
+## Who do you think said.... (R? D?) {.smaller}
+
+> New York's Governor is one of the most powerful...during the worst of the HIV crisis, no Governor...ever...ask\[ed\] for anything like the powers...in this bill...very extensive and almost unlimited affirmative legislative power to not only waive existing laws and provisions of existing laws, which he now has authority to do, but it also empowers him to essentially make new legislation by issuing "directives," quote/ unquote, to any New Yorker....I can already hear people saying, Oooh, you know, he can do this for only 30 days at a time, and this expires April of 2021...Well, in theory yes, but think of all the things that this Governor and other Governors have got us to pass...and after two years well, we extend it again...And next April when there are things that we're all going to want in the budget **and the Governor says to us, Well, you know, if you want your thing in the Budget, here's what I want**. And before you know it, it's been years...
+
+\[emphasis added\]
 
 ::: {.content-visible when-format="html"}
 ::: notes
-Assemblymember 
+Assemblymember Richard Gottfried (D-Manhattan, AD 75 Tony Simone) - longest serving member in the history of the Assembly
 :::
 :::
 
+## Who do you think said.... (R? D?)
+
+> we have a lot of seniors who are very, very frightened about the possibilities of a pandemic... Shame on you, Governor, that you would use the fear of the people to expand your power. And shame on us because tonight we're going to allow him to do that
+
+::: {.content-visible when-format="html"}
+::: notes
+Assemblymember Charles Barron (D-Brooklyn, AD 60, now City Council)
+:::
+:::
+
+## What happened
+
+-   At 12:02 am on March 3, the bill passed (122-12), Laws 2020 Ch. 23
+
+-   March 7 Governor issues [EO 202](https://www.governor.ny.gov/sites/default/files/atoms/files/EO_202.pdf) under the new authority; considerable detail on statutes suspended
+
+-   108 subsequent extensions, enhancements, adjustments; [EO 202.8](https://www.governor.ny.gov/sites/default/files/2021-05/EO_202_108.pdf) and several predecessors rescinded elements of prior suspensions
+
+-   Considerable discontent with governor's expanded powers
+
+## And then {.smaller}
+
+-   March 2, 2021 S5357/A5967 (Stewart-Cousins/Heastie) introduced, scales back powers
+
+    -   Extensive "legislative intent" (L.2020 Ch. 23 enacted amidst uncertainty; there's been progress; time to restore pre-pandemic balance of power)
+
+    -   Rescinds power of governor to issue "directives"; existing directives continue but any extensions are tied to reporting requirements
+
+    -   suspensions and directives must be on searchable website, and have specified detailed information
+
+-   Backdrop: night before, NYT and I reported allegations Govs office rewrote/edited DOH report on NH deaths
+
+-   March 5, 2021; bill has aged 3 days
+
+-   273 page transcript of floor debate!
+
+-   Bill passes, L.2021 Ch.71
+
+-   Governor Hochul continues to use EO disaster power (health care staff shortage, windstorms, floods, other) within the Ch.71-reduced powers
+
+## Any reactions?
+
+-   Did the legislature leave the governor with too much power? Not enough?
+
+-   Is the legislature exercising sufficient oversight?
+
+-   Other?
 
 ## Lessons
 

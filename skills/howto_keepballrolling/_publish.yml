@@ -1,0 +1,4 @@
+- source: keepballrolling.qmd
+  netlify:
+    - id: 6c0fd882-4fcc-4307-bf21-84a71ee8a593
+      url: 'https://boyd-keepballrolling.netlify.app'

@@ -18,16 +18,19 @@ execute:
   echo: true
 ---
 
-## Situation
+## The Situation
 
--   You need to learn what "The Science" says about an issue
+-   You need or want information or action by others to complete what you're doing. Examples:
 
-    -   *Does the minimum wage lead to higher unemployment?*
+    -   You want comments on a memo you're writing
 
-    -   *Do smaller class sizes lead to better student outcomes?*
+    -   You need them to send you a couple of paragraphs
 
--   You are not an expert in the area
+    -   You think they need to approve before you send something on to others
 
+-   They're not responding, or not on the time frame you need
+
+-   They don't work for you; you have no direct authority
 
 ```{=html}
 <!--
@@ -58,33 +61,62 @@ https://www.youtube.com/watch?v=yAlhq8yhLsw
 
 -->
 ```
-
-
 ## Issue
 
--	Other people often won't do what you want, when you want. (Whuy should they?)
+-   Other people often won't do what you want, when you want. (Why should they?)
 
--	Sometimes we allow this to slow us down:
+-   Sometimes we allow this to slow us down:
 
-	-	We wait for someone to get back to us before we take the next step
+    -   We wait for someone to get back to us before we take the next step
 
-	-	We ask two people the same question, and they both assume the other will answer
+    -   We ask two people the same question, and they both assume the other will answer
 
-	-	We don't have a plan for what to do if critical information does not come our way
+    -   We don't have a plan for what to do if critical information does not come our way
 
--	There are techniques we can use to minimize dead-in-the-water time
+-   There are techniques we can use to minimize dead-in-the-water time
 
 ## Avoid the problem in the first place
 
--	Never, *ever*, ask two people the same question without making clear who you want to answer it, and when
+-   Never, *ever*, ask two people the same question without making clear who you want to answer it, and when
 
--	Never leave unclear when you need to know, or what will happen if they don't respond by then.
+-   Never leave unclear when you need to know
 
-	BAD: "Hey guys, I'd love your feedback on the attached bill memo for Assemblyperson X, whaddayathink?"
+-   Never leave unclear what will happen if they don't respond by then
 
-	BETTER: "Hi Emily, I'm going to send a bill memo to Assemblyperson X on Thursday right after noon. I've attached d really love to take into account any comments you have. get your comments would like your opinion on this. (I'm copying Steve so he's in the loop. Steve I welcome any thoughts you have on this.)
+-   Enlist help, or implied help, where appropriate
 
--	You'll be surprised at how assertive you can be about these things without ruffling feathers. (Sometimes you will.)
+You'll be surprised at how assertive you can be about these things without ruffling feathers. (Sometimes you will.)
 
-## Make clear what you'll do next
+## Assign responsibility or priority when asking multiple people
 
+***BAD:*** "Hey Emily and Steve, I'd love your feedback on the attached bill memo for Assemblyperson X, can you give me your thoughts?"
+
+***BETTER:*** "Hi Emily, I'm going to send a bill memo to Assemblyperson X on Thursday right after noon. I've attached a draft. I'd really love to take into account any comments you have. (I'm copying Steve so he's in the loop. Steve I welcome any thoughts you have on this.)"
+
+**DON'T:** Ask people who work together the same question without making them aware of it.
+
+## Be precise about deadlines (or time frames)
+
+-   *I need to give this to Assemblymember X by noon on Monday*
+
+-   *I would appreciate your comments by Friday end of day, so that I can reflect them.*
+
+-   Not - *Hey guys, could you get back to me on this in the next few days?*
+
+## Be clear about what will happen next - leave yourself a path {.smaller}
+
+-   Not: *I'd like to have your comments before I send this along - could you please try to get back to me in a day or two?*
+
+-   Better: *As I mentioned, I need to send this to Assemblymember X on Monday - I don't have control over that. Since you weren't able to get back to me I'll plan to send it along with placeholders for your sections.* (One last chance.) Direct phone calls can clear the air, of course.
+
+-   Many (not all!) bosses appreciate it when you make it clear (politely) what you'll do if *they* don't get back to you. So often, this is ok:
+
+    -   We've had clear discussions about your priorities here, so if you don't have a chance to provide comments by Tuesday I'll plan to move this on to person Y as a draft on Wednesday for comments, and circle back with you after that.
+
+-   But don't do this unless you have a clear sense that it is indeed consistent with the busy boss's wishes - a direct conversation about whether this general approach will work for them is a good idea. It is a good way to be efficient, and further your boss's goals - but not if they want to stay on top of every single step.
+
+## Enlist help of others, possibly the Big Boss
+
+-   Sometimes asking others for help with a slow responder can get that person to be quicker
+
+-   Sometimes mentioning to the slow responder that you'll ask for help is all you need to do
