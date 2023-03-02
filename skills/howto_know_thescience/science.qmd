@@ -11,11 +11,23 @@ format:
     chalkboard: 
       buttons: false
     preview-links: auto
-    theme: [white, ../skills.scss] # use white, with modifications; default also ok
-  pdf:
-    toc: false    
+    theme: [white, ../../mycss.scss] # use white, with modifications; default also ok
+    output-file: "science"
+    output-ext:  "html"
+  # pdf:
+  #   toc: false    
+  #   output-file: "science"
+  #   output-ext:  "pdf"    
+    
 execute:
   echo: true    
+
+editor:
+  markdown:
+    canonical: true  
+
+editor_options: 
+  chunk_output_type: console
 ---
 
 ## Situation
@@ -64,6 +76,10 @@ Rendering:
 
 
 Publishing to the web:
+
+quarto publish netlify
+quarto publish netlify --no-browser --no-prompt
+
 
 quarto publish netlify science.qmd
 quarto publish netlify science.qmd --no-render --no-browser --no-prompt

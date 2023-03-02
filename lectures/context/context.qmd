@@ -11,12 +11,27 @@ format:
     chalkboard:
       buttons: false
     preview-links: auto
-    theme: [white, djb.scss] # use white, with modifications; default also ok
-  pdf:
+    theme: [white, ../../mycss.scss] # use white, with modifications; default also ok
     toc: false
+    output-file: "context"
+    output-ext:  "html"
+  # pdf:
+  #   toc: false
+  #   output-file: "context"
+  #   output-ext:  "pdf"
+  # docx: 
+  #   toc: false
+  #   output-file: "context"
+  #   output-ext:  "docx"    
 execute:
   echo: true  
   freeze: auto
+editor:
+  markdown:
+    
+    canonical: true  
+editor_options: 
+  chunk_output_type: console
 ---
 
 ## Context affects policymaking {.smaller}
@@ -43,6 +58,8 @@ Web version [here](https://boyd-context.netlify.app).
 <!--
 Publishing to the web
 
+quarto publish netlify --no-browser --no-prompt
+
 quarto publish netlify context.qmd
 # quarto publish netlify context.qmd --no-render --no-browser --no-prompt
 # quarto publish netlify context.qmd --no-browser --no-prompt
@@ -54,14 +71,103 @@ https://boyd-context.netlify.app
 
 -->
 ```
-
-
 ```{=html}
 <!-- Save as pdf
 https://revealjs.com/pdf-export/
 file:///E:/R_projects/AssemblyInternProgram/lectures/context/context.html?print-pdf
 -->
 ```
+# The budgetary context
+
+## The Governor - many responsibilities and powers {.smaller}
+
+-   **Executive power**: chief executive, enforce laws, oversee administration
+
+-   **Budget**: prepare and submit annual budget to legislature, manage state finances
+
+-   **Legislative leadership**: work with the legislature to pass laws & set policy
+
+-   **Appointments**: appoint judges, department heads, commission heads, other officials.
+
+-   **Veto power**: veto or approve bills passed by the legislature
+
+-   **Emergency management**: preparation, response, coordination; emergency powers
+
+-   **Pardons and commutations**: power wrt individuals convicted of crimes
+
+## What makes a governor powerful? {.smaller}
+
+Ferguson 2013 (optional reading): Governors have different powers in different venues (executive, legislative, national). Important elements of power:
+
+-   **Personal power (specific to the person)** - from factors such as electoral mandate, support network as they progressed through political system, future prospects (e.g., lame duck may have low power), perceived performance (polls, ratings), force of personality.
+
+-   **Institutional power (specific to the office and political environment)** - constitutions & statutes determine, *among other things*, (1) sharing of executive power with other statewide officials, (2) potential tenure time in office, (3) appointment powers (management and horse-trading), (4) budget power, and (5) veto power; political context may provide (6) party control or other political power.
+
+Political scientists try to quantify these factors, but it is not easy. Ferguson's Table 8-4 suggests that in \~2015 the New York governor had slightly above-average institutional power, held back by weak budget power (!) and weak party control.
+
+## Power of the New York governor (1) {.smaller}
+
+-   Many seasoned observers conclude NY governor has remarkably **STRONG** budget powers, established/affirmed over decades via judicial constitutional interpretations:
+
+    -   Dr. Penksa discussed this in the budget session. *Silver v. Pataki* and *Bankers' Association* were key decisions.
+
+    -   Benjamin & Benjamin (required reading), argue that NY governor's *institutional* powers are among strongest in the nation (citing older research)
+
+    -   Edward McKinley (required reading - *TU*) - argued (hyperbolically?) that Andrew Cuomo might have been the most-powerful governor in the nation, due to *personal* power -- his "iron-fisted personality and institutional knowledge of government operations". Personal power can be lost more easily than institutional power.
+
+## Power of the New York governor (2) {.smaller}
+
+-   E.J. McMahon ([optional reading](https://www.empirecenter.org/wp-content/uploads/2020/01/IB-Unbalanced.Update.pdf) - sleeper) was nuanced about budget power:
+    -   NY governor is powerful in budget process, but by constitutional design rather than judicial activism
+
+    -   Legislature has power within the system - can override line-item vetos (and has done so); ability to strike out or reduce appropriations is considerable power
+
+    -   Argues legislature has some institutional options that don't require amending constitution: change fiscal year to July 1 to allow more time to review budget, and establish a legislative budget office
+
+## Stylized view of budget (and beyond) influencers
+
+![](images/image-180655092.png)
+
+## Discussion
+
+-   Do you know who the influencers are for your research paper?
+
+-   Do you understand what may influence them?
+
+    -   Who funds them?
+
+    -   Who sits on their board?
+
+    -   Who leads them?
+
+<!-- ------------------------------------------------------------------------ -->
+
+# First set of 2-minute presentations (timed)
+
+-   Daniela Dobrova
+
+-   Andrew Johnson
+
+-   Roshelle Nelson-Adams
+
+-   Kaitlin Sommer
+
+Your classmates are legislators.
+
+## Discussion of first set of presentations
+
+-   *To our audience of legislators charged with decisonmaking:*
+
+    -   What would you have liked to learn that you didn't?
+    -   What would you have dispensed with to make room for it?
+
+-   *To our presenters:*
+
+    -   Was there information you were looking for that you couldn't find?
+    -   Other challenges?
+    -   What would you do differently if you did it again?
+
+<!-- ------------------------------------------------------------------------ -->
 
 # Constitutions
 
@@ -100,7 +206,6 @@ Article I, Section 8, Clause 3:
 ::: notes
 [Dormant](https://constitution.congress.gov/browse/essay/artI-S8-C3-7-1/ALDE_00013307/) Commerce Clause - the clause can prohibit state laws that unduly restrict interstate commerce even in the absence of congressional legislation---i.e., where Congress is dormant.
 :::
-
 
 ## Commerce Clause - Internet sales tax example {.smaller}
 
@@ -143,40 +248,6 @@ Excerpt from 14th Amendment:
 ::: notes
 What's the difference between a person and an individual?
 :::
-
-## Due Process example {.smaller}
-
--   NY legislature passed the Secure Ammunition and Firearms Enforcement (SAFE) Act in 2013 in response to the Sandy Hook Elementary School mass shooting. Among other things, it expanded the assault weapons ban to include certain semi-automatic firearms with detachable magazines, limited magazine size, and regulated certain pistols that are **"semiautomatic version\[s\] of an automatic rifle, shotgun or firearm"**.
-
--   Many provisions were challenged in state and federal court on Second Amendment, Due Process, and other grounds. Most were upheld.
-
--   However, in [New York State Rifle & Pistol Association, Inc. v. Cuomo](https://s3.documentcloud.org/documents/1001140/ruling-from-the-united-states-district-court-for.pdf) (US District Court WDNY 2013), three provisions were found unconstitutional under the "void-for-vagueness" doctrine, which stems from the [Due Process clause](https://constitution.congress.gov/browse/essay/amdt14-S1-3/ALDE_00013743).
-
--   The provision regulating pistols that are semiautomatic versions of automatic weapons was invalidated as 'excessively vague, as an ordinary person cannot know whether any single semiautomatic pistol is a "version" of an automatic one'.
-
-
-## New York State Constitution {.smaller}
-
--   See Benjamin (required reading)
-
--   Many provisions mirror counterparts in the U.S. Constitution - e.g., Bill of Rights
-
--   In addition, the NY constitution:
-
-    -   Lays out the structure of government including the executive, legislature, and judiciary. For judiciary, we're concerned here with:
-
-        -   *Court of Appeals* (highest court, counterpart to U.S. Supreme Court)
-
-        -   *Appellate Division* - hears appeals from lower courts, and certain other cases
-
-        -   *Supreme Court* (trial court, or court of original jurisdiction)
-
-    -   Establishes requirements and procedures for state and local finances, taxation, and limits on debt.
-
-    -   Explicitly addresses many policy issues, including education, social welfare, housing, and conservation.
-
--   These provisions have important consequences for procedure and for policy.
-
 
 ## NYS Constitution example: Sound Basic Education (1) {.smaller}
 
@@ -231,13 +302,64 @@ Mention Hamp's work.
 
 -   Rockefeller Institute of Government [Citizens' Guide to the Constitutional Convention](https://rockinst.org/wp-content/uploads/2018/02/Citizens_Guide1.pdf)
 
+# Public Authorities
+
+## What are they and why are they important? {.smaller}
+
+-   Public benefit corporations created by legislature. Important governmental activities; power to enter into contracts, issue debt. Examples:
+
+    -   *Operating activities*: MTA (Metropolitan Transportation Authority) - subways, buses, commuter rail, NYC + 7 counties; Port Authority NY/NJ, Dormitory Authority, Thruway Authority
+
+    -   *Debt-issuance*: Local Government Assistance Corporation
+
+    -   *Economic development entities*: Empire State Development Corporation; local IDAs (Industrial Development Agencies)
+
+-   Avoid many rules and requirements of state government. Fly substantially under the radar. Issue debt without voter approval. Tax incentives for economic development.
+
+-   Financially important: Only \~\$2b of NY's \~\$70b debt is voter-approved GO, much of remainder is authority debt; Only \$200+b of NY spending is appropriated; \$40+b is through authorities, more throughother entities; *potential fiscal risk to the state*
+
 <!-- ------------------------------------------------------------------------ -->
 
-# First set of 2-minute presentations (timed)
+# Second set of 2-minute presentations (timed)
+
+-   Alexis Halpin
+
+-   Barry Murphy
+
+-   Lori-Ann Ricketts
+
+-   Samantha Turner
+
+Your classmates are legislators.
+
+## Discussion of 2nd set of presentations
+
+-   *To our audience of legislators charged with decisonmaking:*
+
+    -   What would you have liked to learn that you didn't?
+    -   What would you have dispensed with to make room for it?
+
+-   *To our presenters:*
+
+    -   Was there information you were looking for that you couldn't find?
+    -   Other challenges?
+    -   What would you do differently if you did it again?
 
 <!-- ------------------------------------------------------------------------ -->
 
-# What is a Government?
+# 10-minute skill: [How to find out what "The Science" says](https://boyd-science.netlify.app)
+
+# Wrap-up
+
+-   A lot about context we did not cover - check appendix. Comptroller - a great source of info.
+
+-   Questions or comments?
+
+-   Next class
+
+# Appendices
+
+# Appendix: What is New York?
 
 ## What is a government? {.smaller}
 
@@ -261,52 +383,7 @@ Mention Hamp's work.
 
 -   \--\> Legislature's oversight and legal responsibilities extend far beyond the budget.
 
-# The Governor
-
-## The Governor - many responsibilities and powers {.smaller}
-
--   **Executive power**: chief executive, enforce laws, oversee administration
-
--   **Budget**: prepare and submit annual budget to legislature, manage state finances
-
--   **Legislative leadership**: work with the legislature to pass laws & set policy
-
--   **Appointments**: appoint judges, department heads, commission heads, other officials.
-
--   **Veto power**: veto or approve bills passed by the legislature
-
--   **Emergency management**: preparation, response, coordination; emergency powers
-
--   **Pardons and commutations**: power wrt individuals convicted of crimes
-
-## What makes a governor powerful? {.smaller}
-
-Ferguson 2013 (optional reading): Governors have different powers in different venues (executive, legislative, national). Important elements of power:
-
--   **Personal power (specific to the person)** - from factors such as electoral mandate, support network as they progressed through political system, future prospects (e.g., lame duck may have low power), perceived performance (polls, ratings), force of personality.
-
--   **Institutional power (specific to the office and political environment)** - constitutions & statutes determine, *among other things*, (1) sharing of executive power with other statewide officials, (2) potential tenure time in office, (3) appointment powers (management and horse-trading), (4) budget power, and (5) veto power; political context may provide (6) party control or other political power.
-
-Political scientists try to quantify these factors, but it is not easy. Ferguson's Table 8-4 suggests that in \~2015 the New York governor had slightly above-average institutional power, held back by weak budget power (!) and weak party control.
-
-## Power of the New York governor (1) {.smaller}
-
--   Many seasoned observers conclude NY governor has remarkably **STRONG** budget powers, established/affirmed over decades via judicial constitutional interpretations:
-
-    -   Dr. Penksa discussed this in the budget session. *Silver v. Pataki* and *Bankers' Association* were key decisions.
-
-    -   Benjamin & Benjamin (required reading), argue that NY governor's *institutional* powers are among strongest in the nation (citing older research)
-
-    -   Edward McKinley (required reading - *TU*) - argued (hyperbolically?) that Andrew Cuomo might have been the most-powerful governor in the nation, due to *personal* power -- his "iron-fisted personality and institutional knowledge of government operations". Personal power can be lost more easily than institutional power.
-
-## Power of the New York governor (2) {.smaller}
-
--   E.J. McMahon ([optional reading](https://www.empirecenter.org/wp-content/uploads/2020/01/IB-Unbalanced.Update.pdf) - sleeper) was nuanced about budget power:
-    -   NY governor is powerful in budget process, but by constitutional design rather than judicial activism
-
-    -   Legislature has power within the system - can override line-item vetos (and has done so); ability to strike out or reduce appropriations is considerable power
-
-    -   Argues legislature has some institutional options that don't require amending constitution: change fiscal year to July 1 to allow more time to review budget, and establish a legislative budget office
+# Appendix: The governor
 
 ## The Governor's emergency powers {.smaller}
 
@@ -325,7 +402,7 @@ Political scientists try to quantify these factors, but it is not easy. Ferguson
 -   Common measures of power miss important nuances
 -   Caveat emptor to users of research
 
-# The Comptroller
+# Appendix: The Comptroller
 
 ## The State Comptroller {.smaller}
 
@@ -349,7 +426,7 @@ Political scientists try to quantify these factors, but it is not easy. Ferguson
 
 -   [\$ billions of erroneous unemployment insurance payments](https://www.osc.state.ny.us/state-agencies/audits/2022/11/15/controls-and-management-unemployment-insurance-system) resulted from management and oversight failures in the state Department of Labor; the estimated fraud rate rose to 17.6% in 2022 from 4.5% in 2020.
 
-# Influencers, advocates, interest groups
+# Appendix: Influencers, advocates, interest groups
 
 ## Lobbyists and advocates {.smaller}
 
@@ -369,11 +446,7 @@ Political scientists try to quantify these factors, but it is not easy. Ferguson
 
 -   *City & State* articles (required reading) mention prominent lobbyists and clients. *NYT* article (Goodman, optional folder) is interesting. Commission on Ethics and Lobbying to replace Joint Commission on Public Ethics (JCOPE) ([article](https://www.news10.com/news/ny-ethics-commission-replacing-jcope-makes-progress/))
 
-## Stylized view of influencers, especially re: the budget
-
-![](images/image-180655092.png)
-
-# Other states
+# Appendix: Other states
 
 ## Why you should care about what other states do {.smaller}
 
@@ -389,9 +462,7 @@ Big differences in demographics, economies, politics, and attitudes across state
 
 ![](images/image-534555783.png){width="739"}
 
-<!-- ------------------------------------------------------------------------ -->
-
-# Not discussed, or only barely {.smaller}
+## Not discussed, or only barely {.smaller}
 
 -   Attorney general
 
@@ -409,25 +480,36 @@ Big differences in demographics, economies, politics, and attitudes across state
 
 There are some great books and papers in the resources folder.
 
-# Second set of 2-minute presentations (timed)
+# Appendix: The Constitution
 
-<!-- ------------------------------------------------------------------------ -->
+## Due Process example {.smaller}
 
-## Possible final discussion items {.smaller}
+-   NY legislature passed the Secure Ammunition and Firearms Enforcement (SAFE) Act in 2013 in response to the Sandy Hook Elementary School mass shooting. Among other things, it expanded the assault weapons ban to include certain semi-automatic firearms with detachable magazines, limited magazine size, and regulated certain pistols that are **"semiautomatic version\[s\] of an automatic rifle, shotgun or firearm"**.
 
--   Cycle 4 (3 lectures/classes, student choice) -- I'm thinking maybe
+-   Many provisions were challenged in state and federal court on Second Amendment, Due Process, and other grounds. Most were upheld.
 
-    -   K12 education and education finance in NY as topic
+-   However, in [New York State Rifle & Pistol Association, Inc. v. Cuomo](https://s3.documentcloud.org/documents/1001140/ruling-from-the-united-states-district-court-for.pdf) (US District Court WDNY 2013), three provisions were found unconstitutional under the "void-for-vagueness" doctrine, which stems from the [Due Process clause](https://constitution.congress.gov/browse/essay/amdt14-S1-3/ALDE_00013743).
 
-        -   1 or 2 classes would bring in people who have played a prominent role in NY, inside or outside of govt, (if I can get them) for remarks then discussion with students
+-   The provision regulating pistols that are semiautomatic versions of automatic weapons was invalidated as 'excessively vague, as an ordinary person cannot know whether any single semiautomatic pistol is a "version" of an automatic one'.
 
-        -   the other 1-2 classes would be lecture
+## New York State Constitution {.smaller}
 
-    -   or instead, 3 classes, each of which has 1-2 people who have played prominent roles in New York policy, different issues (again, if I can get them)
+-   See Benjamin (required reading)
 
-    -   feedback welcome - ok to put in the [Google doc](https://docs.google.com/document/d/1ymJzG2t4sdk8OEuFKtG7LoNw2M9ntNwTbSB9YDwH7WI/edit?usp=sharing)
+-   Many provisions mirror counterparts in the U.S. Constitution - e.g., Bill of Rights
 
--   Research paper - do we need to discuss any questions about how to approach it?
+-   In addition, the NY constitution:
 
--   Other?
+    -   Lays out the structure of government including the executive, legislature, and judiciary. For judiciary, we're concerned here with:
 
+        -   *Court of Appeals* (highest court, counterpart to U.S. Supreme Court)
+
+        -   *Appellate Division* - hears appeals from lower courts, and certain other cases
+
+        -   *Supreme Court* (trial court, or court of original jurisdiction)
+
+    -   Establishes requirements and procedures for state and local finances, taxation, and limits on debt.
+
+    -   Explicitly addresses many policy issues, including education, social welfare, housing, and conservation.
+
+-   These provisions have important consequences for procedure and for policy.

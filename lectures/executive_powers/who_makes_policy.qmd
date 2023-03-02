@@ -1,6 +1,6 @@
 ---
-title: "Who makes law and policy"
-subtitle: "Executive powers and the legislative role"
+title: "Executive powers and the legislative role"
+subtitle: ""
 author: "Don Boyd, Professor-in-Residence"
 institute: New York State Assembly Intern Program
 date: today

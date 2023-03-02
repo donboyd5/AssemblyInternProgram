@@ -11,23 +11,32 @@ format:
     chalkboard: 
       buttons: false
     preview-links: auto
-  pdf:
-    toc: false
+    output-file: "about"
+    output-ext:  "html"
+  # pdf:
+  #   toc: false
+  #   output-file: "about"
+  #   output-ext:  "pdf"
+  # docx: 
+  #   toc: false
+  #   output-file: "about"
+  #   output-ext:  "docx"
 execute:
+  
   echo: true    
+editor:
+  markdown:
+    
+    canonical: true  
+editor_options: 
+  chunk_output_type: console
 ---
 
-## Goal: Practical Knowledge for Operating in the NY Environment {.smaller}
+## Introduction {.smaller}
 
--   My background
-    -   6 years Assembly Ways & Means (taxes/fiscal)
-    -   8 years NY Budget Division (economy/fiscal/taxes)
-    -   22 years Rockefeller Institute - gov't finances in U.S.
-    -   State Budget Crisis Task Force (ED)
-    -   \~5-year interlude: academic research on teacher characteristics, teacher labor markets, & student academic performance
-    -   fiscal & economic consulting - federal, state, & local govt's; think tanks; industry groups, trade associations, and advocacy organizations; unions
--   Your background, interests, goals?
+-   Goal: Practical knowledge for operating in the NY environment
 
+```{=html}
 <!--
 Publishing to the web
 
@@ -35,7 +44,7 @@ quarto publish netlify about.qmd
 # quarto publish netlify about.qmd --no-render --no-browser --no-prompt
 # quarto publish netlify about.qmd --no-browser --no-prompt
 
-https://boyd-context.netlify.app
+https://boyd-about-govtstructure.netlify.app
 
 # quarto render context.qmd --to html
 # quarto render context.qmd --to pdf
@@ -45,103 +54,102 @@ https://boyd-context.netlify.app
     toc: true
     toc-depth: 2
     documentclass: report # scrreprt scrartcl report
-
 -->
-
-
-
-## About the Course (1) {.smaller}
-
+```
 -   3 lectures:
 
     -   The Context for Policymaking in New York
 
-    -   Federalism - who does what and why? how do governments interact?
+    -   Federal, State, & Local Government Relations and Interactions
 
-    -   Who makes law and policy?
+    -   Executive Law- and Policy-making and the Legislative Role
 
--   2-minute presentations:
-
-    -   Describe and analyze a proposal or issue
+-   Each of you will do a 2-minute presentation:
 
     -   A crucial skill
 
+    -   Describe and analyze a proposal or issue - analysis, not advocacy (at this point)
+
     -   Every presentation is a job interview
 
-## About the Course (2) {.smaller}
+-   Readings - I may call randomly on students to briefly describe key points from one of the required readings.
 
--   10-minute skills (1 per lecture) - examples:
+## I will discuss a 10-minute skill in each lecture {.smaller}
 
-    -   How to get advice from an expert
+Examples:
 
-    -   How to give advice to a non-expert
+-   How to assess the POV of an organization
 
-    -   How to ask questions of an academic
+-   How to know what "the science" says
 
-    -   How to make a mistake
+-   How to get advice from an expert
 
-    -   How to keep the ball rolling
+-   How to give advice to a non-expert
 
-## About the Course (3) {.smaller}
+-   How to keep the ball rolling (and re a recent question about absences)
 
--   We cannot possibly cover important elements of the 3 lectures, in depth, in an 85 minute class.
+<!-- ## Depth {.smaller} -->
 
--   I will try, in the slides, to give depth and real-world illustrations. You do not need to memorize these.
+<!-- -   We cannot possibly cover important elements of the 3 lectures, in depth, in an 85 minute class in which we also have student 2-minute presentations. -->
 
--   I will try to give links that allow you to explore the issues and illustrations more deeply. You will be your own best teacher.
+<!-- -   I will try, in the slides, to give depth and real-world illustrations. You do not need to memorize these. -->
 
-## Grading
+<!-- -   I will try to give links that allow you to explore the issues and illustrations more deeply. -->
 
--   No quizzes
+<!-- ## Grading -->
 
--   Attendance; I expect participation
+<!-- -   No quizzes -->
 
--   I'll be grading papers of students who have me in Cycle 1 -- groups C and F
+<!-- -   Attendance; I expect participation -->
 
-## The Paper {.smaller}
+## Lecture slides
 
-Whenever you write anything, ask (1) Who's the audience?, (2) What's the purpose? Here, they are two-fold:
+-   Slides for 2nd and 3rd classes currently on the web are from Cycle 1
 
--   An Assemblymember who wants a full 360 degrees view of a proposal
+-   Feel free to look ahead but know that the slides will change, although not dramatically.
 
--   A public policy-interested audience with time to dig in, wants details & sources
+-   I will post an announcement and update links when updated versions are available.
 
-I am looking for:
+<!-- ## Slide logistics {.smaller} -->
 
--   1-page up-front summary (Assemblymembers are busy, must split their attention)
+<!-- -   My slides are in reveal.js format. It doesn't convert easily or well to Powerpoint or landscape pdfs. -->
 
--   Describe and analyze the *proposal* (esp. bill language), not just the *issue*. Heard often:
+<!-- -   Slides will have links and information that I hope will be useful to you. I will do two things to try to make them accessible: -->
 
-> *Vote on the bill, not the memo.*
+<!--     -   Put the substantive slides on the web as html so you can access them that way. That will work well, but you probably won't be able to save them to pdf in a usable form from the web. -->
 
--   Be rigorous: Document your analysis, draw on original sources & cite them.
+<!--     -   I will try to create a pdf of the slides in portrait mode and put them on Moodle. So far, these conversions are working pretty well but no guarantees they always will. -->
 
--   Be concise and clear: **writing is rewriting**. (Strunk & White is on Moodle, FYI.)
+## Advice about the research paper {.smaller}
 
-## Optional {.smaller}
+-   I will not be grading your papers (although I may review and comment). Whenever you write anything, ask (1) Who's the audience?, (2) What's the purpose?
 
--   Your interests - If you would like, please write 1 short paragraph that mentions a policy issue or two that you're interested in, or what you want to get out of the course or program. This will help me think about illustrations and resources for future lectures.
+-   I have told the students I am grading that *their* audience and purpose are two-fold:
 
--   Feedback - I would like anonymous feedback from students willing to offer it
+    -   An Assemblymember who wants a full 360 degrees view of a proposal
 
-    -   Would appreciate it if, after each lecture, one student can gather comments and copy into [Google doc](https://docs.google.com/document/d/1ymJzG2t4sdk8OEuFKtG7LoNw2M9ntNwTbSB9YDwH7WI/edit?usp=sharing)
+    -   A public policy-interested audience with time to dig in, wants details & sources
 
-    -   Ideally commenters will address tersely up to 3 questions about the lecture:
+-   And I have told them I am looking for:
 
-        1.  What was good?
+    -   1-page up-front summary (Assemblymembers are busy, must split their attention)
 
-        2.  What was bad?
+    -   Describe and analyze the *proposal* (esp. bill language), not just the *issue*. Heard often: "*Vote on the bill, not the memo.*"
 
-        3.  What is 1 change that would improve it?
+    -   Be rigorous: Document your analysis, draw on original sources & cite them.
 
-## Slide logistics {.smaller}
+    -   Be concise and clear: **writing is rewriting**. Strunk & White is on Moodle. Dr. JP thinks highly of Smith, *Writing Public Policy* (I have not read it yet).
 
--   My slides are in reveal.js format. It doesn't convert easily or well to Powerpoint or landscape pdfs.
+-   Best to be sure you understand expectations of the professor grading your paper.
 
--   Slides will have links and information that I hope will be useful to you. I will do two things to try to make them accessible:
+## Links
 
-    -   Create a pdf of the slides in portrait mode and put them on Moodle. So far, these conversions are working pretty well - this document is done that way - but no guarantees for the future.
-    
-    -   Put the substantive slides (not this doc) on the web as html so you can access them that way. That will work well, but you probably won't be able to save them to pdf in a usable form from the web.
-    
+-   [This document](https://boyd-about-govtstructure.netlify.app)
 
+-   lecture slides
+
+    -   [Context](https://boyd-context.netlify.app)
+
+-   skill slides
+
+    -   [How to find out what the science says](https://boyd-science.netlify.app)

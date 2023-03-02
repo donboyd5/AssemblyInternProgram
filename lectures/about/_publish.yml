@@ -1,4 +1,4 @@
 - source: about.qmd
   netlify:
     - id: b77f65bb-a2be-474a-b3c7-30af71ba08a9
-      url: 'https://fluffy-pony-4c7ec0.netlify.app'
+      url: 'https://boyd-about-govtstructure.netlify.app'
