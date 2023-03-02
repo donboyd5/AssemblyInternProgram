@@ -1,5 +1,5 @@
 ---
-title: "How to keep the ball rolling"
+title: 'How to keep the ball rolling'
 subtitle: ""
 author: "Don Boyd, Professor-in-Residence"
 institute: New York State Assembly Intern Program
@@ -11,14 +11,24 @@ format:
     chalkboard: 
       buttons: false
     preview-links: auto
-    theme: [white, ../skills.scss] # use white, with modifications; default also ok
-  pdf:
-    toc: false    
+    theme: [white, ../../mycss.scss] # use white, with modifications; default also ok
+    # output-file: "kbr"
+    # output-ext:  "html"
+  # pdf:
+  #   toc: false    
+  #   output-file: "kbr"
+  #   output-ext:  "pdf"    
+    
 execute:
-  echo: true
+  echo: true    
+editor:
+  markdown:
+    canonical: true  
+editor_options: 
+  chunk_output_type: console
 ---
 
-## The Situation
+## The Situation {.smaller}
 
 -   You need or want information or action by others to complete what you're doing. Examples:
 
@@ -37,31 +47,21 @@ execute:
 
 Rendering:
 
-# quarto render keepballrolling.qmd --to html
-# quarto render keepballrolling.qmd --to pdf
+# quarto render --to html
+# quarto render  --to pdf
 
 
 Publishing to the web:
 
-quarto publish netlify keepballrolling.qmd
-quarto publish netlify keepballrolling.qmd --no-render --no-browser --no-prompt
-quarto publish netlify keepballrolling.qmd --no-browser --no-prompt
+quarto publish netlify 
+quarto publish netlify --no-browser --no-prompt
+quarto publish netlify --no-render --no-browser --no-prompt
 
-https://boyd-keepballrolling.netlify.app
-
-The <dd> tag is used to describe a term/name in a description list.
-
-The <dd> tag is used in conjunction with <dl> (defines a description list) and <dt> (defines terms/names).
-
-Inside a <dd> tag you can put paragraphs, line breaks, images, links, lists, etc.
-
-Document font size - see process for live review
-https://www.youtube.com/watch?v=yAlhq8yhLsw
-
+https://boyd-keeprolling2.netlify.app
 
 -->
 ```
-## Issue
+## Issue {.smaller}
 
 -   Other people often won't do what you want, when you want. (Why should they?)
 
@@ -87,7 +87,17 @@ https://www.youtube.com/watch?v=yAlhq8yhLsw
 
 You'll be surprised at how assertive you can be about these things without ruffling feathers. (Sometimes you will.)
 
-## Assign responsibility or priority when asking multiple people
+## Make it easy for people to respond
+
+-   Attach documents
+
+-   Given links
+
+-   Highlight areas on which you want feedback
+
+-   Include excerpts in your email that you want comments on
+
+## Assign responsibility or priority when asking multiple people {.smaller}
 
 ***BAD:*** "Hey Emily and Steve, I'd love your feedback on the attached bill memo for Assemblyperson X, can you give me your thoughts?"
 
@@ -103,20 +113,20 @@ You'll be surprised at how assertive you can be about these things without ruffl
 
 -   Not - *Hey guys, could you get back to me on this in the next few days?*
 
-## Be clear about what will happen next - leave yourself a path {.smaller}
+## Be clear about what will happen next {.smaller}
 
--   Not: *I'd like to have your comments before I send this along - could you please try to get back to me in a day or two?*
+-   Not: *I'd like your comments before I send this along - could you try to get back to me in a day or two?*
 
--   Better: *As I mentioned, I need to send this to Assemblymember X on Monday - I don't have control over that. Since you weren't able to get back to me I'll plan to send it along with placeholders for your sections.* (One last chance.) Direct phone calls can clear the air, of course.
+-   Better: *I need to send this to Assemblymember X on Monday - I can't control that. If that's too soon, I'll leave placeholders for your sections.* (One last chance.) Direct phone calls can clear the air.
 
--   Many (not all!) bosses appreciate it when you make it clear (politely) what you'll do if *they* don't get back to you. So often, this is ok:
+-   Many (not all!) bosses appreciate clear (polite) info on what you'll do if *they* don't get back to you:
 
-    -   We've had clear discussions about your priorities here, so if you don't have a chance to provide comments by Tuesday I'll plan to move this on to person Y as a draft on Wednesday for comments, and circle back with you after that.
+    -   I understand your priorities here; if you can't comment by Tuesday I'll move this to person Y as draft and circle back with you.
 
--   But don't do this unless you have a clear sense that it is indeed consistent with the busy boss's wishes - a direct conversation about whether this general approach will work for them is a good idea. It is a good way to be efficient, and further your boss's goals - but not if they want to stay on top of every single step.
+-   Don't do this without being sure it's consistent with the busy boss's wishes - a direct conversation is a good idea.
 
 ## Enlist help of others, possibly the Big Boss
 
--   Sometimes asking others for help with a slow responder can get that person to be quicker
+-   Consider asking others for help with a slow responder
 
--   Sometimes mentioning to the slow responder that you'll ask for help is all you need to do
+-   Tell the slow responder that you'll ask for help

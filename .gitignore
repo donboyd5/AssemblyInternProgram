@@ -4,8 +4,8 @@
 .Ruserdata
 
 *_files/
-*_files/*
 *images/
+.quarto/
 skills/RLadiesParis/
 skills/test/
 web/_book/

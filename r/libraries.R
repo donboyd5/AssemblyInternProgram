@@ -16,6 +16,7 @@ library(RColorBrewer)
 library(RcppRoll)
 library(fredr)
 library(tidycensus)
+library(skimr)
 
 # boyd libraries
 library(btools)

@@ -1,7 +1,7 @@
 ---
-title: "Federal-State-Local relationships in New York"
+title: "Federal-State-Local Relationships in New York"
 subtitle: ""
-author: "Don Boyd"
+author: "Don Boyd, Professor-in-Residence"
 institute: New York State Assembly Intern Program
 date: today
 date-format: long
@@ -19,8 +19,6 @@ execute:
 ---
 
 ## This week
-
--   Preliminaries
 
 -   10-minute skill
 
@@ -81,12 +79,17 @@ https://www.youtube.com/watch?v=yAlhq8yhLsw
  
  80 mins
  
+# For page breaks, use <br>
+
+# [10-minute skill](https://boyd-keeprolling2.netlify.app/)
+
 
 -->
-```
-## 
 
-# [10-minute skill](https://boyd-science.netlify.app)
+
+```
+
+# [10-minute skill](https://boyd-keeprolling2.netlify.app/)
 
 # First set of 2-minute presentations (timed)
 
@@ -113,19 +116,21 @@ Your classmates are legislators.
     -   Other challenges?
     -   What would you do differently if you did it again?
 
-# Federal-state-local relationships in New York
+# Federal-state-local Relationships in New York
 
 ## Why even care?
 
 -   Some activities make more sense for one level of government than another
 
--   Getting things done often requires working with local govts, fed govt (as well as privates and non-profits)
+-   Getting things done often requires working with local govts & fed govt
 
 -   Legal constraints and pre-emptions imposed by feds on states, by the state on locals
 
 -   Politics can be complex. Other governments can be both adversaries and cooperators
 
 -   Demographic, economic, and social differences across places affect politics
+
+<br>
 
 ## Who should do what? Who should pay? {.smaller}
 
@@ -144,7 +149,7 @@ Your classmates are legislators.
 
 -   Which level of government is closest to the people?
 
-## Who does what?
+## Who does what? (Nation as a whole)
 
 ![](images/image-1518810265.png)
 
@@ -215,13 +220,6 @@ Most towns are small but T. Hempstead almost 800k. Most villages smaller than ci
 
     -   Property tax cap and taxation more generally
 
-## What irks local governments?
-
--   "Mandates" -- Wicks Law, Triborough Amendment, Prevailing Wage Law
-
--   In this budget
-
-    -   NYSAC - [Steve Acquario testimony](https://www.nysenate.gov/sites/default/files/nys_association_of_counties_23.pdf) -
 
 ## Medicaid in New York: A federal-state-local program {.smaller}
 
@@ -242,6 +240,17 @@ Most towns are small but T. Hempstead almost 800k. Most villages smaller than ci
 -   [Legislative interest in increasing nursing home reimbursement rates by 20%](https://spectrumlocalnews.com/nys/central-ny/politics/2023/01/25/bipartisan-push-begins-for-20--medicaid-increase-to-aid-long-term-care).
 
 -   It is a lifeline for the needy, a budget buster in many yeas, and subject of intense debate.
+
+## What irks local governments? {.smaller}
+
+-   Mandates and restrictions -- e.g. Wicks Law (no GC), Triborough Amendment (contract provisions continue), Prevailing Wage Law (wage requirements for public works)
+
+-   In this budget
+
+    -   NYSAC - [Steve Acquario (ED) testimony](https://www.nysenate.gov/sites/default/files/nys_association_of_counties_23.pdf) - complaint about \$624m Medicaid budget shuffle
+    -   NYCOM - [Peter Baynes (ED) testimony](https://www.nycom.org/images/documents/LAC/Local_Aid_Hearing_23-24.pdf) - seeks \$100m new municipal aid; strongly opposes "mandatory and arbitrary housing growth targets"...and..." mandatory rezoning in large areas" under the governor's proposed Housing Compact, prefers grants; don't like the MTA payroll tax, which would apply to local governments
+    -   NYSSBA - [Brian Fessler (DGR) testimony](https://www.nyssba.org/clientuploads/nyssba_pdf/gr/2023-24-executive-budget-testimony-02072023.pdf) - pretty happy with the \$3.1 billion school aid increase but some districts might need more; a few small requests
+    -   NYC -
 
 # Second set of 2-minute presentations (timed)
 
