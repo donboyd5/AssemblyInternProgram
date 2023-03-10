@@ -10,37 +10,48 @@ format:
     slide-number: true
     chalkboard: 
       buttons: false
-    preview-links: auto
+    preview-links: true
     theme: [white, ../../mycss.scss] # use white, with modifications; default also ok
     footnotes-hover: true
     reference-location: document
-  pdf:
-    toc: false
+  # pdf:
+  #   toc: false
 execute:
   echo: true    
+  freeze: true
 ---
 
 ## This week
 
--   Preliminaries -- research paper, budget
+-   The budget
 
--   10-minute skill
+-   10-minute skill -- Zotero
 
 -   2-minute presentations, part I (5 speakers)
 
--   Lecture/discussion: Who makes law and policy? (emergency powers; consent decrees on your own)
+-   Lecture/discussion: Executive policymaking (emergency powers; consent decrees on your own)
 
--   2-minute presentations, part II (4 speakers)
+-   2-minute presentations, part II (5 speakers)
 
 -   Wrap-up
 
+***NOTE: right-click links if a site refuses to connect on left-click.***
+
 ::: {.content-visible when-format="html"}
 ::: notes
-Targets: - 12:30-12:40 Preliminaries -- research paper (5 mins), budget (5 mins) - 12:40-12:50 10-minute skill - 12:50-1:05 2-minute presentations, part I (5 people) - 1:05-1:30 Lecture/discussion - 1:35-1:50 2-minute presentations, part II (4 people) - 1:50-1:55 Wrap-up
+Targets: -
 
-Speakers part I: Hadley Thompson Mahad Arshad Lucas Dyer Carlo Cancellieri Aiseata Sanfo
+12:30-12:40 The budget (5 mins)
 
-Speakers part II: Saade White Alina Fiodarava Zachariah Onkaya-Budak Daniel Sheehy
+12:40-12:50 10-minute skill (10 mins)
+
+12:50-1:10 2-minute presentations, part I (5 people) (20 mins)
+
+1:10-1:30 Lecture/discussion (20 mins)
+
+1:30-1:50 2-minute presentations, part II (5 people) (20 mins)
+
+1:50-1:55 Wrap-up (5 mins)
 :::
 :::
 
@@ -55,9 +66,9 @@ Rendering:
 
 Publishing to the web:
 
-quarto publish netlify who_makes_policy.qmd
-quarto publish netlify who_makes_policy.qmd --no-render --no-browser --no-prompt
-quarto publish netlify who_makes_policy.qmd --no-browser --no-prompt
+quarto publish netlify
+quarto publish netlify --no-render --no-browser --no-prompt
+quarto publish netlify --no-browser --no-prompt
 
 https://boyd-whopolicy.netlify.app
 
@@ -70,91 +81,39 @@ Inside a <dd> tag you can put paragraphs, line breaks, images, links, lists, etc
 Document font size - see process for live review
 https://www.youtube.com/watch?v=yAlhq8yhLsw
 
- {.smaller}
- 
- Timing (85 allowed):
- - 10 prelim
- - 10 10-min skill
- - 15 presentations (~ 4 x 4)
- - 25 lecture 
- - 15 presentations
- -  5 closing
- 
- 80 mins
- 
 -->
 ```
 ## The budget {.smaller}
 
--   Hard to know from press reports and briefing docs what's *really* in it - \$ for new initiatives often muddled with baseline spending; W&M Yellow Book is important
+-   [Bob Megna new budget director](https://www.governor.ny.gov/news/governor-hochul-appoints-robert-megna-budget-director) (Feb 28) for rest of legislative session, replacing acting director Sandra Beattie; Bob is ["a fixture in state government"](https://www.timesunion.com/state/article/megna-fixture-state-government-budget-director-17810958.php) - deep knowledge of NY, institutions, and players
 
--   Appears (to me) to be something for everyone without much pain
+-   Consensus forecast [meeting/report](https://www.budget.ny.gov/pubs/supporting/forecast/fy24/fy24-consensus-report.pdf) (Mar 1) -- "consensus on a two-year revenue that is \$800 million above the Executive Budget estimates as will be amended" Last year (1) they agreed to \$800m-\$1.2 billion, and (2) did not mention amendments.
 
--   Fiscal projections: surplus year ending March 2023, balance in 2023-24, deficits next 3 years sum \$22 billion ([finplan doc](https://www.budget.ny.gov/pubs/archive/fy24/ex/fp/fy24fp-ex.pdf) p.92); recession 2023, possibly short and shallow
+-   30-day amendments: (1) **\$1.9 billion reduction in this year's PIT estimate(!)** but use of reserves and re-estimates for next year allow them to show ability to accommodate \$800m consensus. (Table next page); (2) last year Gov. Hochul [removed Accessory Dwelling Units provision](https://patch.com/new-york/northfork/hochul-removes-controversial-affordable-housing-plan-budget) from housing proposal
 
--   In addition to the expected, some possibly surprising fiscal items:
+-   Short Errol Louis article in NYMag (Mar 8), [Kathy Hochul Is on the Brink of 3 Wars With Her Own Party](https://nymag.com/intelligencer/2023/03/kathy-hochul-is-on-the-brink-of-3-wars-with-her-own-party.html) ([Moodle](https://intern.nyassembly.gov/mod/resource/view.php?id=1259)): (1) Charter schools; (2) MTA funding: (a) \$500m from NYC, (b) Penn Station renovation; (3) "Battle of the burbs": (a) MTA payroll tax, (b) housing zoning overrides -- "extinction-level events" (Thiele -- Sag Harbor (D))
 
-    -   \$455m bonds to finance renovation of Belmont racetrack! (NYRA "expected" to fund...)[^1] ; Aqueduct (prime real estate) to close & be repurposed (casino?)
+-   What's the news in your offices?
 
-    -   raise film tax credit from \$420m annually to \$700m (no annual approps or legislative review of recipients - a tax expenditure)[^2]
+## 30-day amendments - change to the financial plan {.smaller}
 
-    -   increase MTA payroll mobility tax \$800m annually; make NYC contribute \$500m
+This table p.5 [amended financial plan doc](https://www.budget.ny.gov/pubs/archive/fy24/ex/fp/fy24fp-ex-amend.pdf) shows they (1) reduced PIT estimate by \$1.9 billion for this year (ends in \<3 weeks), (2) helped keep this year in balance by using \$1.3 billion in a risk reserve, and (3) raised next year estimates sufficiently to allow for the \$800 million "consensus" and to restore a little bit to the risk reserve.
 
--   Any surprises in your offices?
+![](images/image-191635253.png)
 
-[^1]: p.120 of [Art. VIII revenue bill](https://www.budget.ny.gov/pubs/archive/fy24/ex/artvii/revenue-bill.pdf)
-
-    ![](images/image-1701596793.png)
-
-    [Gov's briefing book](https://www.budget.ny.gov/pubs/archive/fy24/ex/book/briefingbook.pdf):
-
-    ![](images/image-207370735.png)
-
-[^2]: [Art. VII Revenue bill](https://www.budget.ny.gov/pubs/archive/fy24/ex/artvii/revenue-bill.pdf) Part D section 7
-
-## Research paper (1) {.smaller}
-
--   Per [syllabus](https://intern.nyassembly.gov/mod/resource/view.php?id=969) the [proposal](https://intern.nyassembly.gov/pluginfile.php/5320/mod_assign/introattachment/0/2023%20Research%20Proposal%20%20%20How%20to%20Choose%20a%20Bill.pdf?forcedownload=1) is due Feb 9 (11:59 pm); paper Apr 20 (5 pm)
-
--   pp.34+ [plagiarism presentation](https://intern.nyassembly.gov/pluginfile.php/5434/mod_resource/content/1/Plagiarism%20Workshop%20and%20writng%20Workshop%202023.ppt) lot of good advice about the paper; [LRS handout](https://intern.nyassembly.gov/pluginfile.php/5320/mod_assign/introattachment/0/LRS%20-%20Handout.pdf?forcedownload=1) useful; proposal [landing page](https://intern.nyassembly.gov/mod/assign/view.php?id=1014)
-
--   My framework for paper
-
-    -   Two audiences: (1) legislator who wants full view of a bill, (2) analyst who wants to understand and be convinced
-    -   Two purposes: (1) ***short clear 1-page summary*** of most-important points, (2) clear, documented analysis
-    -   Communication is key; I'm looking for correct, clear, concise, well-structured, well documented; make every word earn its keep - no unnecessary words.
-    -   It's not about you - don't get in between the analysis and the reader.
-    -   You are not an advocate (in this paper), you are an analyst
-    
-Note: Put summary after cover page and before introduction.    
-
-## Research paper (2) {.smaller}
-
--   Anticipated point structure per Dr. N.
-
-    -   Introduction -- 3.5%
-    -   Policy Analysis -- 40%
-    -   Political Analysis -- 40%
-    -   Democratic Analysis -- 15%
-    -   Conclusion -- 1.5%
-
--   It is the whole that counts - and the summary is important!
-
--   Please be sure to have pdfs of ALL cited works. I ALMOST CERTAINLY will ask for them. I may create a Google drive folder for you to copy them into (*after* the paper due date).
-
--   Consider using bibliographic software for document and citation management. I use [zotero](https://www.zotero.org/); you can get free account. Good for all sorts of things, not just papers. Other doc managers are good, too.
-
--   I am happy to give you feedback on draft of a section or two that concerns you, if you get it to me in week before the paper
-
-# [10-minute skill](https://boyd-keepballrolling.netlify.app)
+# [10-minute skill -- Zotero](https://boyd-howto-zotero.netlify.app/)
 
 # 2-minute presentations, first group
 
--   Hadley Thompson
--   Mahad Arshad
--   Lucas Dyer
--   Carlo Cancellieri
--   Aiseata Sanfo
+-   Flynne Fasso
+
+-   Amy Karlnoski
+
+-   Evan Mulcahy
+
+-   Tori Smalley
+
+-   Kevin Waltz
 
 # Executive powers and the legislative role
 
@@ -174,23 +133,23 @@ Note: Put summary after cover page and before introduction.
 
 -   Consent decrees (we won't have time for this, but they're important - please see readings)
 
-Good resource, esp. rulemaking: [Ward, "Appointed Officials, Administrative Law, and The Bureaucracy" (Chapter 8)]()
+Good resource, esp. rulemaking: [Ward, "Appointed Officials, Administrative Law, and The Bureaucracy" (Chapter 8)](https://intern.nyassembly.gov/mod/resource/view.php?id=1003)
 
 ## Emergency powers - the case of COVID-19 {.smaller}
 
--   Almost all states give governors emergency powers. As of mid-2017 NY & 34 others gave gov. power to suspend *statutes* and regulations (NC gives gov. power to create new statutes; HI governor is "sole judge" of the threat); 7 states give power to amend regulations; 8 give no explicit power.[^3]
+-   Almost all states give governors emergency powers. As of mid-2017 NY & 34 others gave gov. power to suspend *statutes* and regulations (NC gives gov. power to create new statutes; HI governor is "sole judge" of the threat); 7 states give power to amend regulations; 8 give no explicit power.[^1]
 
 -   Sunshine et al. argue these powers are important for implementing federal policy in public health crises.
 
--   Emergency powers also raise questions about separation of powers, and legislative oversight. Most states impose limitations, such as time limits, must call legislative special session, detailed specification and reporting requirements, .[^4]
+-   Emergency powers also raise questions about separation of powers, and legislative oversight. Most states impose limitations, such as time limits, must call legislative special session, detailed specification and reporting requirements, .[^2]
 
--   Many govs had or were given extraordinary powers during COVID-19. Subsequently many states considered scaling back those powers.[^5]
+-   Many govs had or were given extraordinary powers during COVID-19. Subsequently many states considered scaling back those powers.[^3]
 
-[^3]: Sunshine et al.; Pew.
+[^1]: Sunshine et al.; Pew.
 
-[^4]: National Conference of State Legislatures (NCSL), Legislative Oversight of Emergency Executive Powers, https://www.ncsl.org/about-state-legislatures/legislative-oversight-of-emergency-executive-powers.
+[^2]:National Conference of State Legislatures (NCSL), Legislative Oversight of Emergency Executive Powers, https://www.ncsl.org/about-state-legislatures/legislative-oversight-of-emergency-executive-powers.
 
-[^5]: Pew, More States Rein in Governors' Emergency Powers, https://pew.org/3wAmMT7.
+[^3]:Pew, More States Rein in Governors' Emergency Powers, https://pew.org/3wAmMT7.
 
 ## Who Read...?
 
@@ -208,7 +167,7 @@ Good resource, esp. rulemaking: [Ward, "Appointed Officials, Administrative Law,
 
 -   *NYT* reported 2nd COVID-19 death near Seattle. NY just reported its first death.
 
--   At 7 pm, Gov. Cuomo requested the legislature act on a just-printed bill to enhance emergency powers (S.7919/A.9953), under a **message of necessity**.[^6]
+-   At 7 pm, Gov. Cuomo requested the legislature act on a just-printed bill to enhance emergency powers (S.7919/A.9953), under a **message of necessity**.[^4]
 
 -   Legislators are seeing the bill for the first time.
 
@@ -216,7 +175,7 @@ Good resource, esp. rulemaking: [Ward, "Appointed Officials, Administrative Law,
 
 -   It's 10 pm. Assembly floor debate begins.
 
-[^6]: NYS Constitution, Article III, Section 14: "No bill shall be passed or become a law unless it shall have been printed and upon the desks of the members, in its final form, at least three calendar legislative days ... unless the governor...shall have certified, under his or her hand and the seal of the state, the facts which in his or her opinion necessitate an immediate vote thereon,"
+[^4]:NYS Constitution, Article III, Section 14: "No bill shall be passed or become a law unless it shall have been printed and upon the desks of the members, in its final form, at least three calendar legislative days ... unless the governor...shall have certified, under his or her hand and the seal of the state, the facts which in his or her opinion necessitate an immediate vote thereon,"
 
 ## Test your bill-reading skills. Key provision #1
 
@@ -378,11 +337,8 @@ Assemblymember Charles Barron (D-Brooklyn, AD 60, now City Council)
 
 # 2-minute presentations, second group
 
--   Saade White
--   Alina Fiodarava
--   Zachariah Onkaya-Budak
--   Daniel Sheehy
-
-# Appendix
-
-## Footnotes
+-   Nayise Gonzalez
+-   Shaima Mannan
+-   Steven Belford
+-   John Giannisis
+-   Peter Tzotchev

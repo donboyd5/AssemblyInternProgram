@@ -1,0 +1,93 @@
+---
+title: 'How to use Zotero bibliographic software'
+subtitle: ""
+author: "Don Boyd, Professor-in-Residence"
+institute: New York State Assembly Intern Program
+date: today
+date-format: long
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: true
+    theme: [white, ../../mycss.scss] # use white, with modifications; default also ok
+    # output-file: "kbr"
+    # output-ext:  "html"
+  # pdf:
+  #   toc: false    
+  #   output-file: "kbr"
+  #   output-ext:  "pdf"
+    
+execute:
+  echo: true    
+  freeze: auto       
+editor:
+  markdown:
+    canonical: true  
+editor_options: 
+  chunk_output_type: console
+  
+# quarto render
+# quarto publish netlify
+# quarto publish --no-browser --no-prompt
+# quarto publish --no-render --no-browser --no-prompt
+---
+
+## The Situation {.smaller}
+
+-   You're working on a project that requires you to access many documents:
+
+    -   The text of bills
+    -   Bill memos
+    -   Web articles
+    -   Reports
+    -   Maybe even an academic paper or two
+
+-   You need a way to keep it all organized and handy - to find documents **and search within them**.
+
+-   You might have to write a memo and will want to cite sources.
+
+-   You may need to **share documents** with people in other locations.
+
+## Zotero setup
+
+-   <a href="clips/open_account.mp4" target="_blank">Open a free Zotero account</a>
+
+-   <a href="clips/download_install.mp4" target="_blank">Download and install PC software</a>
+
+-   <a href="clips/setup_sync.mp4" target="_blank">Set up PC software for syncing</a>
+
+-   Also, a good idea to get the [extension for your browser](https://www.zotero.org/download/connectors) to make saving files easy (no video)
+
+-   There is also a [Word plug-in](https://www.zotero.org/support/word_processor_plugin_installation) to make citation easier that should be installed automatically (no video)
+
+## Start a research project
+
+-   <a href="clips/start_research_project.mp4" target="_blank">Create a collection and maybe some subcollections</a>
+
+-   <a href="clips/add_documents.mp4" target="_blank">Extended clip showing ways to download files</a>
+
+-   <a href="clips/what_you_can_do.mp4" target="_blank">Extended clip showing some things you can do</a>
+
+## Parting comments {.smaller}
+
+-   You don't need to be writing academic papers or school papers to benefit from bibliographic software.
+
+-   It can be very helpful in any project in which you have to keep track of large numbers of documents, find them easily, and **search within them**.
+
+-   This is especially true if you will be citing documents.
+
+-   And especially true if you are **working with colleagues** in different locations who need access to the same documents.
+
+-   Zotero is my tool of choice for this, and it is free unless you have a LOT of documents. Other tools include Endnote and Mendeley. I haven't used them. There are a lot of comparisons on the web.
+
+<!-- ## Misc -->
+
+<!-- {{< video clips/2023-03-04_10-13-10.mp4 >}} -->
+
+<!-- -   [this bullet links to a video](clips/2023-03-04_10-13-10.mp4) -->
+
+<!-- -   [another link](clips/2023-03-04_10-13-10.mp4) -->
+
+<!-- <p>Check out <a href="https://www.freecodecamp.org/">freeCodeCamp</a>.</p> -->

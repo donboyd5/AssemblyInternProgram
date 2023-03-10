@@ -1,0 +1,4 @@
+- source: howto_zotero.qmd
+  netlify:
+    - id: afd11f39-3fd1-4bdf-b1a4-92188b6ae8e8
+      url: 'https://boyd-howto-zotero.netlify.app'

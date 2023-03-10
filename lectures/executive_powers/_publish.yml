@@ -1,4 +1,4 @@
-- source: who_makes_policy.qmd
+- source: executive-lawmaking.qmd
   netlify:
-    - id: 0b0257df-b4e7-4efa-8edd-dcb1f20fa0cf
-      url: 'https://boyd-whopolicy.netlify.app'
+    - id: a6377fd5-6400-4aa9-ba78-b1c6cb504495
+      url: 'https://boyd-executive-powers.netlify.app'
