@@ -1,0 +1,4 @@
+- source: budget.qmd
+  netlify:
+    - id: 0f412719-ced4-4f6d-962c-4ea2c1904364
+      url: 'https://boyd-budget.netlify.app'

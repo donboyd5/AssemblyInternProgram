@@ -34,6 +34,10 @@ editor_options:
   chunk_output_type: console
 ---
 
+## Budget update
+
+Timely budget?
+
 ## Context affects policymaking {.smaller}
 
 State policymaking is influenced by many contextual factors, such as:
@@ -144,13 +148,13 @@ Political scientists try to quantify these factors, but it is not easy. Ferguson
 
 # First set of 2-minute presentations (timed)
 
--   Daniela Dobrova
+-   Amber Soucy
 
--   Andrew Johnson
+-   Sanna Rein
 
--   Roshelle Nelson-Adams
+-   Phebe Zeiser
 
--   Kaitlin Sommer
+-   Kay-Sian Findley
 
 Your classmates are legislators.
 
@@ -302,33 +306,15 @@ Mention Hamp's work.
 
 -   Rockefeller Institute of Government [Citizens' Guide to the Constitutional Convention](https://rockinst.org/wp-content/uploads/2018/02/Citizens_Guide1.pdf)
 
-# Public Authorities
-
-## What are they and why are they important? {.smaller}
-
--   Public benefit corporations created by legislature. Important governmental activities; power to enter into contracts, issue debt. Examples:
-
-    -   *Operating activities*: MTA (Metropolitan Transportation Authority) - subways, buses, commuter rail, NYC + 7 counties; Port Authority NY/NJ, Dormitory Authority, Thruway Authority
-
-    -   *Debt-issuance*: Local Government Assistance Corporation
-
-    -   *Economic development entities*: Empire State Development Corporation; local IDAs (Industrial Development Agencies)
-
--   Avoid many rules and requirements of state government. Fly substantially under the radar. Issue debt without voter approval. Tax incentives for economic development.
-
--   Financially important: Only \~\$2b of NY's \~\$70b debt is voter-approved GO, much of remainder is authority debt; Only \$200+b of NY spending is appropriated; \$40+b is through authorities, more throughother entities; *potential fiscal risk to the state*
-
-<!-- ------------------------------------------------------------------------ -->
-
 # Second set of 2-minute presentations (timed)
 
--   Alexis Halpin
+-   Kiarra Coleman
 
--   Barry Murphy
+-   Krystelle Thomas
 
--   Lori-Ann Ricketts
+-   Essi Aziagbe
 
--   Samantha Turner
+-   Patrick Barnett
 
 Your classmates are legislators.
 
@@ -358,6 +344,42 @@ Your classmates are legislators.
 -   Next class
 
 # Appendices
+
+# Public Authorities
+
+## What are they and why are they important? {.smaller}
+
+-   Public benefit corporations created by legislature. Important governmental activities; power to enter into contracts, issue debt. Examples:
+
+    -   *Operating activities*: MTA (Metropolitan Transportation Authority) - subways, buses, commuter rail, NYC + 7 counties; Port Authority NY/NJ, Dormitory Authority, Thruway Authority
+
+    -   *Debt-issuance*: Local Government Assistance Corporation
+
+    -   *Economic development entities*: Empire State Development Corporation; local IDAs (Industrial Development Agencies)
+
+-   Avoid many rules and requirements of state government. Fly substantially under the radar. Issue debt without voter approval. Tax incentives for economic development.
+
+-   Financially important: Only \~\$2b of NY's \~\$70b debt is voter-approved GO, much of remainder is authority debt; Only \$200+b of NY spending is appropriated; \$40+b is through authorities, more throughother entities; *potential fiscal risk to the state*
+
+<!-- ------------------------------------------------------------------------ -->
+
+# Appendix: Public Authorities
+
+## What are they and why are they important? {.smaller}
+
+-   Public benefit corporations created by legislature. Important governmental activities; power to enter into contracts, issue debt. Examples:
+
+    -   *Operating activities*: MTA (Metropolitan Transportation Authority) - subways, buses, commuter rail, NYC + 7 counties; Port Authority NY/NJ, Dormitory Authority, Thruway Authority
+
+    -   *Debt-issuance*: Local Government Assistance Corporation
+
+    -   *Economic development entities*: Empire State Development Corporation; local IDAs (Industrial Development Agencies)
+
+-   Avoid many rules and requirements of state government. Fly substantially under the radar. Issue debt without voter approval. Tax incentives for economic development.
+
+-   Financially important: Only \~\$2b of NY's \~\$70b debt is voter-approved GO, much of remainder is authority debt; Only \$200+b of NY spending is appropriated; \$40+b is through authorities, more throughother entities; *potential fiscal risk to the state*
+
+<!-- ------------------------------------------------------------------------ -->
 
 # Appendix: What is New York?
 

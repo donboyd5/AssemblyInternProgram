@@ -91,30 +91,28 @@ https://www.youtube.com/watch?v=yAlhq8yhLsw
 
 # [10-minute skill](https://boyd-keeprolling2.netlify.app/)
 
-# First set of 2-minute presentations (timed)
+# First set of 2-minute presentations (timed) {.smaller}
 
--   Brevin Austin
+-   Peter Tzotchev
 
--   Shlomie Katash
+-   Kay-Sian Findley
 
--   Matthew Brennan
+-   Melanie King
 
--   Manal Alawsaj
+-   Anna Fisher
 
-Your classmates are legislators.
 
-## Discussion of first set of presentations
+-   David Gilbert
+-   Joseph  Dingledine
+-   Mirabel Sandler
+-   Delali Kisiedu
 
--   *To our audience of legislators charged with decisonmaking:*
 
-    -   What would you have liked to learn that you didn't?
-    -   What would you have dispensed with to make room for it?
+-   Samuel Milner
+-   Anastasia Glover
+-   Joselena Joseph
 
--   *To our presenters:*
 
-    -   Was there information you were looking for that you couldn't find?
-    -   Other challenges?
-    -   What would you do differently if you did it again?
 
 # Federal-state-local Relationships in New York
 
@@ -254,13 +252,6 @@ Most towns are small but T. Hempstead almost 800k. Most villages smaller than ci
 
 # Second set of 2-minute presentations (timed)
 
--   Fareena Aslam
-
--   Christopher Rezny
-
--   Kerron Leslie
-
--   Steven Belford
 
 # Wrap-up
 

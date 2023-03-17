@@ -1,0 +1,123 @@
+---
+title: "Notes on the 2023-24 New York State Budget"
+subtitle: "Newest items first"
+author: "Don Boyd, Professor-in-Residence"
+institute: New York State Assembly Intern Program
+date: today
+date-format: long
+format:
+  revealjs:
+    slide-number: true
+    chalkboard:
+      buttons: false
+    preview-links: auto
+    theme: [white, ../../mycss.scss] # use white, with modifications; default also ok
+    toc: false
+    output-file: "budget"
+    output-ext:  "html"
+  # pdf:
+  #   toc: false
+  #   output-file: "context"
+  #   output-ext:  "pdf"
+  # docx: 
+  #   toc: false
+  #   output-file: "context"
+  #   output-ext:  "docx"    
+execute:
+  echo: true  
+  freeze: auto
+editor:
+  markdown:
+    canonical: true  
+editor_options: 
+  chunk_output_type: console
+---
+
+## Coverage {.scrollable}
+
+-   [One-house budget resolutions] (March 14)
+
+-   [Comptroller's report] (March 9)
+
+-   [30-day amendments] (March 3)
+
+-   [Consensus revenue agreement] (Feb 28/March 1)
+
+-   [The Executive budget] (Feb 1)
+
+-   [The budget context]
+
+New things first, may backfill older items as time permits.
+
+```{=html}
+<!--
+
+quarto render
+
+quarto publish netlify
+quarto publish netlify --no-render --no-browser --no-prompt
+quarto publish netlify --no-browser --no-prompt
+
+https://boyd-budget.netlify.app
+
+-->
+```
+```{=html}
+<!-- Save as pdf
+https://revealjs.com/pdf-export/
+file:///E:/R_projects/AssemblyInternProgram/lectures/context/context.html?print-pdf
+-->
+```
+# One-house budget resolutions
+
+## An in-your-face response to the Executive budget?
+
+![](images/image-899563226.png)
+
+## Questions...
+
+-   Is a timely budget possible with such large differences?
+
+-   What does the governor consider inviolate?
+
+-   What are the possibilities for trading and compromise?
+
+-   What would a late budget mean?
+
+## Good links {.smaller}
+
+-   Senate [resolution](https://legislation.nysenate.gov/pdf/bills/2023/R555); also must get bills
+
+-   Assembly [resolution](https://legislation.nysenate.gov/pdf/bills/2023/E190) and [summary](https://www.nyassembly.gov/Reports/WAM/AssemblyBudgetProposal/2023/2023AssemblySummary.pdf); also must get bills
+
+-   [Comptroller DiNapoli's report on the executive budget is out](https://www.osc.state.ny.us/files/reports/budget/pdf/executive-budget-report-2023-24.pdf)
+
+-   [Politico summary](https://www.politico.com/newsletters/new-york-playbook-pm/2023/03/14/one-house-budgets-highlights-00087053)
+
+-   [Daily News](https://www.nydailynews.com/news/politics/new-york-elections-government/ny-ny-lawmakers-push-back-hochul-budget-plans-20230314-ge2o55filzdxxe5yk5z365o47i-story.html)
+
+-   [Errol Louis: 3 Wars With Her Own Party](https://intern.nyassembly.gov/mod/resource/view.php?id=1259)
+
+# Comptroller's report
+
+# 30-day amendments
+
+-   The executive accommodated the \$800 million increase for the consensus agreement
+
+# Consensus revenue agreement
+
+-   \$800 million more than the executive budget
+
+# The Executive budget
+
+## Financial plan
+
+# The budget context
+
+## Important links
+
+## Legal framework
+
+## Influencers
+
+## Budget cycle

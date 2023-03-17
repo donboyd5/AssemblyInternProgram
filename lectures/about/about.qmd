@@ -104,9 +104,9 @@ Examples:
 
 ## Lecture slides
 
--   Slides for 2nd and 3rd classes currently on the web are from Cycle 1
+-   Slides currently on the web for the classes are from Cycle 2
 
--   Feel free to look ahead but know that the slides will change, although not dramatically.
+-   Feel free to look ahead but please be aware that the slides may change, although not dramatically.
 
 -   I will post an announcement and update links when updated versions are available.
 
@@ -141,15 +141,3 @@ Examples:
     -   Be concise and clear: **writing is rewriting**. Strunk & White is on Moodle. Dr. JP thinks highly of Smith, *Writing Public Policy* (I have not read it yet).
 
 -   Best to be sure you understand expectations of the professor grading your paper.
-
-## Links
-
--   [This document](https://boyd-about-govtstructure.netlify.app)
-
--   lecture slides
-
-    -   [Context](https://boyd-context.netlify.app)
-
--   skill slides
-
-    -   [How to find out what the science says](https://boyd-science.netlify.app)
