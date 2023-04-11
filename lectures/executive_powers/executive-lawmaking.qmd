@@ -21,39 +21,27 @@ execute:
   freeze: true
 ---
 
-## This week
+## This week {.smaller}
 
--   The budget
+-   Budget; Cycle 4 commercial (end \~12:40)
 
--   10-minute skill -- Zotero
+-   2-minute presentations, part I (4 speakers: Phebe Zeiser, Michael Maynard, Willow Marshall, Genesis Vargas) (end \~ 12:55, \< 1:00 pm)
 
--   2-minute presentations, part I (5 speakers)
+-   \< 10-minute skill -- How to be attacked (end \~ \< 1:05 pm)
 
--   Lecture/discussion: Executive policymaking (emergency powers; consent decrees on your own)
+-   2-minute presentations, part II (3 speakers: Jayden Fritz-Berrios, Chikaodi Adiele-Iroakazi, Daniel Davis) (end \~1:20 pm)
 
--   2-minute presentations, part II (5 speakers)
+-   Lecture/discussion: Executive policymaking (emergency powers; consent decrees on your own) (end \~ 1:40 pm)
+
+-   2-minute presentations, part III (3 speakers: Taylor Allen, Andrew Cihocki, Ali Sherzad) (end \~1:54 pm)
 
 -   Wrap-up
 
-***NOTE: right-click links if a site refuses to connect on left-click.***
+## Budget; [Cycle 4 commercial](https://intern.nyassembly.gov/pluginfile.php/5864/mod_resource/content/0/DRAFT_Perspectives%20on%20Policymaking%20in%20New%20York_Cycle4_2023-03-27_v3.pdf)
 
-::: {.content-visible when-format="html"}
-::: notes
-Targets: -
+-   What are you hearing/thinking about timely budget?
 
-12:30-12:40 The budget (5 mins)
-
-12:40-12:50 10-minute skill (10 mins)
-
-12:50-1:10 2-minute presentations, part I (5 people) (20 mins)
-
-1:10-1:30 Lecture/discussion (20 mins)
-
-1:30-1:50 2-minute presentations, part II (5 people) (20 mins)
-
-1:50-1:55 Wrap-up (5 mins)
-:::
-:::
+-   [Cycle 4 description](https://intern.nyassembly.gov/mod/resource/view.php?id=1306)
 
 ```{=html}
 <!--
@@ -83,37 +71,16 @@ https://www.youtube.com/watch?v=yAlhq8yhLsw
 
 -->
 ```
-## The budget {.smaller}
 
--   [Bob Megna new budget director](https://www.governor.ny.gov/news/governor-hochul-appoints-robert-megna-budget-director) (Feb 28) for rest of legislative session, replacing acting director Sandra Beattie; Bob is ["a fixture in state government"](https://www.timesunion.com/state/article/megna-fixture-state-government-budget-director-17810958.php) - deep knowledge of NY, institutions, and players
-
--   Consensus forecast [meeting/report](https://www.budget.ny.gov/pubs/supporting/forecast/fy24/fy24-consensus-report.pdf) (Mar 1) -- "consensus on a two-year revenue that is \$800 million above the Executive Budget estimates as will be amended" Last year (1) they agreed to \$800m-\$1.2 billion, and (2) did not mention amendments.
-
--   30-day amendments: (1) **\$1.9 billion reduction in this year's PIT estimate(!)** but use of reserves and re-estimates for next year allow them to show ability to accommodate \$800m consensus. (Table next page); (2) last year Gov. Hochul [removed Accessory Dwelling Units provision](https://patch.com/new-york/northfork/hochul-removes-controversial-affordable-housing-plan-budget) from housing proposal
-
--   Short Errol Louis article in NYMag (Mar 8), [Kathy Hochul Is on the Brink of 3 Wars With Her Own Party](https://nymag.com/intelligencer/2023/03/kathy-hochul-is-on-the-brink-of-3-wars-with-her-own-party.html) ([Moodle](https://intern.nyassembly.gov/mod/resource/view.php?id=1259)): (1) Charter schools; (2) MTA funding: (a) \$500m from NYC, (b) Penn Station renovation; (3) "Battle of the burbs": (a) MTA payroll tax, (b) housing zoning overrides -- "extinction-level events" (Thiele -- Sag Harbor (D))
-
--   What's the news in your offices?
-
-## 30-day amendments - change to the financial plan {.smaller}
-
-This table p.5 [amended financial plan doc](https://www.budget.ny.gov/pubs/archive/fy24/ex/fp/fy24fp-ex-amend.pdf) shows they (1) reduced PIT estimate by \$1.9 billion for this year (ends in \<3 weeks), (2) helped keep this year in balance by using \$1.3 billion in a risk reserve, and (3) raised next year estimates sufficiently to allow for the \$800 million "consensus" and to restore a little bit to the risk reserve.
-
-![](images/image-191635253.png)
-
-# [10-minute skill -- Zotero](https://boyd-howto-zotero.netlify.app/)
 
 # 2-minute presentations, first group
 
--   Flynne Fasso
 
--   Amy Karlnoski
+# [10-minute skill -- How to be attacked](https://boyd-attack.netlify.app/)
 
--   Evan Mulcahy
 
--   Tori Smalley
+# 2-minute presentations, second group
 
--   Kevin Waltz
 
 # Executive powers and the legislative role
 
@@ -147,9 +114,9 @@ Good resource, esp. rulemaking: [Ward, "Appointed Officials, Administrative Law,
 
 [^1]: Sunshine et al.; Pew.
 
-[^2]:National Conference of State Legislatures (NCSL), Legislative Oversight of Emergency Executive Powers, https://www.ncsl.org/about-state-legislatures/legislative-oversight-of-emergency-executive-powers.
+[^2]: National Conference of State Legislatures (NCSL), Legislative Oversight of Emergency Executive Powers, https://www.ncsl.org/about-state-legislatures/legislative-oversight-of-emergency-executive-powers.
 
-[^3]:Pew, More States Rein in Governors' Emergency Powers, https://pew.org/3wAmMT7.
+[^3]: Pew, More States Rein in Governors' Emergency Powers, https://pew.org/3wAmMT7.
 
 ## Who Read...?
 
@@ -175,7 +142,7 @@ Good resource, esp. rulemaking: [Ward, "Appointed Officials, Administrative Law,
 
 -   It's 10 pm. Assembly floor debate begins.
 
-[^4]:NYS Constitution, Article III, Section 14: "No bill shall be passed or become a law unless it shall have been printed and upon the desks of the members, in its final form, at least three calendar legislative days ... unless the governor...shall have certified, under his or her hand and the seal of the state, the facts which in his or her opinion necessitate an immediate vote thereon,"
+[^4]: NYS Constitution, Article III, Section 14: "No bill shall be passed or become a law unless it shall have been printed and upon the desks of the members, in its final form, at least three calendar legislative days ... unless the governor...shall have certified, under his or her hand and the seal of the state, the facts which in his or her opinion necessitate an immediate vote thereon,"
 
 ## Test your bill-reading skills. Key provision #1
 
@@ -335,10 +302,9 @@ Assemblymember Charles Barron (D-Brooklyn, AD 60, now City Council)
 
     -   NCSL can be a great source of other states' policies
 
-# 2-minute presentations, second group
 
--   Nayise Gonzalez
--   Shaima Mannan
--   Steven Belford
--   John Giannisis
--   Peter Tzotchev
+# 2-minute presentations, third group
+
+# Wrap-up
+
+

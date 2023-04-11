@@ -18,27 +18,25 @@ execute:
   echo: true    
 ---
 
-## This week
+## This week {.smaller}
 
--   10-minute skill
+-   Up to 11 presentations this week so we'll move fast and cut other material as needed; we may push one to next week.
 
--   Presentations, part I
+-   Please exclaim or wave hands if we are 5 mins before a presentation start time.
 
--   Lecture: federal, state, local governments
+-   [The budget](https://boyd-budget.netlify.app)
 
--   Presentations, part II
+-   Presentations, part I (4 -- start 12:40 pm)
+
+-   Short lecture: federal, state, local governments
+
+-   Presentations, part II (4 -- start 1:10 pm)
+
+-   [10-minute (or less) skill](https://boyd-howto-zotero.netlify.app)
+
+-   Presentations, part III (3 -- start 1:35 pm)
 
 -   Wrap-up
-
-::: {.content-visible when-format="html"}
-::: notes
-The eight 2-minute presenters worked really hard to prepare and made a lot of great points.
-
-Less lecturing by me (less presentation, push more to appendix)
-
-More opportunity for questions/discussion
-:::
-:::
 
 ```{=html}
 <!--
@@ -86,33 +84,17 @@ https://www.youtube.com/watch?v=yAlhq8yhLsw
 
 -->
 
-
 ```
-
-# [10-minute skill](https://boyd-keeprolling2.netlify.app/)
 
 # First set of 2-minute presentations (timed) {.smaller}
 
--   Peter Tzotchev
+-   Peter Tzotchev (from last cycle)
 
--   Kay-Sian Findley
+-   Kay-Sian Findley (from last week)
 
 -   Melanie King
 
 -   Anna Fisher
-
-
--   David Gilbert
--   Joseph  Dingledine
--   Mirabel Sandler
--   Delali Kisiedu
-
-
--   Samuel Milner
--   Anastasia Glover
--   Joselena Joseph
-
-
 
 # Federal-state-local Relationships in New York
 
@@ -218,7 +200,6 @@ Most towns are small but T. Hempstead almost 800k. Most villages smaller than ci
 
     -   Property tax cap and taxation more generally
 
-
 ## Medicaid in New York: A federal-state-local program {.smaller}
 
 -   Federal-state program of health insurance for low-income and medically needy. [CRS](https://crsreports.congress.gov/product/pdf/R/R43357) and [CBPP](https://www.cbpp.org/research/health/introduction-to-medicaid) primers.
@@ -250,17 +231,32 @@ Most towns are small but T. Hempstead almost 800k. Most villages smaller than ci
     -   NYSSBA - [Brian Fessler (DGR) testimony](https://www.nyssba.org/clientuploads/nyssba_pdf/gr/2023-24-executive-budget-testimony-02072023.pdf) - pretty happy with the \$3.1 billion school aid increase but some districts might need more; a few small requests
     -   NYC -
 
-# Second set of 2-minute presentations (timed)
+# Second set of 2-minute presentations (timed) {.smaller}
 
+-   David Gilbert
+
+-   Joseph Dingledine
+
+-   Mirabel Sandler
+
+-   Delali Kisiedu
+
+# [10-minute skill](https://boyd-howto-zotero.netlify.app)
+
+# Third set of 2-minute presentations (timed) {.smaller}
+
+-   Samuel Milner
+
+-   Anastasia Glover
+
+-   Joselena Joseph
 
 # Wrap-up
 
 ## Next week
 
--   Next week
+-   Executive branch lawmaking
 
-    -   Executive branch lawmaking
-
-    -   Focus will be on response to litigation, emergency powers
+-   Focus will be on response to litigation, emergency powers
 
 -   Questions/other?

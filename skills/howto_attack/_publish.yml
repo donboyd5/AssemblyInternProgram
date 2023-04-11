@@ -1,0 +1,4 @@
+- source: attack.qmd
+  netlify:
+    - id: 03a01674-e2d9-4297-ab81-4c2a9bf26af3
+      url: 'https://boyd-attack.netlify.app'

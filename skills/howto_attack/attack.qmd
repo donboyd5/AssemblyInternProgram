@@ -1,0 +1,96 @@
+---
+title: "How to be Attacked"
+subtitle: "The price of relevance"
+author: "Don Boyd, Professor-in-Residence"
+institute: New York State Assembly Intern Program
+date: today
+date-format: long
+format:
+  revealjs:
+    slide-number: true
+    chalkboard:
+      buttons: false
+    preview-links: auto
+    theme: [white, ../../mycss.scss] # use white, with modifications; default also ok
+    toc: false
+    output-file: "attack"
+    output-ext:  "html" 
+execute:
+  echo: true  
+  freeze: auto
+editor:
+  markdown:
+    canonical: true  
+editor_options: 
+  chunk_output_type: console
+---
+
+## Situation
+
+-   You're preparing a legislative proposal (for an Assemblymember, advocacy group or other organization)
+
+-   You (or your higher ups) WILL be attacked
+
+-   Your job is to anticipate attacks and help them decide how to respond
+
+```{=html}
+<!--
+
+Rendering:
+
+# quarto render who_makes_policy.qmd --to html
+# quarto render who_makes_policy.qmd --to pdf
+
+
+Publishing to the web:
+
+quarto publish netlify
+quarto publish netlify --no-render --no-browser --no-prompt
+quarto publish netlify --no-browser --no-prompt
+
+https://boyd-whopolicy.netlify.app
+
+The <dd> tag is used to describe a term/name in a description list.
+
+The <dd> tag is used in conjunction with <dl> (defines a description list) and <dt> (defines terms/names).
+
+Inside a <dd> tag you can put paragraphs, line breaks, images, links, lists, etc.
+
+Document font size - see process for live review
+https://www.youtube.com/watch?v=yAlhq8yhLsw
+
+-->
+```
+## How will they attack you? {.smaller}
+
+-   Fair attacks
+
+    -   Intended consequences - your proposal "harmed" people you intended to affect, in ways you intended; your proposal; costs a lot; they don't like it
+
+    -   Unintended consequences - e.g., your proposal harms someone that is an innocent bystander; or perhaps it has big loopholes that make it expensive
+
+-   Unfair attacks
+
+    -   Saying your proposal does things it does not do
+
+    -   Identifying and focusing on the edge cases - highly sympathetic parties who barely exist (few of them)
+
+    -   Focusing on technical errors that appear to make it do something you don't intend
+
+## How can you prepare? {.smaller}
+
+-   Understand your proposal, in detail. Understand its complexity.
+
+-   Understand the distributional consequences of your proposal: income, industries, geography; for some kinds of proposals, race and ethnicity, gender, age
+
+-   Are there parties you neglected to help who are similar to those you help? Are there parties harmed unintentionally?
+
+-   Get others to examine the proposal in detail; it's amazing what others can find when they give it a fresh read
+
+-   Understand, deeply, the arguments of your critics. Are any fair? Why do they say what they say? Are their facts correct?
+
+-   Review criticisms elsewhere - other states, other times, etc.
+
+-   Techniques - Q&A, briefing documents
+
+-   Knowledge and preparation are key
