@@ -1,0 +1,109 @@
+
+## Principles
+
+-   Respect them and their expertise
+
+-   Respect their time
+
+-   Be precise. Reduce uncertainty.
+
+-   People appreciate this:
+
+    -   It can be flattering to be asked for advice
+
+    -   It can be enjoyable to be asked an interesting question
+    
+    -   It's no fun to be asked vague questions
+    
+    -   It's no fun to be stuck on a phone call with no end in sight
+
+## Don't{.r-fit-text}
+
+-   ...ask a question so broad that answers fill libraries
+
+<DL>
+<DD>
+***hey, is there any research on homelessness?*** <!-- <br/><br/> -->
+<DD>
+um...have you heard of Google?
+</DL>
+
+-   ...ask a question you didn't try to answer on your own
+<DL>
+<DD>
+***hey, why does New York have such high homelessness, yet very low rates of unsheltered homelessness?***
+<DD>
+um...did you even look at my web page?
+</DL>
+
+-   ...ignore what made them an expert in the first place
+
+<DL>
+<DD>
+***hey Sally, I heard you know about education; can we talk?***
+<DD>
+um...I'm Dr. Robinson; I've been researching education for 15 years. Did you have a question?
+</DL>
+
+
+## Do's
+
+Show you've done your homework
+
+## How to write an email
+
+-   Think carefully about every major element:
+
+    -   Subject
+    -   Salutation
+    -   Opening paragraph
+    -   Middle text
+    -   Closing paragraph
+    -   Signoff
+    -   Your signature block
+    -   Any post-signoff information
+
+# General email tips
+
+-   Keep email visually short and nonthreatening
+
+-   Be polite and correct. Write like a grownup
+
+-   Subject: say what you want, drop names where appropriate
+
+-   Salutation: err on side of formality until indicated otherwise
+
+-   Opening: say concisely and precisely what you want
+
+-   Middle: show you did homework but don't be verbose; push details to post-signoff
+
+-   Signoff: anything appropriate
+
+-   Signature block: name, title, office, contact info
+
+-   Post sign-off: important substantive details too long for middle
+
+## Subject lines
+
+-   Horrible subject lines
+
+    -   
+
+    -   hi
+
+    -   FWD:
+
+    -   can we talk
+
+-   Better subject lines
+
+    -   Seeking advice and 10 min phone call re your research on homelessness
+
+    -   Assemblymember Johnson seeks your advice on education
+
+
+## Miscellaneous helpers
+
+-   So-and-so suggested I contact you
+
+-   Get someone else to make initial contact

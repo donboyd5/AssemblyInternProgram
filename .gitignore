@@ -8,7 +8,7 @@
 .quarto/
 skills/RLadiesParis/
 skills/test/
-web/_book/
+*_book/
 
 *.css
 *.doc*

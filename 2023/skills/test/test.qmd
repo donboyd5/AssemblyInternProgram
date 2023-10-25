@@ -1,0 +1,54 @@
+---
+title: "How to get advice from an expert"
+subtitle: ""
+author: "Don Boyd"
+institute: New York State Assembly Intern Program
+date: today
+date-format: long
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+execute:
+  echo: true    
+---
+
+## Goals
+
+-   Get advice or information from a busy expert who:
+    -   ordinarily might not respond to you
+    -   might even be wary - legislative staff can be scary
+-   Get them to respond, and be helpful
+
+CAUTION: This is hard work
+
+## General email tips
+
+-   Keep email visually short and nonthreatening
+
+    -   If you must include details, put them after signature block
+
+-   Be polite and correct. Write like a grownup
+
+<!-- {.smaller} -->
+
+## Email elements 
+
+-   Subject: say what you want, drop names where appropriate
+
+-   Salutation: err on side of formality until indicated otherwise
+
+-   Opening: say concisely and precisely what you want
+
+-   Middle: show you did homework but don't be verbose; push details to post-signoff
+
+-   Signoff: anything appropriate
+
+-   Signature block: name, title, office, contact info
+
+-   Post sign-off: important substantive details too long for middle
+
+
+

@@ -1,0 +1,41 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+# Legislation links
+
+Here are some of my preferred sites.
+
+General advice: <https://legislativelibrary.ny.gov/legislative-resources>
+
+Current law: <https://codes.findlaw.com/>
+
+Different vintages of statutes (i.e., as they stood at different points in time): <https://www.nysenate.gov/legislation>
+
+Chapters, bills, etc.: <http://public.leginfo.state.ny.us/navigate.cgi>
+
+## Laws of New York
+
+-   [Senate site](https://www.nysenate.gov/legislation/laws/CONSOLIDATED) -- **good for tracing legislative history of laws**
+
+    -   Caution: pay attention to the dropdown box below "SEE MOST RECENT VERSION BEFORE OR ON:"; usually you will want to choose the latest date. This dropdown is useful for tracing the legislative history of a section of law.
+
+    -   [State Finance Law](https://www.nysenate.gov/legislation/laws/STF)
+
+    -   [Tax Law](https://www.nysenate.gov/legislation/laws/TAX)
+
+-   [Assembly site](https://nyassembly.gov/leg/)
+
+## Sites for finding introduced or enacted legislation
+
+-   [Senate site](https://www.nysenate.gov/legislation) click search bills; status "Adopted" for bills that became law
+    -   <https://www.nysenate.gov/legislation/bills/2023/A216/amendment/A>
+    -   <https://www.nysenate.gov/legislation/bills/2023/A3009/amendment/A> 
+    
+    
+## Transcripts
+
+-   [Senate](https://www.nysenate.gov/search/legislation) Change content type to transcripts
+    

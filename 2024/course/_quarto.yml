@@ -1,0 +1,71 @@
+project:
+  type: book
+  output-dir: _course
+
+# quarto publish netlify --no-render
+# quarto publish netlify --no-browser --no-prompt
+# quarto publish netlify --no-render --no-browser --no-prompt
+
+execute:
+  eval: true
+  echo: false
+  error: false
+  warning: false
+  message: false  # not sure if allowed
+  note: false  # not sure if allowed
+  freeze: auto  # during global project renders, re-render only when source changes
+  
+editor_options:
+  chunk_output_type: console
+
+format:
+  html:
+    theme: cosmo
+    fig-width: 8
+    fig-height: 8
+  # pdf:
+  #   documentclass: scrreprt
+
+book:
+  title: "2024 Course Outline"
+  author: "Don Boyd"
+  date: today
+  date-format: long
+  chapters:
+    - index.qmd
+    - part: "Introduction"
+      chapters:
+        - approach.qmd
+        - learning_objectives.qmd
+    - part: "Class 1"
+      chapters:
+        - getting_materials.qmd
+        - key_questions.qmd
+        - what_is_issue.qmd
+        - group_discussion.qmd
+    - part: "Class 2"
+      chapters:
+        - get_econ_data.qmd
+    - part: "Class 4"
+      chapters: 
+        - recent_trends.qmd
+    - part: "Appendix"
+      chapters: 
+        - tracking_budget_legislation.qmd
+
+# bibliography: _baseline.bib
+# nocite: |
+#   @*
+
+
+# https://quarto.org/docs/computations/execution-options.html    
+# for cell options: https://quarto.org/docs/reference/cells/cells-knitr.html
+# execute:
+#   freeze: auto  # re-render only when source changes  
+  
+# The computational results of documents executed with freeze are stored in the
+# _freeze directory, and re-used when needed to fulfill document renders. You
+# should check the contents of _freeze into version control so that others 
+# rendering the project don’t need to reproduce your computational environment
+# to render it in their environment.  
+
