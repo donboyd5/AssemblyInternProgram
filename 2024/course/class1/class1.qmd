@@ -5,3 +5,13 @@ editor_options:
 ---
 
 # Overview
+
+## Learning objectives
+
+## Assignment for this class
+
+-   Read the appendix section on tracking budget bills (@sec-budgetbills). You may need to track selected budget bills in your office beginning sometime after late January. In addition, the approach generally will be applicable to non-budget legislation as well.
+
+## Readings
+
+-   [Arnold Ventures: replication research](https://www.arnoldventures.org/stories/important-lessons-about-reproducibility-in-science) \< 1/2 of 100 psychology studies were replicated. Similar problems other fields.

@@ -1,0 +1,22 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+# Class assignments
+
+## Introduction
+
+
+
+## The issue
+
+## The bill
+
+## Proponents and opponents
+
+## Implementation
+
+
+## Alternative approaches

@@ -1,0 +1,65 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+# Evaluating the quality of evidence
+
+## Introduction
+
+## A general framework
+
+1.  **Types of Evidence**:
+
+    -   **Anecdotal**: Personal stories or isolated examples. While they can be powerful and illustrative, they don't provide comprehensive evidence.
+
+    -   **Descriptive**: Offers a description or snapshot of a situation, but doesn't explain why the situation exists.
+
+    -   **Empirical**: Evidence based on data and facts. This can come from surveys, experiments, and other research methods.
+
+    -   **Expert Testimony**: Provided by individuals with specialized knowledge on a subject.
+
+2.  **Source Credibility**:
+
+    -   Check the qualifications of the source.
+
+    -   Examine potential conflicts of interest.
+
+    -   Consider the reputation of the organization or publication.
+
+3.  **Recency**: Data and information can become outdated, especially in fields that change rapidly.
+
+4.  **Relevance**: Ensure the evidence directly relates to the policy question at hand.
+
+5.  **Sample Size & Representativeness**:
+
+    -   Larger samples can provide more reliable evidence.
+
+    -   The sample should be representative of the population it's meant to describe.
+
+6.  **Consistency**:
+
+    -   Is the evidence consistent with other available evidence?
+
+    -   Contradictory evidence doesn\'t necessarily discredit a claim, but it necessitates further investigation.
+
+7.  **Methodology**:
+
+    -   Check how the data was collected and analyzed.
+
+    -   Peer-reviewed studies typically have reliable methodologies.
+
+    -   Be wary of studies with significant methodological flaws.
+
+8.  **Bias & Objectivity**:
+
+    -   Examine the purpose of the study. Was it designed to achieve a particular outcome?
+
+    -   Consider the funding source of the research.
+
+9.  **Generalizability**: Can the findings be applied to larger or different populations or settings?
+
+10. **Magnitude of Effects**: Even if an effect is statistically significant, consider its practical significance.
+
+11. **Causality vs. Correlation**: Just because two variables are correlated doesn\'t mean one caused the other.

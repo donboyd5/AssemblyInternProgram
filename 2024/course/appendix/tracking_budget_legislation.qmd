@@ -4,7 +4,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-# Tracking budget bills
+# Tracking budget bills {#sec-budgetbills}
 
 ## Learning objectives
 
@@ -12,7 +12,7 @@ editor_options:
 
 -   How to find budget bills in the various stages
 
--   How to track changes from one stage to another, and differences between different versions of a bill
+-   How to track changes from one stage to another
 
 These skills are generally useful in tracking non-budget legislation as well.
 

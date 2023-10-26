@@ -1,0 +1,9 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+# Approach to the course
+
+We will learn about the legislative process, and how to analyze legislation, by taking a single piece of proposed legislation and examining it from multiple perspectives.

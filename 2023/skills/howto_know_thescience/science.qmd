@@ -21,11 +21,9 @@ format:
     
 execute:
   echo: true    
-
 editor:
   markdown:
     canonical: true  
-
 editor_options: 
   chunk_output_type: console
 ---

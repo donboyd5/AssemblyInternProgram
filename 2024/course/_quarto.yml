@@ -29,15 +29,18 @@ format:
   #   documentclass: scrreprt
 
 book:
-  title: "2024 Course Outline"
+  title: "2024 Policy Analysis Course Outline"
   author: "Don Boyd"
   date: today
   date-format: long
   chapters:
     - index.qmd
-    - part: "Introduction"
+    - part: "About the course"
       chapters:
-        - approach.qmd
+        - intro/approach.qmd
+        - intro/class_assignments.qmd
+        - intro/presentation_assignment.qmd
+        - intro/evidence.qmd
         # - learning_objectives.qmd
     - part: "Class 1"
       chapters:
@@ -48,8 +51,9 @@ book:
     - part: "Class 3"
       chapters:
         - class3/class3.qmd
-    # - part: "Class 4"
-    #   chapters: 
+    - part: "Class 4"
+      chapters:
+        - class4/class4.qmd
     - part: "Appendix"
       chapters: 
         - appendix/tracking_budget_legislation.qmd
