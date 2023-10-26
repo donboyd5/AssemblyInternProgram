@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 6f382658-f53b-4ce6-b89f-2f5805bfe301
+      url: 'https://boyd-intern-class-2024.netlify.app'

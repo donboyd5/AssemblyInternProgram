@@ -2,6 +2,8 @@ project:
   type: book
   output-dir: _course
 
+# https://boyd-intern-class-2024.netlify.app/
+
 # quarto publish netlify --no-render
 # quarto publish netlify --no-browser --no-prompt
 # quarto publish netlify --no-render --no-browser --no-prompt
@@ -13,7 +15,7 @@ execute:
   warning: false
   message: false  # not sure if allowed
   note: false  # not sure if allowed
-  freeze: auto  # during global project renders, re-render only when source changes
+  # freeze: auto  # during global project renders, re-render only when source changes -- false, true, or auto
   
 editor_options:
   chunk_output_type: console
@@ -36,22 +38,21 @@ book:
     - part: "Introduction"
       chapters:
         - approach.qmd
-        - learning_objectives.qmd
+        # - learning_objectives.qmd
     - part: "Class 1"
       chapters:
-        - getting_materials.qmd
-        - key_questions.qmd
-        - what_is_issue.qmd
-        - group_discussion.qmd
+        - class1/class1.qmd
     - part: "Class 2"
       chapters:
-        - get_econ_data.qmd
-    - part: "Class 4"
-      chapters: 
-        - recent_trends.qmd
+        - class2/class2.qmd
+    - part: "Class 3"
+      chapters:
+        - class3/class3.qmd
+    # - part: "Class 4"
+    #   chapters: 
     - part: "Appendix"
       chapters: 
-        - tracking_budget_legislation.qmd
+        - appendix/tracking_budget_legislation.qmd
 
 # bibliography: _baseline.bib
 # nocite: |

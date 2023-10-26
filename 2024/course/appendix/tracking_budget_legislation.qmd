@@ -4,27 +4,69 @@ editor_options:
   chunk_output_type: console
 ---
 
-# Tracking budget bills and their changes
+# Tracking budget bills
 
-Bills proposed by the governor, necessary to implement the governor's proposed budget, are called budget bills. They include appropriation bills plus several bills that would change substantive law.
+## Learning objectives
+
+-   Understand the stages that budget bills go through
+
+-   How to find budget bills in the various stages
+
+-   How to track changes from one stage to another, and differences between different versions of a bill
+
+These skills are generally useful in tracking non-budget legislation as well.
+
+## Budget bills and the stages they go through
+
+Budget bills are bills, proposed by the governor, that are necessary to implement the governor's proposed budget . They include appropriation bills plus bills that would change substantive law.
 
 Budget bills go through several steps. Typical steps for recent years are:
 
--   **Submission**: The governor submits proposed legislation accompanying memos when she or he submits the budget. Initially the bills are in manuscript form (without a print number). They can be found on the Division of the Budget's web page, under a section on legislation. The archival page for fiscal year 2024 (i.e., 2023-24), is [here](https://www.budget.ny.gov/pubs/archive/fy24/ex/index.html); a more prominent page will be available for the current budget when it is released.
+-   **Submission**: The governor submits proposed legislation accompanying memos when she or he submits the budget, ordinarily in late January. Initially, the bills are in manuscript form (without a print number). They can be found on the Division of the Budget's web page, under a section on legislation. The archival page for fiscal year 2024 (i.e., 2023-24), submitted in late January 2024, is [here](https://www.budget.ny.gov/pubs/archive/fy24/ex/index.html). DOB will make a page dedicated to the new proposed budget when the budget is released.
 
--   **Introduction**: The bills are introduced in each house as uni-bills (a Senate number and an Assembly number on the same document). They can now be found on the legislation pages of the [Senate](https://www.nysenate.gov/legislation) and the [Assembly](https://nyassembly.gov/leg/), and on other tracking sites. DOB may replace the manuscript versions on its web page with the printed versions.
+-   **Introduction**: The bills are introduced in each house as uni-bills (a Senate number and an Assembly number on the same document -- e.g. S.4000 -- A.3000; they generally don't have the same number in each house). They can now be found on the legislation pages of the [Senate](https://www.nysenate.gov/legislation) and the [Assembly](https://nyassembly.gov/leg/), and on other tracking sites. DOB may replace the manuscript versions on its web page with the printed versions.
 
--   **30-day amendments (A print)**: The governor may amend the budget bills when she or he submits the 30-day amendments. The bills will become B prints and remain uni-bills, identical in each house.
+-   **30-day amendments (A print)**: The governor may amend the budget bills when she or he submits the 30-day amendments. The bills will become A prints and remain uni-bills, identical in each house (e.g., S.4000-A -- A.3000-A).
 
--   **One-house bills (B print)**: Each house stakes out its position by (1) adopting a budget resolution that summarizes how it proposes to amend the governor's budget - what it would modify, drop, or add, and (2) introducing legislation that would implement what the resolution specifies. In recent years, the Senate and Assembly have taken different approaches to their one-house resolutions: the Senate resolution summarizes all major changes it would make to the budget; by contrast, the Assembly resolution gives the bill numbers they would amend, without details, but releases a separate report detailing the changes they would make, explaining the changes, and giving estimates of their fiscal impact. The Senate and Assembly bills are NOT uni-bills or same-as bills - they differ from each other because they do not yet reflect agreement between the houses.
+-   **One-house bills (B print)**: Each house stakes out its position, typically in early March by (1) adopting a budget resolution that summarizes how it proposes to amend the governor's budget - what it would modify, drop, or add, and (2) introducing legislation that would implement what the resolution specifies. The Senate and Assembly bills are NOT uni-bills or same-as bills - they differ from each other because they do not yet reflect agreement between the houses (e.g., S.4000-B and a separate, different bill, A.3000-B).
 
--   **Agreed-to budget bills (C print)**: After negotiations are complete, the Senate and Assembly print the agreed-to bills as uni-bills.
+    In recent years, the Senate and Assembly have taken different approaches to their one-house resolutions. The Senate resolution summarizes all major changes it would make to the budget. By contrast, the Assembly resolution gives the bill numbers they would amend, without details, but releases a separate report detailing the changes they would make, explaining the changes, and giving estimates of their fiscal impact.
 
-While this is a typical process, it could differ if, for example, a house prints multiple iterations of its position on the budget.
+-   **Agreed-to budget bills (C print)**: After negotiations are complete, the Senate and Assembly print the agreed-to bills as uni-bills (e.g., S.4000-C -- A.3000-C).
 
-Tracking changes...
+While this is a typical process, it could differ if, for example, a house prints multiple iterations of its position on the budget, in which case an agreed-to bill might have a higher letter.
 
-## Budget bills for the 2023-24 budget
+## How to track changes in the budget bills
+
+### Governor's submission versus current law
+
+The submitted bills, whether in manuscript form or in bill-print form, follow the usual legislative approach: strikeouts or square brackets ("\[" and "\]") indicate current law that would be deleted; underlines indicate new law being inserted; and if whole sections or parts of law are to be repealed, a section of the bill will say that part of the law is REPEALED.
+
+### 30-day amendments versus governor's submission
+
+The amended bills are simply new bills showing changes versus current law; they do not indicate how the bill differs from a prior version. The governor's bill memo likely will summarize differences from the previous version but you should never assume it is correct or complete; it's a starting point. You can manually compare the versions, and of course talk to analysts, read news articles, and use other sleuthing methods. It may be possible to use online text-comparison tools such as DiffChecker but I have never tried.
+
+### One-house bills versus 30-day, versus current law, and versus each other
+
+**Versus 30-day**: The budget resolutions and the Assembly report will summarize major changes from the governor. They are a starting point, but never assume they are correct or complete. Manual comparison of key sections may be necessary.
+
+**Versus current law**: The bills follow the usual strikeout/brackets and underlining conventions.
+
+**Versus each other**: You'll need to read each house's resolution/report, and do manual comparisons of one bill to another.
+
+### Agreed-upon bills versus earlier versions
+
+Sometimes the houses will release summaries of how the budget agreement differs from positions taken by each house, from the governor's proposal, and from current law. There will be press reports, too. As always, caveat emptor.
+
+Comparison to current law is easiest because the bills have strikeouts/brackets and underlining.
+
+### Enacted law versus agreed-upon bill
+
+The governor may line-item veto items of appropriation in an appropriation bill, in which case the enacted law will not be the same as the agreed-upon and passed bill. The governor's veto message will explain
+
+## Example: Budget bills for the 2023-24 budget
+
+Appropriations bills:
 
 -   [S4000](https://legislation.nysenate.gov/pdf/bills/2023/S4000)/[A3000](https://nyassembly.gov/leg/?bn=A03000&term=2023) State Operations Budget
 
@@ -36,15 +78,17 @@ Tracking changes...
 
 -   [S4004](https://legislation.nysenate.gov/pdf/bills/2023/S4004)/[A3004](https://nyassembly.gov/leg/?bn=A03004&term=2023) Capital Projects Budget
 
--   [S4005](https://legislation.nysenate.gov/pdf/bills/2023/S4005)/[A3005](https://nyassembly.gov/leg/?bn=A03005&term=2023) **Public protection and general government** budget bill
+Bills amending substantive law. The substantive categories usually stay the same from year to year.
 
--   [S4006](https://legislation.nysenate.gov/pdf/bills/2023/S4006)/[A3006](https://nyassembly.gov/leg/?bn=A03006&term=2023) **Education, labor, housing and family assistance** budget bill
+-   [S4005](https://legislation.nysenate.gov/pdf/bills/2023/S4005)/[A3005](https://nyassembly.gov/leg/?bn=A03005&term=2023) Public protection and general government budget bill
 
--   [S4007](https://legislation.nysenate.gov/pdf/bills/2023/S4007)/[A3007](https://nyassembly.gov/leg/?bn=A03007&term=2023) **Health and mental hygiene** budget bill
+-   [S4006](https://legislation.nysenate.gov/pdf/bills/2023/S4006)/[A3006](https://nyassembly.gov/leg/?bn=A03006&term=2023) Education, labor, housing and family assistance budget bill
 
--   [S4008](https://legislation.nysenate.gov/pdf/bills/2023/S4008)/[A3008](https://nyassembly.gov/leg/?bn=A03008&term=2023) **Transportation, economic development and environmental conservation** budget bill
+-   [S4007](https://legislation.nysenate.gov/pdf/bills/2023/S4007)/[A3007](https://nyassembly.gov/leg/?bn=A03007&term=2023) Health and mental hygiene budget bill
 
--   [S4009](https://legislation.nysenate.gov/pdf/bills/2023/S4009)/[A3009](https://nyassembly.gov/leg/?bn=A03009&term=2023) **State fiscal plan** budget bill, also known as **revenue** budget bill
+-   [S4008](https://legislation.nysenate.gov/pdf/bills/2023/S4008)/[A3008](https://nyassembly.gov/leg/?bn=A03008&term=2023) Transportation, economic development and environmental conservation budget bill
+
+-   [S4009](https://legislation.nysenate.gov/pdf/bills/2023/S4009)/[A3009](https://nyassembly.gov/leg/?bn=A03009&term=2023) State fiscal plan budget bill, also known as revenue budget bill
 
 Here is a [Google Drive folder](https://drive.google.com/drive/folders/1nXxmX7UqS2GKiPDSSVU1hd7l62-p59m_?usp=sharing) that has the bills and documents I have downloaded so far.
 
@@ -55,7 +99,7 @@ The table below illustrates how the bills change over time, using the 2023-24 fi
 +-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Item                                          | Bill number                                                                                                                                                                                                                                                                                                                               | Dates (approx) | Notes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 +===============================================+===========================================================================================================================================================================================================================================================================================================================================+================+======================================================================================================================================================================================================================================================================================================================================================================================================================================================================================+
-| Bill submitted with Executive Budget          | [S4009](https://legislation.nysenate.gov/pdf/bills/2023/S4009) / A3009\                                                                                                                                                                                                                                                                   | Feb 1, 2023    | A3009 and S4009 are identical and printed as a single bill (a "uni" bill). You can the [bill in pre-introduction form](https://www.budget.ny.gov/pubs/archive/fy24/ex/artvii/revenue-bill.pdf) and [memo](https://www.budget.ny.gov/pubs/archive/fy24/ex/artvii/revenue-memo.pdf) on the DOB site.\                                                                                                                                                                                  |
+| Bill submitted with Executive Budget          | [S4009](https://legislation.nysenate.gov/pdf/bills/2023/S4009) / A3009\                                                                                                                                                                                                                                                                   | Feb 1, 2023    | A3009 and S4009 are identical and printed as a single bill (a "uni" bill). You can see the [bill in pre-introduction form](https://www.budget.ny.gov/pubs/archive/fy24/ex/artvii/revenue-bill.pdf) and its [memo](https://www.budget.ny.gov/pubs/archive/fy24/ex/artvii/revenue-memo.pdf) on the DOB site.\                                                                                                                                                                          |
 |                                               | (uni)                                                                                                                                                                                                                                                                                                                                     |                | \                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |                                               |                                                                                                                                                                                                                                                                                                                                           |                | More generally, Senate site is easy way to get text: enter the base url: <https://legislation.nysenate.gov/pdf/bills/2023/S4009> or <https://legislation.nysenate.gov/pdf/bills/2023/A3009>. Amended versions below can be found by adding a letter to end of url, or by going through the Senate site's landing pages: [Senate](https://www.nysenate.gov/legislation/bills/2023/S4009/amendment/C) / [Assembly](https://www.nysenate.gov/legislation/bills/2023/A3009/amendment/C). |
 +-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
