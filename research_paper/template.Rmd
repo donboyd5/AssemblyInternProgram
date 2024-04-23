@@ -2,48 +2,54 @@
 output: pdf_document  # or word_document
 title: "`r paste0(params$student, ', Research paper final grade')`"
 subtitle: New York State Assembly Intern Program, 2024
+date: "`r format(Sys.time(), '%B %d, %Y')`"
 params:
   student: "Default student name"
   billnum: "Default bill number"
   billdesc: "Default bill description"
+  gradebase: "To come"
   policy: "Default policy"
+  policy_numeric: ""
   politics: "Default politics"
+  politics_numeric: ""
   democracy: "Default democracy"
+  democracy_numeric: "" 
   research: "Default research"
+  research_numeric: "" 
   writing: "Default writing"
+  writing_numeric: "" 
 ---
-
-
-<!-- <div align="center">"**`r paste0(params$student, ", Research paper final grade")`**"</div> -->
-<!-- <div align="center">**New York State Assembly Intern Program, 2024**</div> -->
-
 
 # Bill number and short description
 
-`r paste0(params$billnum, ": ", params$billdesc)`
+`r paste0(params$billnum, ": ", params$billdesc, ".  ")`
 
 # Overall grade before any late penalties
 
-`r paste0(params$billnum, ": ", params$gradebase)`
+`r paste0("Grade: ", params$gradebase)`
 
+# Policy analysis (23.33%)
 
-# Policy analysis
-
+`r paste0("Points: ", params$policy_numeric, ".  ")`
 `r params$policy`
 
-# Political analysis
+# Political analysis (23.33%)
 
+`r paste0("Points: ", params$politics_numeric, ".  ")`
 `r params$politics`
 
-# Democracy analysis
+# Democracy analysis (23.33%)
 
+`r paste0("Points: ", params$democracy_numeric, ".  ")`
 `r params$democracy`
 
-# Research quality
+# Research quality (20%)
 
+`r paste0("Points: ", params$research_numeric, ".  ")`
 `r params$research`
 
-# Writing quality
+# Writing quality (10%)
 
+`r paste0("Points: ", params$writing_numeric, ".  ")`
 `r params$writing`
 

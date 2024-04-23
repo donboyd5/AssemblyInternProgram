@@ -32,6 +32,12 @@ url <- "https://docs.google.com/spreadsheets/d/1K_xIaxnXMwdkRhHSWL2rBSnhaWRRDKNM
 df1 <- read_sheet(url, sheet = "Cycle1_ResearchPaper")
 df1
 
+weights <- df1 |> 
+  filter(lname=="weight") |> 
+  select(id=lname, ends_with("_numeric")) |> 
+  pivot_longer(-id, values_to = "weight")
+sum(weights$weight)
+
 # cnames <- df1 |> 
 #   filter(row_number()==1) |> 
 #   as.character()
@@ -44,9 +50,25 @@ df1
 #   filter(row_number() > 1, !is.na(fnln))
 
 df2 <- df1 |> 
-  filter(row_number() > 1)
+  filter(row_number() > 2)
 
 df2
+
+# calculate gradebase
+grades <- df2 |> 
+  select(lname, fname, ends_with("_numeric")) |> 
+  pivot_longer(cols=-c(lname, fname)) |> 
+  left_join(weights |> select(name, weight),
+            by = join_by(name)) |> 
+  summarise(gradebase=sum(value * weight), .by=c(lname, fname))
+
+df3 <- df2 |> 
+  select(-gradebase) |> 
+  left_join(grades,
+            by = join_by(lname, fname)) |> 
+  mutate(gradebase=round(gradebase * 10, 1)) |> 
+  relocate(gradebase, .after=latepen)
+  
 
 
 ```
@@ -58,8 +80,8 @@ template <- fs::path(rpd, "template.Rmd")
 grdir <- fs::path(rpd, "grade_reports")
 
 gendoc <- function(row) {
-  fname <- paste0(row$lname, ".pdf")
-  fpath <- fs::path(grdir, fname)
+  filename <- paste0(row$lname, "_", row$fname, "_paper_grade.pdf")
+  fpath <- fs::path(grdir, filename)
   rmarkdown::render(
     template,
     output_file = fpath, # Change to .docx for Word
@@ -67,18 +89,26 @@ gendoc <- function(row) {
       student = row$fnln,
       billnum = row$billnum,
       billdesc = row$billdesc,
+      gradebase = row$gradebase,
       policy = row$policy,
+      policy_numeric = row$policy_numeric,
       politics = row$politics,
+      politics_numeric = row$politics_numeric,
       democracy = row$democracy,
+      democracy_numeric = row$democracy_numeric,
       research = row$research,
-      writing = row$writing
+      research_numeric = row$research_numeric,
+      writing = row$writing,
+      writing_numeric = row$writing_numeric
       )
   )
   }
 
-gendoc(df2[1, ])
+# gendoc(df3[1, ])  # me
+i <- 4
+gendoc(df3[i, ])
 
-walk(1:1, \(i) gendoc(df2[i, ]))
+walk(1:1, \(i) gendoc(df3[i, ]))
 
 
 ```
