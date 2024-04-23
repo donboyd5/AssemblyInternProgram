@@ -26,9 +26,8 @@ url <- "https://docs.google.com/spreadsheets/d/1K_xIaxnXMwdkRhHSWL2rBSnhaWRRDKNM
 # url <- "https://docs.google.com/spreadsheets/d/1K_xIaxnXMwdkRhHSWL2rBSnhaWRRDKNMGypEdbvFO0I/edit#gid=402950202"
 
 # gs4_deauth()
-
-read_sheet(url)
-as_sheets_id(url)
+# read_sheet(url)
+# as_sheets_id(url)
 
 df1 <- read_sheet(url, sheet = "Cycle1_ResearchPaper")
 df1
@@ -65,17 +64,21 @@ gendoc <- function(row) {
     template,
     output_file = fpath, # Change to .docx for Word
     params = list(
-      product_name = row$fnln,
-      feature1 = row$billnum,
-      feature2 = row$billdesc,
-      feature3 = row$billdesc
+      student = row$fnln,
+      billnum = row$billnum,
+      billdesc = row$billdesc,
+      policy = row$policy,
+      politics = row$politics,
+      democracy = row$democracy,
+      research = row$research,
+      writing = row$writing
       )
   )
   }
 
-gendoc(df2[2, ])
+gendoc(df2[1, ])
 
-walk(1:3, \(i) gendoc(df2[i, ]))
+walk(1:1, \(i) gendoc(df2[i, ]))
 
 
 ```

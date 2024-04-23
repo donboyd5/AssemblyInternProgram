@@ -1,21 +1,49 @@
 ---
-title: "`r params$product_name`"
 output: pdf_document  # or word_document
+title: "`r paste0(params$student, ', Research paper final grade')`"
+subtitle: New York State Assembly Intern Program, 2024
 params:
-  product_name: "Default Product Name"
-  feature1: "Default Feature 1"
-  feature2: "Default Feature 2"
-  feature3: "Default Feature 3"
+  student: "Default student name"
+  billnum: "Default bill number"
+  billdesc: "Default bill description"
+  policy: "Default policy"
+  politics: "Default politics"
+  democracy: "Default democracy"
+  research: "Default research"
+  writing: "Default writing"
 ---
+
+
+<!-- <div align="center">"**`r paste0(params$student, ", Research paper final grade")`**"</div> -->
+<!-- <div align="center">**New York State Assembly Intern Program, 2024**</div> -->
+
+
+# Bill number and short description
+
+`r paste0(params$billnum, ": ", params$billdesc)`
+
+# Overall grade before any late penalties
+
+`r paste0(params$billnum, ": ", params$gradebase)`
+
 
 # Policy analysis
 
-`r params$feature1`
+`r params$policy`
 
-# Feature 2
+# Political analysis
 
-`r params$feature2`
+`r params$politics`
 
-# Feature 3
+# Democracy analysis
 
-`r params$feature3`
+`r params$democracy`
+
+# Research quality
+
+`r params$research`
+
+# Writing quality
+
+`r params$writing`
+
