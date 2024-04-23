@@ -1,0 +1,21 @@
+---
+title: "`r params$product_name`"
+output: pdf_document  # or word_document
+params:
+  product_name: "Default Product Name"
+  feature1: "Default Feature 1"
+  feature2: "Default Feature 2"
+  feature3: "Default Feature 3"
+---
+
+# Policy analysis
+
+`r params$feature1`
+
+# Feature 2
+
+`r params$feature2`
+
+# Feature 3
+
+`r params$feature3`

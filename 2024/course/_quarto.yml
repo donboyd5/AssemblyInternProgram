@@ -30,6 +30,7 @@ format:
 
 book:
   title: "2024 Policy Analysis Course Outline"
+  subtitle: "New York State Assembly Intern Program"
   author: "Don Boyd"
   date: today
   date-format: long
@@ -57,6 +58,7 @@ book:
     - part: "Appendix"
       chapters: 
         - appendix/tracking_budget_legislation.qmd
+        - appendix/planning.qmd  # comment this out before providing to students
 
 # bibliography: _baseline.bib
 # nocite: |

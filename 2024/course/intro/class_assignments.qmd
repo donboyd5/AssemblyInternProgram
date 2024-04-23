@@ -10,13 +10,13 @@ editor_options:
 
 
 
-## The issue
+<!-- ## The issue -->
 
-## The bill
+<!-- ## The bill -->
 
-## Proponents and opponents
+<!-- ## Proponents and opponents -->
 
-## Implementation
+<!-- ## Implementation -->
 
 
-## Alternative approaches
+<!-- ## Alternative approaches -->

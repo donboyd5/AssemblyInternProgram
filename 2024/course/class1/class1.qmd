@@ -6,12 +6,62 @@ editor_options:
 
 # Overview
 
-## Learning objectives
 
-## Assignment for this class
+## Class outline
 
--   Read the appendix section on tracking budget bills (@sec-budgetbills). You may need to track selected budget bills in your office beginning sometime after late January. In addition, the approach generally will be applicable to non-budget legislation as well.
+-   About the course (5 mins)
+
+-   The research paper (10 mins)
+
+-   First set of presentations (12 mins)
+
+-   Proposed billionaire's tax - introduction (10 mins)
+
+-   Group discussions: What's the issue? How does the bill address it? (15 mins)
+
+-   Class discussion (10 mins)
+
+-   Second set of presentations (12 mins)
+
+-   Foreshadow next class (5 mins)
+
+
+## Assignment (do these before you come to class)
+
+-   Write a 3-4 sentence bio for your classmates and me. Say something about where you're from, what you study, what you like or might want to do, and anything else you think we all might find interesting. Insert it in the section for you in this [Google doc](https://docs.google.com/document/d/1jpa0Bi6kwk2qu-WLuJsbfuUuFvjs2l-d4B-YzAggh8M/edit?usp=sharing). (If for any reason, you're not in there, create a header for yourself in alphabetic order and put it there.)
+
+-   Critically examine the readings below. Be prepared to discuss in the full class and in your discussion group
+
+-   Read the appendix section on tracking budget bills (@sec-budgetbills). You may need to track selected budget bills in your office beginning sometime after late January - this is a resource that may help. In addition, the approach generally will be applicable to non-budget legislation as well. We will not discuss this in class.
+
 
 ## Readings
 
+### Evaluating sources
+
+-   In the UC Berkeley guide on evaluating resources, read [Evaluating Resources: Home](https://guides.lib.berkeley.edu/c.php?g=83917&p=539735), and [Evaluating Resources: Scholarly & Popular Sources](https://guides.lib.berkeley.edu/c.php?g=83917&p=3747680)
+
 -   [Arnold Ventures: replication research](https://www.arnoldventures.org/stories/important-lessons-about-reproducibility-in-science) \< 1/2 of 100 psychology studies were replicated. Similar problems other fields.
+
+### Proposed tax on billionaires
+
+-   [Senate bill](https://legislation.nysenate.gov/pdf/bills/2023/S1570)
+
+-   Assembly bill A.3252 and memo -- find these on your own
+
+-   [Some Democratic Lawmakers Push for Wealth Tax on New York Billionaires, Jimmy Vielkind, Wall Street Journal, February 21, 2021](https://drive.google.com/file/d/1xv1SCi4zOZ-k4WnwIDHAkZ1sQIrCjTvi/view?usp=drive_link)
+
+-   Income and wealth
+
+-   Inequality
+
+-   Principles of a good tax system
+
+-   S.1570 of 2023 and related documents
+
+
+## Group discussions
+
+
+
+
