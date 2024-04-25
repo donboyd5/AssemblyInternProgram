@@ -12,233 +12,150 @@ editor_options:
 rpd <- here::here("research_paper")
 source(fs::path(rpd, "libraries.R"))
 library(googledrive)
+library(scales)
 
-drive_auth()
+# drive_auth()
 gs4_auth(token = drive_token())
 
-```
-
-
-```{r}
-#| label: get-sheet
-
-url <- "https://docs.google.com/spreadsheets/d/1K_xIaxnXMwdkRhHSWL2rBSnhaWRRDKNMGypEdbvFO0I"
-# url <- "https://docs.google.com/spreadsheets/d/1K_xIaxnXMwdkRhHSWL2rBSnhaWRRDKNMGypEdbvFO0I/edit#gid=402950202"
-
-# gs4_deauth()
-
-read_sheet(url)
-as_sheets_id(url)
-
-df1 <- read_sheet(url, sheet = "Cycle1_ResearchPaper")
-df1
-
-# cnames <- df1 |> 
-#   filter(row_number()==1) |> 
-#   as.character()
-
-# df2 <- df1 |> 
-#   select(lname=1, fname=2, fnln=3, emailp=4,
-#          emaila=5, rdate=6, billnum=7, billdesc=8,
-#          gradefin=9, latepen=10, gradebase=11,
-#          writing=12) |> 
-#   filter(row_number() > 1, !is.na(fnln))
-
-df2 <- df1 |> 
-  filter(row_number() > 1)
-
-df2
-
+# Make sure to check the box:
+#   See, edit, create, and delete all of your Google Drive files
 
 ```
 
 
 ```{r}
+#| label: constants
 
 template <- fs::path(rpd, "template.Rmd")
 grdir <- fs::path(rpd, "grade_reports")
 
+```
+
+
+```{r}
+#| label: function-get-weights
+
+get_weights <- function(research, writing){
+  vnames <- c("research", "writing", "policy", "politics", "democracy") |> 
+    paste0("_numeric")
+  ppd <- 1 - research - writing
+  nweights <- c(research, writing, rep(ppd / 3, 3))
+  weights <- tibble(name=vnames, weight=nweights)
+  weights
+}
+
+```
+
+
+```{r}
+#| label: function-pdf
+
 gendoc <- function(row) {
-  fname <- paste0(row$lname, ".pdf")
-  fpath <- fs::path(grdir, fname)
+  filename <- paste0(row$lname, "_", row$fname, "_Assembly_Intern_Program_2024_paper_grade.pdf")
+  fpath <- fs::path(grdir, filename)
   rmarkdown::render(
     template,
     output_file = fpath, # Change to .docx for Word
     params = list(
-      product_name = row$fnln,
-      feature1 = row$billnum,
-      feature2 = row$billdesc,
-      feature3 = row$billdesc
+      student = row$fnln,
+      billnum = row$billnum,
+      billdesc = row$billdesc,
+      gradebase = row$gradebase,
+      comments = row$comments,
+      policy = row$policy,
+      policy_numeric = row$policy_numeric,
+      politics = row$politics,
+      politics_numeric = row$politics_numeric,
+      democracy = row$democracy,
+      democracy_numeric = row$democracy_numeric,
+      research = row$research,
+      research_numeric = row$research_numeric,
+      writing = row$writing,
+      writing_numeric = row$writing_numeric,
+      ppd_pct = wwide$ppd,
+      research_pct = wwide$research_numeric,
+      writing_pct = wwide$writing_numeric
       )
   )
-  }
-
-gendoc(df2[2, ])
-
-walk(1:3, \(i) gendoc(df2[i, ]))
-
+}
 
 ```
 
 
-
-
 ```{r}
+#| label: get-weights
 
+weights <- get_weights(research=.2, writing=.1)
+weights
+sum(weights$weight)
 
-
-f <- function(row){
-  print(row$fnln)
-  print(row$billnum)
-  
-  report <- paste0(
-    "# ", row$fnln, "\n\n",
-    "## Feature 1\n", row$emailp, "\n\n",
-    "## Feature 2\n", row$billnum, "\n\n",
-    "## Feature 3\n", row$billdesc
-  )  
-  # print(report)
-  
-  rmarkdown::render(
-    input = report,
-    run_pandoc = TRUE,
-    output_file = "a", # paste0(row$fnln, ".pdf"), # or ".docx" for Word
-    output_dir = "c:\\",
-    output_format = "pdf_document" # or "word_document" for Word
-  )
-}
-
-walk(1:3, \(i) f(df2[i, ]))
-
-
-# Example data
-df <- tibble::tibble(
-  product_name = c("Product A", "Product B"),
-  feature1 = c("Detailed description of feature 1 for Product A...", "Detailed description of feature 1 for Product B..."),
-  feature2 = c("Detailed description of feature 2 for Product A...", "Detailed description of feature 2 for Product B..."),
-  feature3 = c("Detailed description of feature 3 for Product A...", "Detailed description of feature 3 for Product B...")
-)
-df
-
-temp <- fs::path(rpd, "template.Rmd")
-
-generate_documents <- function(data) {
-  for (i in 1:nrow(data)) {
-    rmarkdown::render(temp, output_file = paste0(data$product_name[i], ".pdf"), # Change to .docx for Word
-           params = list(
-             product_name = data$product_name[i],
-             feature1 = data$feature1[i],
-             feature2 = data$feature2[i],
-             feature3 = data$feature3[i]
-           )
-    )
-  }
-}
-
-# Apply the function to your dataframe
-generate_documents(df)
-
+wwide <- weights |> 
+  pivot_wider(values_from = weight) |> 
+  mutate(ppd=policy_numeric + politics_numeric + democracy_numeric)
 
 ```
 
 
+```{r}
+#| label: get-data
+
+# grading data ----
+url <- "https://docs.google.com/spreadsheets/d/1K_xIaxnXMwdkRhHSWL2rBSnhaWRRDKNMGypEdbvFO0I"
+# as_sheets_id(url)
+
+df1 <- read_sheet(url, sheet = "Cycle1_ResearchPaper")
+df1
+
+df2 <- df1 |> 
+  filter(lname != "Last Name") |> 
+  rename_with(\(x) str_replace(x, "(?<=_numeric).*", "")) |> 
+  unnest_wider(col=received, names_sep = "_") |> # creates received_1 dttm
+  mutate(received=as.Date(received_1))
+df2
+
+# calculate gradebase
+grades <- df2 |> 
+  select(lname, fname, contains("_numeric")) |>
+  pivot_longer(cols=-c(lname, fname)) |>
+  left_join(weights |> select(name, weight),
+            by = join_by(name)) |> 
+  summarise(gradebase=sum(value * weight) * 10, .by=c(lname, fname))
+
+df3 <- df2 |> 
+  select(-received_1) |> 
+  left_join(grades,
+            by = join_by(lname, fname)) |>
+  relocate(gradebase, .after=latepen)
+
+# btools::ns(df3)
+
+```
+
+## Create pdf documents
 
 ```{r}
+#| label: run-pdf-creation
 
-generate_report <- function(product_row) {
-  product_name <- product_row$product_name
-  feature1 <- product_row$feature1
-  feature2 <- product_row$feature2
-  feature3 <- product_row$feature3
-  
-  report_content <- paste0(
-    "# ", product_name, "\n\n",
-    "## Feature 1\n", feature1, "\n\n",
-    "## Feature 2\n", feature2, "\n\n",
-    "## Feature 3\n", feature3
-  )
-  
-  rmarkdown::render(
-    text = report_content,
-    output_file = paste0(product_name, ".pdf"), # or ".docx" for Word
-    output_format = "pdf_document" # or "word_document" for Word
-  )
-}
+# gendoc(df3[1, ])  # me
+i <- 8
+gendoc(df3[i, ])
 
-generate_report <- function(row) {
-  
-  # report_content <- paste0(
-  #   "# ", row$fnln, "\n\n",
-  #   "## The bill 1\n", row$billnum, "\n\n",
-  #   "## Feature 2\n", row$billdesc, "\n\n",
-  #   "## Feature 3\n", row$emailp
-  # )
-  
-  # print(row$fnln)
-  print(unlist(row))
-  
-  # rmarkdown::render(
-  #   text = report_content,
-  #   output_file = paste0(forw$fnln, ".pdf"), # or ".docx" for Word
-  #   output_format = "pdf_document" # or "word_document" for Word
-  # )
-}
+walk(2:8, \(i) gendoc(df3[i, ]))
 
-purrr::walk(df2[1:2, ], generate_report)
-
-purrr::pwalk(df2[1:2, ], generate_report)
-
-f <- function(row){
-  print(row$fnln)
-  print(row$billnum)
-}
-
-for(i in 1:3){
-  f(df2[i, ])
-}
-
-walk(1:3, \(i) f(df2[i, ]))
-
-rn <- 2
-f(df2[rn, ])
-
-df2 |> 
-  filter(row_number() <= 3) |> 
-  rowwise() |> 
-  purrr::map(f)
-
-df2 %>%
-  slice(1:n()) %>%
-  pmap(f)
+```
 
 
-walk(df2[1:3, ], f)
+## Grade analysis
 
-f(df2[1:3, ])
+```{r}
+#| label: examine-grades
 
-# Example tibble
-df <- tibble(a = 1:3, b = 4:6, c = 7:9)
+grades |> 
+  arrange(desc(gradebase))
 
-# Function that operates on a row
-f <- function(row) {
-  print(row$a)
-}
-
-# Apply function to each row
-pmap(df, f)
-
-df %>%
-  rowwise() %>%
-  mutate(result = list(f(cur_data()))) %>%
-  ungroup()
-
-df |> 
-  rowwise() |> 
-  f(cur_data())
-
-purrr::map(df2[1:3, ], f)
-
-
+grades |> 
+  summarise(n=n(), nna=sum(!is.na(gradebase)), x=quantile(gradebase, na.rm=TRUE) |> list())|> 
+  unnest_wider(col=x)
 
 ```
 
