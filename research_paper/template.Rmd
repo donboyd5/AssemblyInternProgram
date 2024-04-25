@@ -1,13 +1,14 @@
 ---
 output: pdf_document  # or word_document
 title: "`r paste0(params$student, ', Research paper final grade')`"
-subtitle: New York State Assembly Intern Program, 2024
+subtitle: "New York State Assembly Intern Program, 2024: Comments from Professor Don Boyd"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 params:
   student: "Default student name"
   billnum: "Default bill number"
   billdesc: "Default bill description"
   gradebase: "To come"
+  comments: ""
   policy: "Default policy"
   policy_numeric: ""
   politics: "Default politics"
@@ -20,36 +21,51 @@ params:
   writing_numeric: "" 
 ---
 
+# How to interpret your grade
+
+This document summarizes your grade on the final research paper before considering any possible late penalties. Your final grade will consist of this grade, less any late penalties that apply.
+
+Your grade before penalties on a scale of 0-100 is in the section, *Overall grade before any late penalties*.
+
+It is calculated as follows: You've been given up to 10 points on each of 5 categories: policy analysis, political analysis, democracy analysis, research quality, and writing quality. The categories are weighted as follows:
+
+-   Policy, political, and democracy analysis combined are worth 70% (each is worth one-third of that, or approximately 23.3%).
+-   Research quality is weighted 20%
+-   Writing quality is weighted 10%
+
+The weighted sum of your points, multiplied by 10, is your overall grade on a 0-100 scale.
+
 # Bill number and short description
 
 `r paste0(params$billnum, ": ", params$billdesc, ".  ")`
 
 # Overall grade before any late penalties
 
-`r paste0("Grade: ", params$gradebase)`
+`r paste0("Grade: ", params$gradebase, ".\n")`
+`r if(!is.na(params$comments)) params$comments`
 
 # Policy analysis (23.33%)
 
-`r paste0("Points: ", params$policy_numeric, ".  ")`
+`r paste0("Points: ", params$policy_numeric, " of 10 possible.\n")`
 `r params$policy`
 
 # Political analysis (23.33%)
 
-`r paste0("Points: ", params$politics_numeric, ".  ")`
+`r paste0("Points: ", params$politics_numeric, " of 10 possible.\n")`
 `r params$politics`
 
 # Democracy analysis (23.33%)
 
-`r paste0("Points: ", params$democracy_numeric, ".  ")`
+`r paste0("Points: ", params$democracy_numeric, " of 10 possible.\n")`
 `r params$democracy`
 
 # Research quality (20%)
 
-`r paste0("Points: ", params$research_numeric, ".  ")`
+`r paste0("Points: ", params$research_numeric, " of 10 possible.\n")`
 `r params$research`
 
 # Writing quality (10%)
 
-`r paste0("Points: ", params$writing_numeric, ".  ")`
+`r paste0("Points: ", params$writing_numeric, " of 10 possible.\n")`
 `r params$writing`
 
