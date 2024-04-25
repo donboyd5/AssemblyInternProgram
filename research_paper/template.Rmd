@@ -30,13 +30,13 @@ This document summarizes your grade on the final research paper before consideri
 
 Your grade before penalties on a scale of 0-100 is in the section, *Overall grade before any late penalties*.
 
-It is calculated as follows: You've been given up to 10 points on each of 5 categories: policy analysis, political analysis, democracy analysis, research quality, and writing quality. The categories are weighted as follows:
+It is calculated as follows: I graded each of 5 categories on a 10-point scale: policy analysis, political analysis, democracy analysis, research quality, and writing quality. The categories are weighted as follows:
 
 -   Policy, political, and democracy analysis combined are worth `r label_percent()(params$ppd_pct)` (each is worth one-third of that, or approximately  `r label_percent(accuracy=.1)(params$ppd_pct / 3)`).
 -   Research quality is weighted `r label_percent()(params$research_pct)`
 -   Writing quality is weighted `r label_percent()(params$writing_pct)`
 
-The weighted sum of your points, multiplied by 10, is your overall grade on a 0-100 scale.
+The weighted sum of your points, multiplied by 10 to put it on a 100-point scale, is your overall grade.
 
 # Bill number and short description
 
@@ -44,31 +44,31 @@ The weighted sum of your points, multiplied by 10, is your overall grade on a 0-
 
 # Overall grade before any late penalties
 
-`r paste0("Grade: ", params$gradebase, ".\n")`
+`r paste0("Grade: ", params$gradebase, " out of 100 possible.\n")`
 `r if(!is.na(params$comments)) params$comments`
 
 # Policy analysis
 
-`r paste0("Points: ", params$policy_numeric, " of 10 possible.\n")`
+`r paste0("Points: ", params$policy_numeric, " out of 10 possible.\n")`
 `r params$policy`
 
 # Political analysis
 
-`r paste0("Points: ", params$politics_numeric, " of 10 possible.\n")`
+`r paste0("Points: ", params$politics_numeric, " out of 10 possible.\n")`
 `r params$politics`
 
 # Democracy analysis
 
-`r paste0("Points: ", params$democracy_numeric, " of 10 possible.\n")`
+`r paste0("Points: ", params$democracy_numeric, " out of 10 possible.\n")`
 `r params$democracy`
 
 # Research quality
 
-`r paste0("Points: ", params$research_numeric, " of 10 possible.\n")`
+`r paste0("Points: ", params$research_numeric, " out of 10 possible.\n")`
 `r params$research`
 
 # Writing quality
 
-`r paste0("Points: ", params$writing_numeric, " of 10 possible.\n")`
+`r paste0("Points: ", params$writing_numeric, " out of 10 possible.\n")`
 `r params$writing`
 

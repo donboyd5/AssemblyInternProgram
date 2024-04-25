@@ -131,6 +131,7 @@ df3 <- df2 |>
 
 ```
 
+## Create pdf documents
 
 ```{r}
 #| label: run-pdf-creation
@@ -143,6 +144,8 @@ walk(2:8, \(i) gendoc(df3[i, ]))
 
 ```
 
+
+## Grade analysis
 
 ```{r}
 #| label: examine-grades
