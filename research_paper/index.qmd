@@ -12,14 +12,16 @@ editor_options:
 rpd <- here::here("research_paper")
 source(fs::path(rpd, "libraries.R"))
 library(googledrive)
+library(scales)
 
-drive_auth()
-# gs4_auth(token = drive_token())
+# drive_auth()
+gs4_auth(token = drive_token())
 
 # Make sure to check the box:
 #   See, edit, create, and delete all of your Google Drive files
 
 ```
+
 
 ```{r}
 #| label: constants
@@ -33,12 +35,6 @@ grdir <- fs::path(rpd, "grade_reports")
 ```{r}
 #| label: function-get-weights
 
-# weights <- df1 |> 
-#   filter(lname=="weight") |> 
-#   select(id=lname, ends_with("_numeric")) |> 
-#   pivot_longer(-id, values_to = "weight")
-# weights
-
 get_weights <- function(research, writing){
   vnames <- c("research", "writing", "policy", "politics", "democracy") |> 
     paste0("_numeric")
@@ -51,9 +47,8 @@ get_weights <- function(research, writing){
 ```
 
 
-
 ```{r}
-#| label: pdf-function
+#| label: function-pdf
 
 gendoc <- function(row) {
   filename <- paste0(row$lname, "_", row$fname, "_Assembly_Intern_Program_2024_paper_grade.pdf")
@@ -76,27 +71,37 @@ gendoc <- function(row) {
       research = row$research,
       research_numeric = row$research_numeric,
       writing = row$writing,
-      writing_numeric = row$writing_numeric
+      writing_numeric = row$writing_numeric,
+      ppd_pct = wwide$ppd,
+      research_pct = wwide$research_numeric,
+      writing_pct = wwide$writing_numeric
       )
   )
-  }
+}
 
 ```
 
+
+```{r}
+#| label: get-weights
+
+weights <- get_weights(research=.2, writing=.1)
+weights
+sum(weights$weight)
+
+wwide <- weights |> 
+  pivot_wider(values_from = weight) |> 
+  mutate(ppd=policy_numeric + politics_numeric + democracy_numeric)
+
+```
 
 
 ```{r}
 #| label: get-data
 
+# grading data ----
 url <- "https://docs.google.com/spreadsheets/d/1K_xIaxnXMwdkRhHSWL2rBSnhaWRRDKNMGypEdbvFO0I"
-
-# gs4_deauth()
-# read_sheet(url)
 # as_sheets_id(url)
-
-weights <- get_weights(research=.2, writing=.1)
-weights
-sum(weights$weight)
 
 df1 <- read_sheet(url, sheet = "Cycle1_ResearchPaper")
 df1
@@ -104,9 +109,8 @@ df1
 df2 <- df1 |> 
   filter(lname != "Last Name") |> 
   rename_with(\(x) str_replace(x, "(?<=_numeric).*", "")) |> 
-  mutate(received=as.num)
-  unnest(cols=received) |> 
-  mutate(received=as.Date(received))
+  unnest_wider(col=received, names_sep = "_") |> # creates received_1 dttm
+  mutate(received=as.Date(received_1))
 df2
 
 # calculate gradebase
@@ -117,11 +121,8 @@ grades <- df2 |>
             by = join_by(name)) |> 
   summarise(gradebase=sum(value * weight) * 10, .by=c(lname, fname))
 
-grades |> 
-  arrange(desc(gradebase))
-
 df3 <- df2 |> 
-  select(-gradebase) |> 
+  select(-received_1) |> 
   left_join(grades,
             by = join_by(lname, fname)) |>
   relocate(gradebase, .after=latepen)
@@ -142,4 +143,16 @@ walk(2:8, \(i) gendoc(df3[i, ]))
 
 ```
 
+
+```{r}
+#| label: examine-grades
+
+grades |> 
+  arrange(desc(gradebase))
+
+grades |> 
+  summarise(n=n(), nna=sum(!is.na(gradebase)), x=quantile(gradebase, na.rm=TRUE) |> list())|> 
+  unnest_wider(col=x)
+
+```
 

@@ -19,6 +19,9 @@ params:
   research_numeric: "" 
   writing: "Default writing"
   writing_numeric: "" 
+  ppd_pct: ""
+  research_pct: ""
+  writing_pct: ""
 ---
 
 # How to interpret your grade
@@ -29,9 +32,9 @@ Your grade before penalties on a scale of 0-100 is in the section, *Overall grad
 
 It is calculated as follows: You've been given up to 10 points on each of 5 categories: policy analysis, political analysis, democracy analysis, research quality, and writing quality. The categories are weighted as follows:
 
--   Policy, political, and democracy analysis combined are worth 70% (each is worth one-third of that, or approximately 23.3%).
--   Research quality is weighted 20%
--   Writing quality is weighted 10%
+-   Policy, political, and democracy analysis combined are worth `r label_percent()(params$ppd_pct)` (each is worth one-third of that, or approximately  `r label_percent(accuracy=.1)(params$ppd_pct / 3)`).
+-   Research quality is weighted `r label_percent()(params$research_pct)`
+-   Writing quality is weighted `r label_percent()(params$writing_pct)`
 
 The weighted sum of your points, multiplied by 10, is your overall grade on a 0-100 scale.
 
@@ -44,27 +47,27 @@ The weighted sum of your points, multiplied by 10, is your overall grade on a 0-
 `r paste0("Grade: ", params$gradebase, ".\n")`
 `r if(!is.na(params$comments)) params$comments`
 
-# Policy analysis (23.33%)
+# Policy analysis
 
 `r paste0("Points: ", params$policy_numeric, " of 10 possible.\n")`
 `r params$policy`
 
-# Political analysis (23.33%)
+# Political analysis
 
 `r paste0("Points: ", params$politics_numeric, " of 10 possible.\n")`
 `r params$politics`
 
-# Democracy analysis (23.33%)
+# Democracy analysis
 
 `r paste0("Points: ", params$democracy_numeric, " of 10 possible.\n")`
 `r params$democracy`
 
-# Research quality (20%)
+# Research quality
 
 `r paste0("Points: ", params$research_numeric, " of 10 possible.\n")`
 `r params$research`
 
-# Writing quality (10%)
+# Writing quality
 
 `r paste0("Points: ", params$writing_numeric, " of 10 possible.\n")`
 `r params$writing`
