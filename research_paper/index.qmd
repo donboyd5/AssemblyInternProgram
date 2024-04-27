@@ -138,7 +138,7 @@ df3 <- df2 |>
 
 # gendoc(df3[1, ])  # me
 i <- 9
-gendoc(df3[i, ])
+# gendoc(df3[i, ])
 
 idx <- which(!is.na(df3$policy_numeric))
 
