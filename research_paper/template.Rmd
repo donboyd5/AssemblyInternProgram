@@ -36,7 +36,7 @@ It is calculated as follows: I graded each of 5 categories on a 10-point scale: 
 -   Research quality is weighted `r label_percent()(params$research_pct)`
 -   Writing quality is weighted `r label_percent()(params$writing_pct)`
 
-The weighted sum of your points, multiplied by 10 to put it on a 100-point scale, is your overall grade.
+The weighted sum of your points, multiplied by 10 to put it on a 100-point scale, is your overall grade before any late penalties.
 
 # Bill number and short description
 
@@ -44,7 +44,7 @@ The weighted sum of your points, multiplied by 10 to put it on a 100-point scale
 
 # Overall grade before any late penalties
 
-`r paste0("Grade: ", params$gradebase, " out of 100 possible.\n")`
+`r paste0("**Grade: ", label_number(accuracy=.1)(params$gradebase), " out of 100 possible.**\n")`
 `r if(!is.na(params$comments)) params$comments`
 
 # Policy analysis
