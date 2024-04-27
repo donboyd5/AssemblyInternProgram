@@ -119,12 +119,14 @@ grades <- df2 |>
   pivot_longer(cols=-c(lname, fname)) |>
   left_join(weights |> select(name, weight),
             by = join_by(name)) |> 
-  summarise(gradebase=sum(value * weight) * 10, .by=c(lname, fname))
+  summarise(gradebase=sum(value * weight) * 10, .by=c(lname, fname)) |> 
+  mutate(gradebase=pmax(gradebase, 65))
 
 df3 <- df2 |> 
   select(-received_1) |> 
   left_join(grades,
             by = join_by(lname, fname)) |>
+  mutate(across(where(is.character), str_trim)) |> 
   relocate(gradebase, .after=latepen)
 
 # btools::ns(df3)
@@ -137,11 +139,10 @@ df3 <- df2 |>
 #| label: run-pdf-creation
 
 # gendoc(df3[1, ])  # me
-i <- 9
+i <- 16
 # gendoc(df3[i, ])
 
 idx <- which(!is.na(df3$policy_numeric))
-
 walk(idx, \(i) gendoc(df3[i, ]))
 
 
