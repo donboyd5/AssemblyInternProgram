@@ -10,6 +10,7 @@ skills/RLadiesParis/
 skills/test/
 *_book/
 *research_paper/
+*grade_reports/
 
 *.css
 *.doc*
