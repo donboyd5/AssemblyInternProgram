@@ -131,8 +131,23 @@ df3 <- df2 |>
   left_join(wtddgrades |> 
               select(lname, fname, gradebase, wtdgrade),
             by = join_by(lname, fname)) |> 
-  mutate(latedays=pmax(received - as.Date("2024-04-16"), 0)) |> 
-  relocate(gradebase, .after=latepen)
+  mutate(dayslate=pmax(received - as.Date("2024-04-16"), 0),
+         rgb=round(gradebase),
+         ltrgrade=case_when(
+           rgb <= 59 ~ "F",
+           rgb %in% 60:69 ~ "D",
+           rgb %in% 70:72 ~ "C-",
+           rgb %in% 73:76 ~ "C",
+           rgb %in% 77:79 ~ "C+",
+           rgb %in% 80:82 ~ "B-",
+           rgb %in% 83:86 ~ "B",
+           rgb %in% 87:89 ~ "B+",
+           rgb %in% 90:92 ~ "A-",
+           rgb %in% 93:96 ~ "A",
+           rgb %in% 97:100 ~ "A+",
+           .default = "ERROR")) |> 
+  select(-rgb) |> 
+  relocate(dayslate, ltrgrade, gradebase, .after=latepen)
 
 # btools::ns(df3)
 
@@ -144,8 +159,8 @@ df3 <- df2 |>
 #| label: run-pdf-creation
 
 # gendoc(df3[1, ])  # me
-i <- 17
-# gendoc(df3[i, ])
+i <- 20
+gendoc(df3[i, ])
 
 idx <- which(!is.na(df3$gradebase))
 walk(idx, \(i) gendoc(df3[i, ]))
@@ -160,7 +175,7 @@ walk(idx, \(i) gendoc(df3[i, ]))
 #| label: examine-grades
 
 grades <- df3 |> 
-  select(lname, fname, gradebase, wtdgrade, contains("_points"), latedays)
+  select(lname, fname, dayslate, ltrgrade, gradebase, wtdgrade, contains("_points"))
 
 grades |> 
   arrange(desc(gradebase))
@@ -168,6 +183,8 @@ grades |>
 grades |> 
   summarise(n=n(), nna=sum(!is.na(gradebase)), x=quantile(gradebase, na.rm=TRUE) |> list())|> 
   unnest_wider(col=x)
+
+# tmp <- df3 |> filter(str_detect(lname, "Eboig"))
 
 ```
 
