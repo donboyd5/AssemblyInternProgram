@@ -10,15 +10,15 @@ params:
   gradebase: "To come"
   comments: ""
   policy: "Default policy"
-  policy_numeric: ""
+  policy_points: ""
   politics: "Default politics"
-  politics_numeric: ""
+  politics_points: ""
   democracy: "Default democracy"
-  democracy_numeric: "" 
+  democracy_points: "" 
   research: "Default research"
-  research_numeric: "" 
+  research_points: "" 
   writing: "Default writing"
-  writing_numeric: "" 
+  writing_points: "" 
   ppd_pct: ""
   research_pct: ""
   writing_pct: ""
@@ -49,26 +49,26 @@ The weighted sum of your points, multiplied by 10 to put it on a 100-point scale
 
 # Policy analysis
 
-`r paste0("Points: ", params$policy_numeric, " out of 10 possible.\n")`
+`r paste0("Points: ", params$policy_points, " out of 10 possible.\n")`
 `r params$policy`
 
 # Political analysis
 
-`r paste0("Points: ", params$politics_numeric, " out of 10 possible.\n")`
+`r paste0("Points: ", params$politics_points, " out of 10 possible.\n")`
 `r params$politics`
 
 # Democracy analysis
 
-`r paste0("Points: ", params$democracy_numeric, " out of 10 possible.\n")`
+`r paste0("Points: ", params$democracy_points, " out of 10 possible.\n")`
 `r params$democracy`
 
 # Research quality
 
-`r paste0("Points: ", params$research_numeric, " out of 10 possible.\n")`
+`r paste0("Points: ", params$research_points, " out of 10 possible.\n")`
 `r params$research`
 
 # Writing quality
 
-`r paste0("Points: ", params$writing_numeric, " out of 10 possible.\n")`
+`r paste0("Points: ", params$writing_points, " out of 10 possible.\n")`
 `r params$writing`
 

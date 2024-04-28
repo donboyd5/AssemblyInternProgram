@@ -37,7 +37,7 @@ grdir <- fs::path(rpd, "grade_reports")
 
 get_weights <- function(research, writing){
   vnames <- c("research", "writing", "policy", "politics", "democracy") |> 
-    paste0("_numeric")
+    paste0("_points")
   ppd <- 1 - research - writing
   nweights <- c(research, writing, rep(ppd / 3, 3))
   weights <- tibble(name=vnames, weight=nweights)
@@ -63,18 +63,18 @@ gendoc <- function(row) {
       gradebase = row$gradebase,
       comments = row$comments,
       policy = row$policy,
-      policy_numeric = row$policy_numeric,
+      policy_points = row$policy_points,
       politics = row$politics,
-      politics_numeric = row$politics_numeric,
+      politics_points = row$politics_points,
       democracy = row$democracy,
-      democracy_numeric = row$democracy_numeric,
+      democracy_points = row$democracy_points,
       research = row$research,
-      research_numeric = row$research_numeric,
+      research_points = row$research_points,
       writing = row$writing,
-      writing_numeric = row$writing_numeric,
+      writing_points = row$writing_points,
       ppd_pct = wwide$ppd,
-      research_pct = wwide$research_numeric,
-      writing_pct = wwide$writing_numeric
+      research_pct = wwide$research_points,
+      writing_pct = wwide$writing_points
       )
   )
 }
@@ -91,7 +91,7 @@ sum(weights$weight)
 
 wwide <- weights |> 
   pivot_wider(values_from = weight) |> 
-  mutate(ppd=policy_numeric + politics_numeric + democracy_numeric)
+  mutate(ppd=policy_points + politics_points + democracy_points)
 
 ```
 
@@ -108,25 +108,30 @@ df1
 
 df2 <- df1 |> 
   filter(lname != "Last Name") |> 
-  rename_with(\(x) str_replace(x, "(?<=_numeric).*", "")) |> 
+  # remove trailing stuff in column names that have "_points"
+  rename_with(\(x) str_replace(x, "(?<=_points).*", "")) |>
+  # clean date received
   unnest_wider(col=received, names_sep = "_") |> # creates received_1 dttm
+  mutate(across(where(is.character), str_trim)) |> 
   mutate(received=as.Date(received_1))
 df2
 
-# calculate gradebase
-grades <- df2 |> 
-  select(lname, fname, contains("_numeric")) |>
+# calculate weighted grade and floored grade (gradebase)
+wtddgrades <- df2 |> 
+  select(lname, fname, contains("_points")) |>
   pivot_longer(cols=-c(lname, fname)) |>
   left_join(weights |> select(name, weight),
             by = join_by(name)) |> 
-  summarise(gradebase=sum(value * weight) * 10, .by=c(lname, fname)) |> 
-  mutate(gradebase=pmax(gradebase, 65))
+  summarise(wtdgrade=sum(value * weight) * 10, .by=c(lname, fname)) |> 
+  mutate(gradebase=pmax(wtdgrade, 65)) |> 
+  relocate(gradebase, .after=fname)
 
 df3 <- df2 |> 
   select(-received_1) |> 
-  left_join(grades,
-            by = join_by(lname, fname)) |>
-  mutate(across(where(is.character), str_trim)) |> 
+  left_join(wtddgrades |> 
+              select(lname, fname, gradebase, wtdgrade),
+            by = join_by(lname, fname)) |> 
+  mutate(latedays=pmax(received - as.Date("2024-04-16"), 0)) |> 
   relocate(gradebase, .after=latepen)
 
 # btools::ns(df3)
@@ -142,7 +147,7 @@ df3 <- df2 |>
 i <- 16
 # gendoc(df3[i, ])
 
-idx <- which(!is.na(df3$policy_numeric))
+idx <- which(!is.na(df3$gradebase))
 walk(idx, \(i) gendoc(df3[i, ]))
 
 
@@ -153,6 +158,9 @@ walk(idx, \(i) gendoc(df3[i, ]))
 
 ```{r}
 #| label: examine-grades
+
+grades <- df3 |> 
+  select(lname, fname, gradebase, wtdgrade, contains("_points"), latedays)
 
 grades |> 
   arrange(desc(gradebase))
