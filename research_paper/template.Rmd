@@ -26,11 +26,11 @@ params:
 
 # How to interpret your grade
 
-This document summarizes your grade on the final research paper before considering any possible late penalties. Your final grade will consist of this grade, less any late penalties that apply.
+This document summarizes your grade on the final research paper before considering any possible late penalties. **Your final grade will consist of this grade, less any late penalties that apply.**
 
 Your grade before penalties on a scale of 0-100 is in the section, *Overall grade before any late penalties*.
 
-It is calculated as follows: I graded each of 5 categories on a 10-point scale: policy analysis, political analysis, democracy analysis, research quality, and writing quality. The categories are weighted as follows:
+It is calculated as follows: I graded each of 5 categories on a 10-point scale, with half points possible: policy analysis, political analysis, democracy analysis, research quality, and writing quality. The categories are weighted as follows:
 
 -   Policy, political, and democracy analysis combined are worth `r label_percent()(params$ppd_pct)` (each is worth one-third of that, or approximately  `r label_percent(accuracy=.1)(params$ppd_pct / 3)`).
 -   Research quality is weighted `r label_percent()(params$research_pct)`

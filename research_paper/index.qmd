@@ -144,7 +144,7 @@ df3 <- df2 |>
 #| label: run-pdf-creation
 
 # gendoc(df3[1, ])  # me
-i <- 16
+i <- 17
 # gendoc(df3[i, ])
 
 idx <- which(!is.na(df3$gradebase))
