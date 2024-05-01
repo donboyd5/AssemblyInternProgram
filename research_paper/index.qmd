@@ -126,6 +126,11 @@ wtddgrades <- df2 |>
   mutate(gradebase=pmax(wtdgrade, 65)) |> 
   relocate(gradebase, .after=fname)
 
+gorder <- c("A+", "A", "A-",
+            "B+", "B", "B-",
+            "C+", "C", "C-",
+            "D", "ERROR")
+
 df3 <- df2 |> 
   select(-received_1) |> 
   left_join(wtddgrades |> 
@@ -145,7 +150,8 @@ df3 <- df2 |>
            rgb %in% 90:92 ~ "A-",
            rgb %in% 93:96 ~ "A",
            rgb %in% 97:100 ~ "A+",
-           .default = "ERROR")) |> 
+           .default = "ERROR"),
+         ltrgrade=factor(ltrgrade, levels=gorder)) |> 
   select(-rgb) |> 
   relocate(dayslate, ltrgrade, gradebase, .after=latepen)
 
@@ -159,7 +165,7 @@ df3 <- df2 |>
 #| label: run-pdf-creation
 
 # gendoc(df3[1, ])  # me
-i <- 21
+i <- 24
 gendoc(df3[i, ])
 
 idx <- which(!is.na(df3$gradebase))
@@ -183,6 +189,8 @@ grades |>
 grades |> 
   summarise(n=n(), nna=sum(!is.na(gradebase)), x=quantile(gradebase, na.rm=TRUE) |> list())|> 
   unnest_wider(col=x)
+
+count(grades, ltrgrade)
 
 # tmp <- df3 |> filter(str_detect(lname, "Eboig"))
 
