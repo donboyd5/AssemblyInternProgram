@@ -29,8 +29,9 @@ params:
 
 `r paste0(params$billnum, ": ", params$billdesc, ".  ")`
 
-# Overall comments
+# Overall comments and grade
 
+`r paste0("**Final grade after any late penalties: ", label_number(accuracy=.1)(params$gradebase), ".**\n")`
 `r if(!is.na(params$comments)) params$comments`
 
 # Policy analysis
