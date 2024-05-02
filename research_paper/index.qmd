@@ -60,7 +60,7 @@ gendoc <- function(row) {
       student = row$fnln,
       billnum = row$billnum,
       billdesc = row$billdesc,
-      gradebase = row$gradebase,
+      finalgrade = row$finalgrade,
       comments = row$comments,
       policy = row$policy,
       policy_points = row$policy_points,
