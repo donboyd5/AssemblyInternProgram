@@ -113,18 +113,18 @@ df2 <- df1 |>
   # clean date received
   unnest_wider(col=received, names_sep = "_") |> # creates received_1 dttm
   mutate(across(where(is.character), str_trim)) |> 
-  mutate(received=as.Date(received_1))
+  mutate(received=as.Date(received_1),
+         dayslate=pmax(received - as.Date("2024-04-16"), 0) |> round() |> as.integer())
 df2
 
 # calculate weighted grade and floored grade (gradebase)
-wtddgrades <- df2 |> 
+wtdgrades <- df2 |> 
   select(lname, fname, contains("_points")) |>
   pivot_longer(cols=-c(lname, fname)) |>
   left_join(weights |> select(name, weight),
             by = join_by(name)) |> 
-  summarise(wtdgrade=sum(value * weight) * 10, .by=c(lname, fname)) |> 
-  mutate(gradebase=pmax(wtdgrade, 65)) |> 
-  relocate(gradebase, .after=fname)
+  summarise(wtdgrade=sum(value * weight) * 10, .by=c(lname, fname))
+wtdgrades
 
 gorder <- c("A+", "A", "A-",
             "B+", "B", "B-",
@@ -133,27 +133,28 @@ gorder <- c("A+", "A", "A-",
 
 df3 <- df2 |> 
   select(-received_1) |> 
-  left_join(wtddgrades |> 
-              select(lname, fname, gradebase, wtdgrade),
+  left_join(wtdgrades |> 
+              select(lname, fname, wtdgrade),
             by = join_by(lname, fname)) |> 
-  mutate(dayslate=pmax(received - as.Date("2024-04-16"), 0),
-         rgb=round(gradebase),
+  mutate(gradebase=pmax(round(wtdgrade), 65),
+         penalty=dayslate * 3,
+         finalgrade=gradebase - penalty,
+         finalgrade=pmax(finalgrade, 65),
          ltrgrade=case_when(
-           rgb <= 59 ~ "F",
-           rgb %in% 60:69 ~ "D",
-           rgb %in% 70:72 ~ "C-",
-           rgb %in% 73:76 ~ "C",
-           rgb %in% 77:79 ~ "C+",
-           rgb %in% 80:82 ~ "B-",
-           rgb %in% 83:86 ~ "B",
-           rgb %in% 87:89 ~ "B+",
-           rgb %in% 90:92 ~ "A-",
-           rgb %in% 93:96 ~ "A",
-           rgb %in% 97:100 ~ "A+",
+           finalgrade <= 59 ~ "F",
+           finalgrade %in% 60:69 ~ "D",
+           finalgrade %in% 70:72 ~ "C-",
+           finalgrade %in% 73:76 ~ "C",
+           finalgrade %in% 77:79 ~ "C+",
+           finalgrade %in% 80:82 ~ "B-",
+           finalgrade %in% 83:86 ~ "B",
+           finalgrade %in% 87:89 ~ "B+",
+           finalgrade %in% 90:92 ~ "A-",
+           finalgrade %in% 93:96 ~ "A",
+           finalgrade %in% 97:100 ~ "A+",
            .default = "ERROR"),
          ltrgrade=factor(ltrgrade, levels=gorder)) |> 
-  select(-rgb) |> 
-  relocate(dayslate, ltrgrade, gradebase, .after=latepen)
+  relocate(dayslate, ltrgrade, finalgrade, penalty, gradebase, .after=latepen)
 
 # btools::ns(df3)
 
