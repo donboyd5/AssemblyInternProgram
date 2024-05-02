@@ -29,6 +29,9 @@ params:
 
 `r paste0(params$billnum, ": ", params$billdesc, ".  ")`
 
+# Overall comments
+
+`r if(!is.na(params$comments)) params$comments`
 
 # Policy analysis
 
