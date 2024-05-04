@@ -174,7 +174,7 @@ df3 <- df2 |>
 # gendoc(df3[1, ])  # me
 i <- 29
 # row <- df3[i, ]
-gendoc(df3[i, ])
+# gendoc(df3[i, ])
 
 idx <- which(!is.na(df3$gradebase))
 walk(idx, \(i) gendoc(df3[i, ]))
