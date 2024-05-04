@@ -1,13 +1,14 @@
 ---
-output: pdf_document  # or word_document
+output: pdf_document  # pdf_document or word_document
 title: "`r paste0(params$student, ', Research paper final grade')`"
 subtitle: "New York State Assembly Intern Program, 2024: Comments from Professor Don Boyd"
-date: "`r format(Sys.time(), '%B %d, %Y')`"
+date: '`r Format(as.Date(Sys.time()), fmt="mmmm d, yyyy")`'
 params:
   student: "Default student name"
   billnum: "Default bill number"
   billdesc: "Default bill description"
   finalgrade: "To come"
+  dayslate: ""
   comments: ""
   policy: "Default policy"
   policy_points: ""
@@ -27,12 +28,20 @@ params:
 
 # Bill number and short description
 
-`r paste0(params$billnum, ": ", params$billdesc, ".  ")`
+`r paste0(params$billnum, ": ", params$billdesc, "")`
 
 # Overall comments and grade
 
-`r paste0("**Final grade after any late penalties: ", label_number(accuracy=.1)(params$finalgrade), ".**\n")`
+`r if(params$dayslate==0) paste0("**Final research paper grade: ", label_number(accuracy=1)(params$finalgrade), "**\n")`
+
+`r if(params$dayslate == 1) paste0("Paper was ", params$dayslate, " day late.\n")`
+`r if(params$dayslate > 1) paste0("Paper was ", params$dayslate, " days late.\n")`
+`r if(params$dayslate > 0) paste0("**Final research paper grade after late penalty: ", label_number(accuracy=1)(params$finalgrade), "**\n")`
+
+
 `r if(!is.na(params$comments)) params$comments`
+
+`r paste0("\nNOTE: I have made additional, usually minor, comments in the Word document.\n")`
 
 # Policy analysis
 

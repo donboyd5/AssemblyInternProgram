@@ -11,6 +11,7 @@ skills/test/
 *_book/
 *research_paper/
 *grade_reports/
+*papers_with_comments/
 
 *.css
 *.doc*

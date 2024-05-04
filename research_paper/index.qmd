@@ -14,6 +14,7 @@ source(fs::path(rpd, "libraries.R"))
 library(googledrive)
 library(scales)
 library(openxlsx)
+library(DescTools)
 
 # drive_auth()
 gs4_auth(token = drive_token())
@@ -56,7 +57,7 @@ gendoc <- function(row) {
     msg <- paste0("Grade for ", row$fnln, " is TBD.")
     return(msg)
   }
-  filename <- paste0(row$lname, "_", row$fname, "_Assembly_Intern_Program_2024_paper_grade.pdf")
+  filename <- paste0(row$lname, "_", row$fname, "_Assembly_Intern_Program_2024_paper_grade.pdf") # pdf or docx
   fpath <- fs::path(grdir, filename)
   rmarkdown::render(
     template,
@@ -66,6 +67,7 @@ gendoc <- function(row) {
       billnum = row$billnum,
       billdesc = row$billdesc,
       finalgrade = row$finalgrade,
+      dayslate = row$dayslate,
       comments = row$comments,
       policy = row$policy,
       policy_points = row$policy_points,
@@ -172,7 +174,7 @@ df3 <- df2 |>
 #| label: run-pdf-creation
 
 # gendoc(df3[1, ])  # me
-i <- 29
+i <- 15
 # row <- df3[i, ]
 # gendoc(df3[i, ])
 
@@ -193,6 +195,17 @@ grades <- df3 |>
 
 grades |> 
   arrange(desc(wtdgrade))
+
+grades |> 
+  arrange(desc(finalgrade))
+
+grades |> 
+  filter(dayslate==0) |> 
+  arrange(desc(wtdgrade)) |> 
+  filter(row_number() <= 5) |> 
+  select(fname, lname, finalgrade) |> 
+  mutate(status=ifelse(row_number()<=3, "winner", "nominee")) |> 
+  select(fname, lname, status)
 
 grades |> 
   arrange(lname, fname)
