@@ -13,6 +13,7 @@ rpd <- here::here("research_paper")
 source(fs::path(rpd, "libraries.R"))
 library(googledrive)
 library(scales)
+library(openxlsx)
 
 # drive_auth()
 gs4_auth(token = drive_token())
@@ -51,6 +52,10 @@ get_weights <- function(research, writing){
 #| label: function-pdf
 
 gendoc <- function(row) {
+  if(!is.na(row$comments) & row$comments=="TBD"){
+    msg <- paste0("Grade for ", row$fnln, " is TBD.")
+    return(msg)
+  }
   filename <- paste0(row$lname, "_", row$fname, "_Assembly_Intern_Program_2024_paper_grade.pdf")
   fpath <- fs::path(grdir, filename)
   rmarkdown::render(
@@ -140,6 +145,7 @@ df3 <- df2 |>
          penalty=dayslate * 3,
          finalgrade=gradebase - penalty,
          finalgrade=pmax(finalgrade, 65),
+         finalgrade=ifelse(!is.na(comments) & comments=="TBD", NA_real_, finalgrade),
          ltrgrade=case_when(
            finalgrade <= 59 ~ "F",
            finalgrade %in% 60:69 ~ "D",
@@ -166,7 +172,8 @@ df3 <- df2 |>
 #| label: run-pdf-creation
 
 # gendoc(df3[1, ])  # me
-i <- 27
+i <- 29
+# row <- df3[i, ]
 gendoc(df3[i, ])
 
 idx <- which(!is.na(df3$gradebase))
@@ -182,13 +189,24 @@ walk(idx, \(i) gendoc(df3[i, ]))
 #| label: examine-grades
 
 grades <- df3 |> 
-  select(lname, fname, dayslate, ltrgrade, gradebase, wtdgrade, contains("_points"))
+  select(lname, fname, dayslate, ltrgrade, finalgrade, penalty, gradebase, wtdgrade, contains("_points"))
 
 grades |> 
-  arrange(desc(gradebase))
+  arrange(desc(wtdgrade))
 
 grades |> 
-  summarise(n=n(), nna=sum(!is.na(gradebase)), x=quantile(gradebase, na.rm=TRUE) |> list())|> 
+  arrange(lname, fname)
+
+# write to file
+grades |> 
+  arrange(lname, fname) |> 
+  filter(!is.na(finalgrade)) |> 
+  select(lname, fname, finalgrade) |> 
+  write.xlsx(here::here("research_paper", "Boyd_research_paper_grades_2024_Assembly_intern_program.xlsx"))
+
+
+grades |> 
+  summarise(n=n(), nna=sum(!is.na(wtdgrade)), x=quantile(wtdgrade, na.rm=TRUE) |> list())|> 
   unnest_wider(col=x)
 
 count(grades, ltrgrade)
