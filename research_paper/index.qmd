@@ -57,7 +57,8 @@ gendoc <- function(row) {
     msg <- paste0("Grade for ", row$fnln, " is TBD.")
     return(msg)
   }
-  filename <- paste0(row$lname, "_", row$fname, "_Assembly_Intern_Program_2024_paper_grade.pdf") # pdf or docx
+  fdate <- format(Sys.Date(), "%Y-%m-%d")
+  filename <- paste0(row$lname, "_", row$fname, "_Assembly_Intern_Program_2024_paper_grade_", fdate,".pdf") # pdf or docx
   fpath <- fs::path(grdir, filename)
   rmarkdown::render(
     template,
@@ -138,15 +139,17 @@ gorder <- c("A+", "A", "A-",
             "C+", "C", "C-",
             "D", "ERROR")
 
+mingrade <- 70
+
 df3 <- df2 |> 
   select(-received_1) |> 
   left_join(wtdgrades |> 
               select(lname, fname, wtdgrade),
             by = join_by(lname, fname)) |> 
-  mutate(gradebase=pmax(round(wtdgrade), 65),
+  mutate(gradebase=pmax(round(wtdgrade), mingrade),
          penalty=dayslate * 3,
          finalgrade=gradebase - penalty,
-         finalgrade=pmax(finalgrade, 65),
+         finalgrade=pmax(finalgrade, mingrade),
          finalgrade=ifelse(!is.na(comments) & comments=="TBD", NA_real_, finalgrade),
          ltrgrade=case_when(
            finalgrade <= 59 ~ "F",
@@ -177,6 +180,8 @@ df3 <- df2 |>
 i <- 15
 # row <- df3[i, ]
 # gendoc(df3[i, ])
+
+idx <- which(df3$lname %in% c("Evans", "Hour"))
 
 idx <- which(!is.na(df3$gradebase))
 walk(idx, \(i) gendoc(df3[i, ]))
@@ -211,11 +216,24 @@ grades |>
   arrange(lname, fname)
 
 # write to file
+fpre <- "Boyd_research_paper_grades_2024_Assembly_intern_program_"
+fdate <- format(Sys.Date(), "%Y-%m-%d")
+(outfile <- paste0(fpre, fdate, ".xlsx"))
+
 grades |> 
   arrange(lname, fname) |> 
   filter(!is.na(finalgrade)) |> 
   select(lname, fname, finalgrade) |> 
-  write.xlsx(here::here("research_paper", "Boyd_research_paper_grades_2024_Assembly_intern_program.xlsx"))
+  write.xlsx(here::here("research_paper", outfile))
+
+# write ALL to file
+tmp <- df3 |> 
+  select(lname, fname, dayslate, ltrgrade, finalgrade, penalty, gradebase, wtdgrade,
+         contains("_points"), billnum, billdesc)
+tmp |> 
+  arrange(lname, fname) |> 
+  write.xlsx(here::here("research_paper", "ALLBoyd_research_paper_grades_2024_Assembly_intern_program.xlsx"))
+
 
 
 grades |> 
