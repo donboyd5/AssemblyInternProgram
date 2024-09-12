@@ -182,6 +182,7 @@ i <- 15
 # gendoc(df3[i, ])
 
 idx <- which(df3$lname %in% c("Evans", "Hour"))
+idx <- which(df3$lname %in% c("Walker"))
 
 idx <- which(!is.na(df3$gradebase))
 walk(idx, \(i) gendoc(df3[i, ]))
